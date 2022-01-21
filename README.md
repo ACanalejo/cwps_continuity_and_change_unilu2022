@@ -1,6 +1,6 @@
 # Comparative Western European Party Systems: Continuity and Change
 
-University of Lucerne - Academic Year 2021-2022, Spring Term
+University of Lucerne - Spring Term 2021-2022
 
 ## Course description
 
