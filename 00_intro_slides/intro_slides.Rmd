@@ -1,0 +1,200 @@
+---
+title: "Comparative Western European Party Systems: Continuity and Change"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+output:
+
+  beamer_presentation:
+    
+    latex_engine: xelatex
+    
+    theme: "Boadilla"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: FALSE
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+
+# Loading images' paths
+
+```
+
+
+# Introduction to the course
+
+## Introduction to the course
+
+Changes in party systems across Western Europe (WE) have fostered pressuring challenges to democracy, specially in the last two decades:
+
+  + Radical parties from the left, but specially from the right, have become mainstream actors in many national parliaments.
+  
+  + Electoral volatility has increased (sometimes shockingly, e.g., Italy 2013, France 2017) and the outcomes of elections are becoming harder and harder to predict.
+  
+  + Polarization is on the rise too, and together with the larger fragmentation of parliaments has made the negotiations for cabinet formation increasingly complicated (sometimes extremely even, e.g., Spain 2019, Belgium 2019-20).
+  
+## Introduction to the course  
+  
+  + How have these changes occurred? 
+  
+  + When did they begin? 
+  
+  + Do they happen homogeneously across Europe?
+  
+  + If not, what does explain this variation?
+
+  + This seminar intends to provide students with a set of conceptual and empirical tools to assess these questions with methodological rigour and from a critical perspective.
+
+# Course organization
+
+## Course organization
+
+  + The course is designed to review the main political theories of party system formation and change in Europe with empirical applications following a (quasi-)chronological logic.
+
+  + It is organized as a four-day intensive seminar divided in two weekend blocks:
+
+    1. **The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now**. We will depart from the origins of major political conflicts across WE to later analyse the impact of consecutive 'transformative waves' on their current composition.
+  
+    2. **The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change**, from the formation of new social classes or the effect of immigration to the role of issue politicization by new challenger parties on altering the (revealed) preferences of the electorate.
+
+# Requirements and evaluation
+
+## Requirements and evaluation
+
+To obtain the credits (pass), students are expected to:
+
+  + Attend at least 80% of the classes
+  
+  + Actively engage in class activities
+  
+  + Complete all the mandatory readings (one per session)
+  
+  + Select one reading for each weekend (two in total) and write a short response paper (300-500 words) to them
+  
+  + Prepare a class presentation (30-35 min.) for the second weekend (in group or individually depending on the number of registered students)
+
+# Learning outcomes
+
+## Learning outcomes
+
+By the end of this course, students should be able to:
+
+- Identify the main theories of party system formation and change in Western Europe
+
+- Apply these theories to analyse different cases from a comparative and historical perspective
+
+- Understand the concept of electoral volatility and interpret it using its most common empirical indicators
+
+- Assess elections as markets in which demand and supply factors interact to produce electoral outcomes (i.e., seats and govt. coalitions)
+
+- Read scientific articles and present critical written responses
+
+- Work in collaboration with others
+
+- Orally present their work to a broad audience
+
+# Tentative schedule
+
+## Tentative schedule
+
+### Block I - Friday 04.03.2022 (09:00 – 17:00)
+
++ Session 1 (09:00 – 10:30): Party-systems formation and the 'freezing hypothesis'
+
+
++ Session 2 (10:45 – 12:15): 'Green parties' and new social movements (70s-80s)
+
+
++ Session 3 (13:45 – 15:15): The emergence of new 'radical right parties' (80s-90s)
+
+
++ Session 4 (15:30 – 17:00): The 'freezing hypothesis' revisited: Mair & Bartolini in the 90s
+
+### Block I - Saturday 05.03.2022 (09:00 – 15:15)
+
+
++ Session 5 (09:00 – 10:30): The cultural dimension: cleavage theory revisited
+
+
++ Session 6 (10:45 – 12:15): Economic voting and the Great Recession: North-Western and Southern European countries compared
+
+
++ Session 7 (13:45 – 15:15): Changing party-systems? Wrapping-up workshop on electoral volatility
+
+## Tentative schedule
+
+### Block II - Friday 08.04.2022 (09:00 – 17:00)
+
++ Session 8 (09:00 – 10:30): Factors of change I: demand-side explanations
+
+
++ Session 9 (10:45 – 12:15): Factors of change II: supply-side explanations
+
+
++ Session 10 (13:45 – 15:15): Students presentations
+
+
++ Session 11 (15:30 – 17:00): Students presentations
+
+
+### Block II - Saturday 09.04.2022 (09:00 – 15:15)
+
+
++ Session 12 (09:00 – 10:30): Students presentations
+
+
++ Session 13 (10:45 – 12:15): Students presentations
+
+
++ Session 14 (13:45 – 15:15): Wrapping-up discussion, advanced topics and feedback
+
+# Contact details
+
+## Contact details
+
+About me:
+
+  + My name is Álvaro Canalejo and I was born in Córdoba, Spain
+  
+  + Although I have studied in Seville (BA), Madrid (MA) and Florence (MRes)
+  
+  + Currently, I am a PhD researcher at the European University Institute
+  
+  + I have also been a visiting researcher at the London School of Economics
+  
+  + You can find more information about me, my research interests and ongoing research at my personal webpage
+  
+  + PLEASE, do not hesitate to contact me at alvaro.canalejo@eui.eu if you have any questions or doubts about the course 
+  
+  + Also, you can find more information about the course [here](https://github.com/ACanalejo/cwps_continuity_and_change_unilu2022), where I regularly update its content
+  
+  + And that's all! **I am looking forward to meeting many of you!!**
