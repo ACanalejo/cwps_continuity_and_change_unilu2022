@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.24)  24 JAN 2022 18:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.24)  1 FEB 2022 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,32 +1032,32 @@ ean University Institute, [][]Al-
 
 ] [2]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.4pt on input line 209.
+(Font)              scaled to size 8.4pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 209.
+(Font)              scaled to size 6.0pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 209.
+(Font)              scaled to size 12.0011pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.40076pt on input line 209.
+(Font)              scaled to size 8.40076pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 209.
+(Font)              scaled to size 6.00055pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 209.
+(Font)              scaled to size 11.99872pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.3991pt on input line 209.
+(Font)              scaled to size 8.3991pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 209.
+(Font)              scaled to size 5.99936pt on input line 213.
 [3] [4] [5] [6]
 Missing character: There is no ^^90 (U+0090) in font [lmroman12-regular]:mappin
 g=tex-text;!
 [7] [8] (./course_syllabus.aux)
 Package rerunfilecheck Info: File `course_syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: FB42493739555C575DF263891CD9D264;3270.
+(rerunfilecheck)             Checksum: ADCA93A148634DB0B0EABEED10BDBE9C;3270.
  ) 
 Here is how much of TeX's memory you used:
  18665 strings out of 478190
  345577 string characters out of 5853154
- 808855 words of memory out of 5000000
+ 809855 words of memory out of 5000000
  38973 multiletter control sequences out of 15000+600000
  476761 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

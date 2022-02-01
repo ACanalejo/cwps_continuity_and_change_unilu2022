@@ -56,11 +56,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Changes in party systems across Western Europe (WE) have fostered pressuring challenges to democracy, specially in the last two decades:
 
-  + Radical parties from the left, but specially from the right, have become mainstream actors in many national parliaments.
+  + Traditional parties have lost fuel (sometimes shockingly, e.g., Italy 2013, France 2017) and the results of elections are becoming harder and harder to predict.
+    
+  + Radical parties from the left, but specially from the right, have become mainstream actors in many national parliaments, polarizing the public debate.
   
-  + Electoral volatility has increased (sometimes shockingly, e.g., Italy 2013, France 2017) and the outcomes of elections are becoming harder and harder to predict.
-  
-  + Polarization is on the rise too, and together with the larger fragmentation of parliaments has made the negotiations for cabinet formation increasingly complicated (sometimes extremely even, e.g., Spain 2019, Belgium 2019-20).
+  + The large number and variety of parties in parliament complicates the formation of government (e.g., Germany 2017, Belgium 2019-20) and anticipated elections due to broken coalitions are a permanent risk (e.g., Spain 2019)
   
 ## Introduction to the course  
   
@@ -68,11 +68,11 @@ Changes in party systems across Western Europe (WE) have fostered pressuring cha
   
   + When did they begin? 
   
-  + Do they happen homogeneously across Europe?
+  + Do they affect all Europe equally?
   
   + If not, what does explain this variation?
 
-  + This seminar intends to provide students with a set of conceptual and empirical tools to assess these questions with methodological rigour and from a critical perspective.
+  + This seminar intends to provide students with conceptual and empirical tools to assess these questions with methodological rigour and from a critical perspective.
 
 # Course organization
 
@@ -82,9 +82,9 @@ Changes in party systems across Western Europe (WE) have fostered pressuring cha
 
   + It is organized as a four-day intensive seminar divided in two weekend blocks:
 
-    1. **The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now**. We will depart from the origins of major political conflicts across WE to later analyse the impact of consecutive 'transformative waves' on their current composition.
+    1. **The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now**. We will depart from the origins of major political conflicts across WE to later analyse the impact of consecutive 'transformation waves' on their current shape.
   
-    2. **The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change**, from the formation of new social classes or the effect of immigration to the role of issue politicization by new challenger parties on altering the (revealed) preferences of the electorate.
+    2. **The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change**, from the formation of new social classes or the effect of immigration to the role of issue politicization by new challenger parties on altering the preferences of the electorate.
 
 # Requirements and evaluation
 
@@ -92,25 +92,25 @@ Changes in party systems across Western Europe (WE) have fostered pressuring cha
 
 To obtain the credits (pass), students are expected to:
 
-  + Attend at least 80% of the classes
+  + Attend at least 80% of the classes.
   
-  + Actively engage in class activities
+  + Actively engage during class activities.
   
-  + Complete all the mandatory readings (one per session)
+  + Complete all the mandatory readings (one per session).
   
-  + Select one reading for each weekend (two in total) and write a short response paper (300-500 words) to them
+  + Select one reading for each weekend (two in total) and write a short response paper (300-500 words) to them.
   
-  + Prepare a class presentation (30-35 min.) for the second weekend (in group or individually depending on the number of registered students)
+  + Prepare a class presentation (30-35 min.) for the second weekend (in group or individually depending on the number of registered students).
 
 # Learning outcomes
 
 ## Learning outcomes
 
-By the end of this course, students should be able to:
+By the end of this course, students will be able to:
 
 - Identify the main theories of party system formation and change in Western Europe
 
-- Apply these theories to analyse different cases from a comparative and historical perspective
+- Apply these theories to analyse specific cases from a comparative and historical perspective
 
 - Understand the concept of electoral volatility and interpret it using its most common empirical indicators
 
@@ -138,6 +138,7 @@ By the end of this course, students should be able to:
 
 
 + Session 4 (15:30 – 17:00): The 'freezing hypothesis' revisited: Mair & Bartolini in the 90s
+
 
 ### Block I - Saturday 05.03.2022 (09:00 – 15:15)
 
@@ -181,20 +182,18 @@ By the end of this course, students should be able to:
 
 ## Contact details
 
-About me:
+About the professor:
 
-  + My name is Álvaro Canalejo and I was born in Córdoba, Spain
+  + My name is Álvaro Canalejo-Molero and I am a political scientist from Córdoba, Spain
   
-  + Although I have studied in Seville (BA), Madrid (MA) and Florence (MRes)
+  + Currently, I am a PhD researcher at the European University Institute, in Florence
   
-  + Currently, I am a PhD researcher at the European University Institute
+  + Previously, I have studied in Seville (BA) and Madrid (MA), and I have been a visiting researcher aT the London School of Economics
   
-  + I have also been a visiting researcher at the London School of Economics
-  
-  + You can find more information about me, my research interests and ongoing research at my personal webpage
+  + You can find more information about me, my research interests and ongoing research at [my website](https://acanalejo.github.io/)
   
   + PLEASE, do not hesitate to contact me at alvaro.canalejo@eui.eu if you have any questions or doubts about the course 
   
   + Also, you can find more information about the course [here](https://github.com/ACanalejo/cwps_continuity_and_change_unilu2022), where I regularly update its content
   
-  + And that's all! **I am looking forward to meeting many of you!!**
+  + And that's all! **I am looking forward to meeting many of you!**
