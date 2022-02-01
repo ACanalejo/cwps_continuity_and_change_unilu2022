@@ -4,9 +4,17 @@ University of Lucerne - Spring Term 2021-2022
 
 ## Course description
 
-Electoral volatility has largely increased in Western Europe in the last two decades. The average duration of cabinet formation processes has escalated as a result of growing polarization and party system fragmentation. These changes have not been gradual, but have responded to different 'transformation waves' in which new party types have been incorporated into national parliaments heterogeneously across Western European democracies. When did these changes begin? What are the reasons behind them and why do different party systems follow different patterns?
+Elections in Europe has become increasingly unpredictable in the last two decades. The number of parliament parties is growing, and coalitions are complicated to foresee. In Germany, for example, the duration of negotiations to form the government escalated from one month in 2013 to almost six months in 2017, after the entry of the radical right party AfD in parliament. In other European countries, such as Spain or the Netherlands, the number of parties in parliament has almost doubled in twenty years. As a result, anticipated elections and broken coalitions are now a permanent risk. 
 
-The goal of this seminar is to provide students with a set of conceptual and empirical tools to answer these questions. It aims to get them familiar with the evolution of Western European party systems from a historical and comparative perspective so that they can identify patterns of continuity and change. To do so, it will review the main political theories of party system formation and change in Europe, with a particular emphasis in cleavage theory. The course is divided into two weekend-blocks. The first block will consist of a review of European party systems, focusing on their main changes from the 1960s until now. The second block will discuss the most relevant (electoral) demand and supply factors provided by the literature to explain these changes.
+How has this situation come about? These changes are not random but driven by societal transformations and the strategies of new political actors, like social movements and challenger parties. In addition, they have not affected all Europe equally but depend on contextual factors that vary across countries and over time.
+
+This seminar will review the different 'transformation waves' that have shaped Western European party systems from the 1960s until now. We will then make sense of these changes using the most relevant (electoral) demand and supply factors discussed in the literature. The goal is to provide students with conceptual and empirical tools to analyse the evolution of Western European party systems from a historical and comparative perspective. By the end of the course, they will be able to identify patterns of continuity and change and critically assess future electoral scenarios. 
+
+## Course organization
+
+The course is organized as a four-day intensive seminar divided in two weekend blocks. The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now. It is structured as follows. First, we will review the main arguments of the cleavage theory as originally proposed by Lipset and Rokkan (1967), making particular emphasis on the so-called 'freezing hypothesis' (i.e., European party systems in the 1960s largely resemble their original structure in the 1920s). Second, we will discuss the incorporation of two new party families into the political landscape in the following decades (Green and Radical Right Parties). We will assess the impact of these changes using the same indicators discussed by Mair (1993) and we will try to make sense of them by incorporating a cultural/value-based cleavage to the original cleavage theory. Finally, we will discuss the impact of the Great Recession on increasing electoral volatility and we will carry an empirical exercise with real-world data to inform a wrapping-up discussion. 
+
+The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change. We will focus on changes in the socio-economic structure of modern European societies, such as the emergence of new educational divides, the formation of new social classes and the effect of globalization and immigration on altering the preferences of the electorate. On the supply side, we will briefly discuss the role of ideological convergence (among dominant parties) and issue entrepreneurship (by challenger parties) on carrying political change.
 
 ## Learning outcomes
 
@@ -14,7 +22,7 @@ By the end of this course, students will be able to:
 
 - Identify the main theories of party system formation and change in Western Europe
 
-- Apply these theories to analyse different cases from a comparative and historical perspective
+- Apply these theories to analyse specific cases from a comparative and historical perspective
 
 - Understand the concept of electoral volatility and interpret it using its most common empirical indicators
 
@@ -25,12 +33,6 @@ By the end of this course, students will be able to:
 - Work in collaboration with others
 
 - Orally present their work to a broad audience
-
-## Course organization
-
-The course is organized as a four-day intensive seminar divided in two weekend blocks. The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now. It is structured as follows. First, we will review the main arguments of the cleavage theory as originally proposed by Lipset and Rokkan (1967), making particular emphasis on the so-called 'freezing hypothesis' (i.e., European party systems in the 1960s largely resemble their original structure in the 1920s). Second, we will discuss the incorporation of two new party families into the political landscape in the following decades (Green and Radical Right Parties). We will assess the impact of these changes using the same indicators discussed by Mair (1993) and we will try to make sense of them by incorporating a cultural/value-based cleavage to the original cleavage theory. Finally, we will discuss the impact of the Great Recession on increasing electoral volatility and we will carry an empirical exercise with real-world data to inform a wrapping-up discussion. 
-
-The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change. We will focus on changes in the socio-economic structure of modern European societies, such as the emergence of new educational divides, the formation of new social classes and the effect of globalization and immigration on altering the preferences of the electorate. On the supply side, we will briefly discuss the role of ideological convergence (among dominant parties) and issue entrepreneurship (by challenger parties) on carrying political change.
 
 ## Requirements and evaluation I (4 credits)
 
