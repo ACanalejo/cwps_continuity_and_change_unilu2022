@@ -1,0 +1,144 @@
+---
+title: "Party-system formation in Europe and the 'freezing hypothesis'"
+
+subtitle: "Session 01"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+output:
+
+  beamer_presentation:
+    
+    latex_engine: xelatex
+    
+    theme: "Singapore"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: FALSE
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+
+germany49 <- "images/german_elec_results_1949.png"
+germany21 <- "images/german_elec_results_2021.png"
+
+```
+
+
+# 01. Introduction to the course
+
+## 01. Introduction to the course
+
+- Presentations
+
+- The course: what is it about and what are we going to do
+
+  + Review of party-system formation in WE
+  
+  + Analysis of main pattern of continuity and change
+  
+  + Discussion of the main factors explaining these patterns
+  
+  + Students' presentations
+  
+  + Wrap-up session
+
+## 01. Introduction to the course
+
+- Course structure and class dynamics
+
+  + Not a lecture
+  
+  + Interrupt me when you feel like it
+  
+  + I hope to learn too!
+
+- Today's programme
+
+  1. Party-system formation in Europe and the 'freezing hypothesis'
+
+  2. 'Green parties' and new social movements (70s-80s)
+
+  3. The emergence of new 'radical right parties' (80s-90s)
+
+  4. The 'freezing hypothesis' revisited: Mair & Bartolini in the 90s
+
+# 02. Mapping the terrain: political parties and party-systems
+
+## 02. Mapping the terrain: political parties and party-systems
+
+- What is a political party?
+  
+- A political party, for the sake of this seminar, is a hierarchical organizations that compete for votes to achieve office, with the aim of implementing its preferred policies
+
+- What is a party-system?
+  
+- The interaction of parties competing in the given electoral market. It is characterised by the number, size, and ideological preferences of the parties, among other aspects  
+
+
+## 02. Mapping the terrain: political parties and party-systems
+
+- Why is it important to study political parties and party-system?
+
+- It help us to understand a myriad of political phenomena. Each party-system indicates levels of societal fragmentation and polarization, the most likely electoral and policy outcomes at a given moment in time, potential coalitions, etc. Comparatively, it helps us to assess dynamics of evolution of the public opinion, foresee potential reforms, alliances...
+
+- In the end, party politics is a crucial aspect of political science: 'the science of (public) power'
+
+- In this seminar, we will try to understand why European party-systems looks like they are today, considering how they were born and evolve, which will surely help us to assess the future that awaits us (but never predict it!)
+
+# 03. The origins of party-systems in Europe
+
+## 03. The origins of party-systems
+
+```{r, figures-side, fig.show="hold", out.height = "70%", out.width="40%", fig.cap = "German Federal electoral results, images from Wikipedia"}
+par(mar = c(6, 6, 2, 2))
+include_graphics(germany49)
+include_graphics(germany21)
+```
+
+## 03. The origins of party-systems
+
+- How were political parties born?
+
+- 
+
+# 04. European party-systems: similitudes and differences
+
+## 04. European party-systems: similitudes and differences
+
+# 05. The 'freezing hypothesis': continuity from the 1920's to the 1960's
+
+## 05. The 'freezing hypothesis': continuity from the 1920's to the 1960's
