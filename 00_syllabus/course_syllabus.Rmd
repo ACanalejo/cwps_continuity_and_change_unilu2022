@@ -140,7 +140,7 @@ bib["Lipset1967a", "Kalyvas2018"]
 
 ```{r, echo = FALSE, results="asis"} 
 #bib["Lipset1967a"]
-bib["Przeworski1986"]
+bib["Przeworski1986", "Merkl1969"]
 ``` 
 
 

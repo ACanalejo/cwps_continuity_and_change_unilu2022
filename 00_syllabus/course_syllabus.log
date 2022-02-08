@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.1.24)  3 FEB 2022 13:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.8)  8 FEB 2022 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **course_syllabus.tex
 (./course_syllabus.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-01-21> (c:/Users/acana/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2022-02-05> (c:/Users/acana/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -134,7 +134,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 y
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.s
 ty
@@ -143,11 +143,11 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-01-21 L3 programming layer (loader) 
+Package: expl3 2022-02-05 L3 programming layer (loader) 
 
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
-File: l3backend-xetex.def 2022-01-12 L3 backend support: XeTeX
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
 (|extractbb --version)
 \c__kernel_sys_dvipdfmx_version_int=\count267
 \l__color_backend_stack_int=\count268
@@ -1047,7 +1047,12 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 8.3991pt on input line 213.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 213.
-[3] [4] [5] [6]
+[3] [4]
+Missing character: There is no ^^90 (U+0090) in font [lmroman12-regular]:mappin
+g=tex-text;!
+Missing character: There is no ^^90 (U+0090) in font [lmroman12-regular]:mappin
+g=tex-text;!
+[5] [6]
 Missing character: There is no ^^90 (U+0090) in font [lmroman12-regular]:mappin
 g=tex-text;!
 [7] [8] (./course_syllabus.aux)
@@ -1055,10 +1060,10 @@ Package rerunfilecheck Info: File `course_syllabus.out' has not changed.
 (rerunfilecheck)             Checksum: ADCA93A148634DB0B0EABEED10BDBE9C;3270.
  ) 
 Here is how much of TeX's memory you used:
- 18665 strings out of 478190
- 345577 string characters out of 5853154
- 809855 words of memory out of 5000000
- 38973 multiletter control sequences out of 15000+600000
+ 18673 strings out of 478181
+ 345662 string characters out of 5852952
+ 810079 words of memory out of 5000000
+ 38990 multiletter control sequences out of 15000+600000
  476761 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,12n,121p,563b,445s stack positions out of 5000i,500n,10000p,200000b,80000s

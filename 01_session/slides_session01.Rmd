@@ -38,6 +38,7 @@ output:
     toc: TRUE
     
     number_sections: FALSE
+    
 
 ---
 
@@ -58,7 +59,7 @@ germany21 <- "images/german_elec_results_2021.png"
 ```
 
 
-# 01. Introduction to the course
+# 01. Introduction
 
 ## 01. Introduction to the course
 
@@ -66,9 +67,9 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - The course: what is it about and what are we going to do
 
-  + Review of party-system formation in WE
+  + Review of party-system formation/evolution in WE
   
-  + Analysis of main pattern of continuity and change
+  + Analysis of the main patterns of continuity and change
   
   + Discussion of the main factors explaining these patterns
   
@@ -80,9 +81,9 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - Course structure and class dynamics
 
-  + Not a lecture
+  + Not a lecture, I appraise debate
   
-  + Interrupt me when you feel like it
+  + Interrupt me whenever you want
   
   + I hope to learn too!
 
@@ -96,49 +97,157 @@ germany21 <- "images/german_elec_results_2021.png"
 
   4. The 'freezing hypothesis' revisited: Mair & Bartolini in the 90s
 
-# 02. Mapping the terrain: political parties and party-systems
+# 02. Mapping the terrain
 
 ## 02. Mapping the terrain: political parties and party-systems
 
 - What is a political party?
   
-- A political party, for the sake of this seminar, is a hierarchical organizations that compete for votes to achieve office, with the aim of implementing its preferred policies
+    + A political party, for the sake of this seminar, is a hierarchical organization that compete for votes to achieve office with the aim of implementing its preferred policies
 
 - What is a party-system?
   
-- The interaction of parties competing in the given electoral market. It is characterised by the number, size, and ideological preferences of the parties, among other aspects  
+    + The interaction of parties competing in the given electoral market. It is characterised by the number, size, and ideological preferences of the parties, among other aspects  
 
 
 ## 02. Mapping the terrain: political parties and party-systems
 
-- Why is it important to study political parties and party-system?
+- Why is it important to study political parties and party-systems?
 
-- It help us to understand a myriad of political phenomena. Each party-system indicates levels of societal fragmentation and polarization, the most likely electoral and policy outcomes at a given moment in time, potential coalitions, etc. Comparatively, it helps us to assess dynamics of evolution of the public opinion, foresee potential reforms, alliances...
+    + It help us to understand a myriad of political phenomena. Each party-system indicates levels of societal fragmentation and polarization, the most likely electoral and policy outcomes at a given moment in time, potential coalitions, etc. Comparatively, it helps us to assess dynamics of evolution of the public opinion, foresee potential reforms, alliances...
 
 - In the end, party politics is a crucial aspect of political science: 'the science of (public) power'
 
-- In this seminar, we will try to understand why European party-systems looks like they are today, considering how they were born and evolve, which will surely help us to assess the future that awaits us (but never predict it!)
+- In this seminar, we will try to understand why European party-systems looks like they are today, considering how they were born and evolved, which surely help us to assess future events (although never fully predict them)
 
-# 03. The origins of party-systems in Europe
+# 03. The origins of party-systems
+
+## 03. The origins of party-systems in Europe
+
+- Here we don't care much about the origins of political parties themselves ([some say that they were born in the UK in the early 18th century...](https://en.wikipedia.org/wiki/Early-18th-century_Whig_plots)), but on **the determinants of party-systems**. Two main approaches can be highlighted [@Boix2007]:
+
+1. Institutional approaches
+
+2. The **socio-historical approach**, famously indebted to Lipset and Rokkan [-@Lipset1967a]
+
+## 03. The origins of party-systems in Europe
+
+1. Institutional approaches
+
+    + Institutions (the rule of the game) determine the number, size and characteristics of competing parties via direct and indirect (the so-called psychological) effects
+  
+    + For example, the **Duverger law** estipulates that single-ballot plurality-rule elections (such as first-past-the-post system) structured within single-member districts tend to favor a two-party system
+  
+    + Effects can be **direct** when institutions automatically shape the conversion of behaviour (i.e., vote) into outcomes (i.e., parlimentary seats)
+  
+    + Effects can also be **indirect** when people modify their behavior prior to the application of the rule because they anticipate direct effects (e.g., I anticipate that my preferred party may not win a seat due to the majoritarian electoral rule, therefore I cast a ballot for my second preferred option, which has higher probabilities to win a seat)  
+
+    + Any other example of direct vs. indirect effect?
+
+## 03. The origins of party-systems in Europe
+
+2. The **socio-historical approach**
+
+  - The structure of party-systems in Europe is mainly due to the lines of conflict politicized in each country
+  
+  - These lines of conflict, that we call **cleavages**, are delved into the formation of each nation-state and also fostered by common economic and cultural shocks
+  
+  - These common shocks affect each country differently nonetheless (most importantly to Lipset and Rokkan: the industrial revolution)
+  
+  - A cleavage is characterised by 1) a *social divide* of which citizens at each side develop 2) *political consciousness*
+  
+  - Any example of what may be and what may not be a cleavage nowadays in any European country?
+
+## 03. The origins of party-systems in Europe
+
+2. **The socio-historical approach**
+
+  - Lipset & Rokkan establish four cleavages:
+  
+    1. **Class** cleavage (owner versus worker)
+    
+    2. **Urban-rural** cleavage (industry versus land)
+    
+    3. **Centre-periphery** cleavage (dominant versus subject culture)
+    
+    4. **State-church** cleavage (state versus church institutions)
+    
+  - The first two cleavages would be directly influenced by social changes brought by the industrial (and liberal) revolutions
+  
+  - The other two would be influenced by each national revolution, and it would depend on specific preconditions (e.g., strong privilege of the Catholic Church in Italy / strong minority elites in Spain)
 
 ## 03. The origins of party-systems
 
-```{r, figures-side, fig.show="hold", out.height = "70%", out.width="40%", fig.cap = "German Federal electoral results, images from Wikipedia"}
+- The transformations of cleavages into party-systems depends on the specific **political opportunity structure**\footnotemark, that determines how far within a *sequence of thresholds* any movement pressing forward new sets of demands arrives
+
+1. The threshold of *legitimation* (i.e., opposition recognition)
+
+2. The threshold of *incorporation* (i.e., participation rights)
+
+3. The threshold of *representation* (i.e., institutional presence)
+
+4. The threshold of *majority power* (i.e., participation in government)
+      
+      \footnotemark[1]Lipset and Rokkan mention (1) the traditions of decision-making in the polity, (2) the channels of expression and mobilization of protest, **(3) the opportunities, the payoffs and the costs of alliances**, (4) and the possibilities, the implications and the limitations of majority rule in the system 
+
+# 04. European party-systems
+
+## 04. European party-systems: similitudes and differences
+
+- The importance of **overlapping/coinciding** vs. **cross-cutting cleavages**, for example, on the strength of Socialist/Labor parties\footnotemark:
+
+  + Protestant countries with the smoothest nation-building experience (e.g., Britain, Denmark, and Sweden) produced the most cohesive and integrated Socialist parties
+
+  + Catholic countries with recent or difficult national revolutions had deeply and alienated working class movements instead (e.g., France, Spain, and Italy)
+
+  + The countries in between has the additional factor or whether the nation-building elites were friendly with the Catholic Church during the period of education and participation expansion (e.g., Austria, Ireland and Belgium)
+
+- What are the mechanisms underlying these processes?
+
+\footnotemark[2]Based on Merkl [-@Merkl1969]
+
+## 04. European party-systems: similitudes and differences
+
+- Another example, on the factors facilitating the emergence of agrarian parties\footnotemark (e.g., prevalent in Nordic countries vs. Southern Europe):
+
+  1. Weak industrial-urban centers at the time of suffrage extension
+  
+  2. Dominant family-size farms or legally protected lease-holding
+  
+  3. Cultural and economic barriers between countryside and cities
+  
+  4. Insignificance of Catholicism
+
+- There are typologies beyond the scope of this seminar that help to explain differences within clusters (e.g., consensual vs. majoritarian institutions)
+
+\footnotemark[3]Based on Merkl [-@Merkl1969]
+
+# 05. The 'freezing hypothesis'
+
+## 05. The 'freezing hypothesis': the German case
+
+```{r, figures-side, fig.show="hold", out.height = "70%", out.width="40%", fig.cap = "German Federal election results, images from Wikipedia"}
 par(mar = c(6, 6, 2, 2))
 include_graphics(germany49)
 include_graphics(germany21)
 ```
 
-## 03. The origins of party-systems
+## 05. The 'freezing hypothesis': continuity between the 1920s and the 1960s
 
-- How were political parties born?
+- "The authors conclude, perhaps too easily, that the current European party systems, with some exceptions, reflect the survival of the 'cleavage structures' of the 1920's in spite of the onslaught of Fascism and National Socialism and World War II" [@Merkl1969]
 
-- 
+- Lipset and Rokkan highlight the shockingly pervasive stability of European party-systems despite intermittent wars, autocratic periods and revolutions
 
-# 04. European party-systems: similitudes and differences
+- But are European party-systems currently frozen? What does the case of Germany suggest to you?
 
-## 04. European party-systems: similitudes and differences
+## 05. The 'freezing hypothesis': let's debate!
 
-# 05. The 'freezing hypothesis': continuity from the 1920's to the 1960's
+- ***Final activity!*** Let's divide the class in two groups. You have 5-10 minutes to discuss potential explanations against or in favour of the freezing hypothesis, that is, why should we expect party-systems to remain 'frozen' until nowadays (or not). Someone from each group should summarise its main points and then we will briefly debate. 
 
-## 05. The 'freezing hypothesis': continuity from the 1920's to the 1960's
+- The activity begins now!
+
+# 06. References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
