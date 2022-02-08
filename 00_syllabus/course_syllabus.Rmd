@@ -145,7 +145,7 @@ bib["Przeworski1986", "Merkl1969"]
 
 
 
-**Session 2 (10:45 – 12:15): 'Green parties' and new social movements (70s-80s)**
+**Session 2 (10:45 – 12:15): The 'green parties' and the silent revolution (70s-80s)**
 
   + Required readings:
     
@@ -156,7 +156,7 @@ bib["MullerRommel1998"]
   + Additional resources:
 
 ```{r, echo = FALSE, results="asis"} 
-bib["Inglehart1977", "Kriesi1989"]
+bib["Inglehart1971", "Kriesi1989"]
 ``` 
 
 ```{r, echo = FALSE, results="asis"} 
@@ -165,7 +165,7 @@ bib["Kriesi1992", "Muller-Rommel2019"]
 
 
 
-**Session 3 (13:45 – 15:15): The emergence of new 'radical right parties' (80s-90s)**
+**Session 3 (13:45 – 15:15): New 'radical right parties' and the counter-revolution (80s-90s)**
 
   + Required readings:
     
@@ -181,7 +181,7 @@ bib["Mudde2007", "Mudde1999"]
 
 
 
-**Session 4 (15:30 – 17:00): The 'freezing hypothesis' revisited: Mair & Bartolini in the 90s**
+**Session 4 (15:30 – 17:00): The 'freezing hypothesis' revisited**
 
   + Required readings:
   

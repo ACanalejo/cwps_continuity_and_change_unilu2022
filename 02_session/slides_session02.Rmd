@@ -1,0 +1,92 @@
+---
+title: "The 'green parties' and the silent revolution (70s-80s)"
+
+subtitle: "Session 02"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+output:
+
+  beamer_presentation:
+    
+    latex_engine: xelatex
+    
+    theme: "Singapore"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: FALSE
+    
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+
+```
+
+
+# 01. Overview of the last session
+
+## 01. Overview of the last session
+
+
+# 02. 'But does it melt?' The silent revolution
+
+## 02. 'But does it melt?' The silent revolution
+
+[@Inglehart1971]
+
+# 03. The not so silent 'new social movements'
+
+## 03. The not so silent 'new social movements'
+
+[@Kriesi1989]
+
+# 04. Single-issue, niche? The green challenger parties
+
+## 04. Single-issue, niche? The green challenger parties
+
+[@MullerRommel1998]
+
+# 05. What does it change?
+
+## 05. What does it change?
+
+
+
+# 06. References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
