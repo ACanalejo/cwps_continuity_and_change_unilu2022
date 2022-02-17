@@ -12,9 +12,9 @@ This seminar will review the different 'transformation waves' that have shaped W
 
 ## Course organization
 
-The course is organized as a four-day intensive seminar divided in two weekend blocks. The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now. It is structured as follows. First, we will review the main arguments of the cleavage theory as originally proposed by Lipset and Rokkan (1967), making particular emphasis on the so-called 'freezing hypothesis' (i.e., European party systems in the 1960s largely resemble their original structure in the 1920s). Second, we will discuss the incorporation of two new party families into the political landscape in the following decades (Green and Radical Right Parties). We will assess the impact of these changes using the same indicators discussed by Mair (1993) and we will try to make sense of them by incorporating a cultural/value-based cleavage to the original cleavage theory. Finally, we will discuss the impact of the Great Recession on increasing electoral volatility and we will carry an empirical exercise with real-world data to inform a wrapping-up discussion. 
+The course is organized as a four-day intensive seminar divided in two weekend blocks. The **first block** consists of a review of European party systems, focusing on their main changes from the 1960s until now. It is structured as follows. First, we will review the main arguments of the cleavage theory as originally proposed by Lipset and Rokkan (1967), making particular emphasis on the so-called 'freezing hypothesis' (i.e., European party systems in the 1960s largely resemble their original structure in the 1920s). Second, we will discuss the incorporation of two new party families into the political landscape in the following decades (Green and Radical Right Parties). Third, we will analyse the unequal impact of the Great Recession in North-Western and Southern European countries. We will try to make sense of these changes by incorporating a new cultural/value-based cleavage to the original cleavage theory. Finally, we will assess the degree of party-system change using the same indicators discussed by Bartolini and Mair (1993). To finish the first block, we will carry out an empirical exercise with real-world data on electoral volatility to inform a wrapping-up discussion. 
 
-The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change. We will focus on changes in the socio-economic structure of modern European societies, such as the emergence of new educational divides, the formation of new social classes and the effect of globalization and immigration on altering the preferences of the electorate. On the supply side, we will briefly discuss the role of ideological convergence (among dominant parties) and issue entrepreneurship (by challenger parties) on carrying political change.
+The **second block** discusses the most relevant demand and supply factors provided by the literature to explain party-system change. We will focus on changes in the socio-economic structure of modern European societies, such as the emergence of new educational divides, the formation of new social classes and the effect of globalization and immigration on altering the preferences of the electorate. On the supply side, we will briefly discuss the role of ideological convergence (among dominant parties) and issue entrepreneurship (by challenger parties) on carrying political change.
 
 ## Learning outcomes
 
@@ -64,18 +64,18 @@ Students choosing to write a seminar paper (around 15 pages for BA students and 
 
   + **Session 1 (09:00 – 10:30): Party-systems formation and the 'freezing hypothesis'**
 
-  + **Session 2 (10:45 – 12:15): 'Green parties' and new social movements (70s-80s)**
+  + **Session 2 (10:45 – 12:15): Green parties and the silent revolution**
 
-  + **Session 3 (13:45 – 15:15): The emergence of new 'radical right parties' (80s-90s)**
+  + **Session 3 (13:45 – 15:15): New far right parties and the counter-revolution**
 
-  + **Session 4 (15:30 – 17:00): The 'freezing hypothesis' revisited: Mair & Bartolini in the 90s**
+  + **Session 4 (15:30 – 17:00): Economic voting and the Great Recession: new politics in Southern Europe**
 
 
 ### Block I - Saturday 05.03.2022 (09:00 – 15:15)
 
   + **Session 5 (09:00 – 10:30): The cultural dimension: cleavage theory revisited**
 
-  + **Session 6 (10:45 – 12:15): Economic voting and the Great Recession: North-Western and Southern European countries compared**
+  + **Session 6 (10:45 – 12:15): The 'freezing hypothesis' revisited**
 
   + **Session 7 (13:45 – 15:15): Changing party-systems? Wrapping-up workshop on electoral volatility**
 

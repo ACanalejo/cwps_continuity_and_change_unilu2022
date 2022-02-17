@@ -31,9 +31,9 @@ output:
     
     slide_level: 2
     
-    incremental: TRUE
+    incremental: FALSE
     
-    toc: TRUE
+    toc: FALSE
     
     number_sections: FALSE
 
@@ -50,137 +50,57 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# Introduction to the course
-
 ## Introduction to the course
 
-Changes in party systems across Western Europe (WE) have fostered pressuring challenges to democracy, specially in the last two decades:
+  + **Changes in party systems across Western Europe (WE) have fostered pressuring challenges to democracy**, specially in the last two decades:
 
-  + Traditional parties have lost fuel (sometimes shockingly, e.g., Italy 2013, France 2017) and the results of elections are becoming harder and harder to predict.
+    + Traditional parties have lost fuel (sometimes shockingly, e.g., Italy 2013, France 2017) and the results of elections are becoming harder to predict
     
-  + Radical parties from the left, but specially from the right, have become mainstream actors in many national parliaments, polarizing the public debate.
+    + Radical parties from the left, but specially from the right, have become mainstream actors in many national parliaments, polarizing the public debate
   
-  + The large number and variety of parties in parliament complicates the formation of government (e.g., Germany 2017, Belgium 2019-20) and anticipated elections due to broken coalitions are a permanent risk (e.g., Spain 2019)
-  
-## Introduction to the course  
-  
-  + What have provoked these changes? 
-  
-  + When did they begin? 
-  
-  + Do they affect all Europe equally?
-  
-  + If not, what does explain this variation?
+    + The large number and variety of parties in parliament complicates the formation of government (e.g., Germany 2017, Belgium 2019-20) and anticipated elections due to broken coalitions are a permanent risk (e.g., Spain 2019)
 
-  + This seminar intends to provide students with conceptual and empirical tools to assess these questions with methodological rigour and from a critical perspective.
+  + **What have provoked these changes? Do they affect all Europe equally?** If not, **what does explain this variation?**
 
-# Course organization
+  + **This seminar intends to** provide students with conceptual and empirical tools to **answer these questions** with methodological rigour and from a critical perspective
 
 ## Course organization
 
-  + The course is designed to review the main political theories of party system formation and change in Europe with empirical applications following a (quasi-)chronological logic.
+  + The course is designed to review the main political theories of party system formation and change in Europe with empirical applications following a (quasi-)chronological logic
 
-  + It is organized as a four-day intensive seminar divided in two weekend blocks:
+  + It is organized as a **four-days intensive seminar** divided in two weekend blocks:
 
-    1. **The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now**. We will depart from the origins of major political conflicts across WE to later analyse the impact of consecutive 'transformation waves' on their current shape.
+    1. **The first block consists of a review of European party systems, focusing on their main changes from the 1960s until now**. We will depart from the origins of major political conflicts across WE to later analyse the impact of consecutive 'transformation waves' on their current shape
   
-    2. **The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change**, from the formation of new social classes or the effect of immigration to the role of issue politicization by new challenger parties on altering the preferences of the electorate.
-
-# Requirements and evaluation
+    2. **The second block discusses the most relevant demand and supply factors provided by the literature to explain party-system change**, from the formation of new social classes or the effect of immigration to the role of issue politicization by new challenger parties on altering the preferences of the electorate
+    
+    3. Additionally, **up to 4 sessions of the second block** will de dedicated to the **students' presentations**
 
 ## Requirements and evaluation
 
 To obtain the credits (pass), students are expected to:
 
-  + Attend at least 80% of the classes.
+  + Attend at least 80% of the classes
   
-  + Actively engage during class activities.
+  + Actively engage during class activities
   
-  + Complete all the mandatory readings (one per session).
+  + Complete all the mandatory readings (one per session)
   
-  + Select one reading for each weekend (two in total) and write a short response paper (300-500 words) to them.
+  + Select one reading for each weekend (two in total) and write a short response paper (300-500 words) to them
   
-  + Prepare a class presentation (30-35 min.) for the second weekend (in group or individually depending on the number of registered students).
+  + Prepare a class presentation (30-35 min.) for the second weekend (in group or individually depending on the number of registered students)
 
-# Learning outcomes
+The goal here is to generate **dynamic** interactions during the **seminar**, not to give an unidirectional lecture, so I encourage active engagement in class
 
-## Learning outcomes
+## Additional information
 
-By the end of this course, students will be able to:
+About the course:
 
-- Identify the main theories of party system formation and change in Western Europe
-
-- Apply these theories to analyse specific cases from a comparative and historical perspective
-
-- Understand the concept of electoral volatility and interpret it using its most common empirical indicators
-
-- Assess elections as markets in which demand and supply factors interact to produce electoral outcomes (i.e., seats and govt. coalitions)
-
-- Read scientific articles and present critical written responses
-
-- Work in collaboration with others
-
-- Orally present their work to a broad audience
-
-# Tentative schedule
-
-## Tentative schedule
-
-### Block I - Friday 04.03.2022 (09:00 – 17:00)
-
-+ Session 1 (09:00 – 10:30): Party-systems formation and the 'freezing hypothesis'
-
-
-+ Session 2 (10:45 – 12:15): 'Green parties' and new social movements (70s-80s)
-
-
-+ Session 3 (13:45 – 15:15): The emergence of new 'radical right parties' (80s-90s)
-
-
-+ Session 4 (15:30 – 17:00): The 'freezing hypothesis' revisited: Mair & Bartolini in the 90s
-
-
-### Block I - Saturday 05.03.2022 (09:00 – 15:15)
-
-
-+ Session 5 (09:00 – 10:30): The cultural dimension: cleavage theory revisited
-
-
-+ Session 6 (10:45 – 12:15): Economic voting and the Great Recession: North-Western and Southern European countries compared
-
-
-+ Session 7 (13:45 – 15:15): Changing party-systems? Wrapping-up workshop on electoral volatility
-
-## Tentative schedule
-
-### Block II - Friday 08.04.2022 (09:00 – 17:00)
-
-+ Session 8 (09:00 – 10:30): Factors of change I: demand-side explanations
-
-
-+ Session 9 (10:45 – 12:15): Factors of change II: supply-side explanations
-
-
-+ Session 10 (13:45 – 15:15): Students presentations
-
-
-+ Session 11 (15:30 – 17:00): Students presentations
-
-
-### Block II - Saturday 09.04.2022 (09:00 – 15:15)
-
-
-+ Session 12 (09:00 – 10:30): Students presentations
-
-
-+ Session 13 (10:45 – 12:15): Students presentations
-
-
-+ Session 14 (13:45 – 15:15): Wrapping-up discussion, advanced topics and feedback
-
-# Contact details
-
-## Contact details
+ + Detailed information about the course can be found in the [syllabus](https://github.com/ACanalejo/cwps_continuity_and_change_unilu2022/blob/master/00_syllabus/course_syllabus.pdf)
+ 
+ + You can also explore the [website of the course](https://github.com/ACanalejo/cwps_continuity_and_change_unilu2022), where I regularly update the content
+ 
+ + And of course, do not hesitate to contact me at alvaro.canalejo@eui.eu if you have any additional questions or doubts 
 
 About the professor:
 
@@ -188,12 +108,6 @@ About the professor:
   
   + Currently, I am a PhD researcher at the European University Institute, in Florence
   
-  + Previously, I have studied in Seville (BA) and Madrid (MA), and I have been a visiting researcher at the London School of Economics
-  
   + You can find more information about me, my research interests and ongoing research at [my website](https://acanalejo.github.io/)
   
-  + PLEASE, do not hesitate to contact me at alvaro.canalejo@eui.eu if you have any questions or doubts about the course 
-  
-  + Also, you can find more information about the course [here](https://github.com/ACanalejo/cwps_continuity_and_change_unilu2022), where I regularly update its content
-  
-  + And that's all! **I am looking forward to meeting many of you!**
+And that's all! **I am looking forward to meeting many of you!**
