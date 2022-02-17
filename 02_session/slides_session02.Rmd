@@ -1,5 +1,5 @@
 ---
-title: "The 'green parties' and the silent revolution (70s-80s)"
+title: "Green parties and the silent revolution"
 
 subtitle: "Session 02"
   
@@ -21,13 +21,20 @@ fontsize: 10pt
 
 linestretch: 2
 
+navigation: horizontal 
+
 output:
 
   beamer_presentation:
-    
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
     latex_engine: xelatex
     
-    theme: "Singapore"
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
     
     fonttheme: "structurebold"
     
@@ -37,8 +44,7 @@ output:
     
     toc: TRUE
     
-    number_sections: FALSE
-    
+    number_sections: TRUE
 
 ---
 
@@ -56,36 +62,45 @@ library(png) # For loading and grabbing the dimensions of png files
 ```
 
 
-# 01. Overview of the last session
+# Overview of the last session
 
-## 01. Overview of the last session
+## Overview of the last session
 
+- Main points session 01
 
-# 02. 'But does it melt?' The silent revolution
+# 'But does it melt?' The silent revolution
 
-## 02. 'But does it melt?' The silent revolution
+## 'But does it melt?' The silent revolution
 
-[@Inglehart1971]
+- The value change hypothesis [@Inglehart1971]
 
-# 03. The not so silent 'new social movements'
+# The not so silent 'new social movements'
 
-## 03. The not so silent 'new social movements'
+## The not so silent 'new social movements'
 
-[@Kriesi1989]
+- New social movements: the role non-institutional participation channels [@Kriesi1989]
 
-# 04. Single-issue, niche? The green challenger parties
+# Single-issue, niche? The green challenger parties
 
-## 04. Single-issue, niche? The green challenger parties
+## Single-issue, niche? The green challenger parties
 
-[@MullerRommel1998]
+- The institutionalization of new demands [@MullerRommel1998]
 
-# 05. What does it change?
+- Differences and similarities with established parties (socialist and communist, liberal, conservative, Christian democrats, *agrarian*)
 
-## 05. What does it change?
+# The impact of Green parties across Europe
 
+## The impact of Green parties across Europe
 
+- Where? When? How much?
 
-# 06. References
+# Current trends on the Green wave
+
+## Current trends on the Green wave
+
+- Current trends
+
+# References
 
 ## References {.allowframebreaks}
 
