@@ -65,7 +65,7 @@ germany21 <- "images/german_elec_results_2021.png"
 ```
 
 
-# Introduction
+# Introduction to the course
 
 ## Introduction to the course
 
@@ -103,7 +103,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
   4. Economic voting and the Great Recession: new politics in Southern Europe
 
-# Mapping the terrain
+# Mapping the terrain: political parties and party-systems
 
 ## Mapping the terrain: political parties and party-systems
 
@@ -126,7 +126,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - In this seminar, we will try to understand why European party-systems looks like they are today, considering how they were born and evolved, which surely help us to assess future events (although never fully predict them)
 
-# The origins of party-systems
+# The origins of party-systems in Europe
 
 ## The origins of party-systems in Europe
 
@@ -196,7 +196,23 @@ germany21 <- "images/german_elec_results_2021.png"
       
         \footnotemark[1]Lipset and Rokkan mention (1) the traditions of decision-making in the polity, (2) the channels of expression and mobilization of protest, **(3) the opportunities, the payoffs and the costs of alliances**, (4) and the possibilities, the implications and the limitations of majority rule in the system 
 
-# European party-systems
+# European party-systems: similitudes and differences
+
+## European party-systems: similitudes and differences
+
+The basic party families\footnotemark:
+
+  + Socialist and communist parties: competition based on the class cleavage
+  
+  + Agrarian parties: competition based on the urban-rural cleavage
+  
+  + Regionalist/independentist parties: competition based on the centre-periphery cleavage
+  
+  + Religious parties, such as the Christian democrats: competition based on the state-church cleavage
+  
+Beyond this simplification, most parties compete on several overlapped arenas (a clearly example is the Liberals party family), but depending on the most salient issues, some parties will be stronger than others
+
+  \footnotemark[2]Based on Camia and Caramani [-@Camia2012]
 
 ## European party-systems: similitudes and differences
 
@@ -210,7 +226,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - What are the mechanisms underlying these processes?
 
-\footnotemark[2]Based on Merkl [-@Merkl1969]
+  \footnotemark[3]Based on Merkl [-@Merkl1969]
 
 ## European party-systems: similitudes and differences
 
@@ -226,7 +242,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - There are typologies beyond the scope of this seminar that help to explain differences within clusters (e.g., consensual vs. majoritarian institutions)
 
-\footnotemark[3]Based on Merkl [-@Merkl1969]
+\footnotemark[4]Based on Merkl [-@Merkl1969]
 
 # The 'freezing hypothesis'
 
