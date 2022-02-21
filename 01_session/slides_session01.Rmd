@@ -58,7 +58,6 @@ library(kableExtra) # for LaTeX tables in Rmarkdown
 library(png) # For loading and grabbing the dimensions of png files
 
 # Loading images' paths
-
 germany49 <- "images/german_elec_results_1949.png"
 germany21 <- "images/german_elec_results_2021.png"
 
@@ -160,7 +159,7 @@ germany21 <- "images/german_elec_results_2021.png"
   
     + These common shocks affect each country differently nonetheless (most importantly to Lipset and Rokkan: the industrial revolution)
   
-    + A cleavage is characterised by 1) a *social divide* of which citizens at each side develop 2) *political consciousness*
+    + A cleavage is characterised by 1) a *social divide* of which citizens at each side develop 2) *social consciousness* and turn into 3) *political demands* 
   
     + Any example of what may be and what may not be a cleavage nowadays in any European country?
 
@@ -196,39 +195,56 @@ germany21 <- "images/german_elec_results_2021.png"
       
         \footnotemark[1]Lipset and Rokkan mention (1) the traditions of decision-making in the polity, (2) the channels of expression and mobilization of protest, **(3) the opportunities, the payoffs and the costs of alliances**, (4) and the possibilities, the implications and the limitations of majority rule in the system 
 
-# European party-systems: similitudes and differences
+# European party-systems compared
 
-## European party-systems: similitudes and differences
+## European party-systems compared
 
 The basic party families\footnotemark:
 
-  + Socialist and communist parties: competition based on the class cleavage
+  + *Socialist and communist parties*: competition based on the class cleavage
   
-  + Agrarian parties: competition based on the urban-rural cleavage
+  + *Agrarian parties*: competition based on the urban-rural cleavage
   
-  + Regionalist/independentist parties: competition based on the centre-periphery cleavage
+  + *Regionalist/independentist parties*: competition based on the centre-periphery cleavage
   
-  + Religious parties, such as the Christian democrats: competition based on the state-church cleavage
+  + *Religious and people's parties*, such as the Christian democrats: competition based on the state-church cleavage
   
-Beyond this simplification, most parties compete on several overlapped arenas (a clearly example is the Liberals party family), but depending on the most salient issues, some parties will be stronger than others
+Beyond this simplification, most parties compete on several overlapped arenas (a clearly example is the *Liberals party family*; class and urban-rural), but depending on the most salient issues, some parties will be stronger than others
 
   \footnotemark[2]Based on Camia and Caramani [-@Camia2012]
+  
+## European party-systems compared
 
-## European party-systems: similitudes and differences
+- The main cleavage structuring party competition in Europe is the class cleavage
 
-- The importance of **overlapping/coinciding** vs. **cross-cutting cleavages**, for example, on the strength of Socialist/Labor parties\footnotemark:
+- The class cleavage is not only the one that accounts for the most part of variation on voting behavior across social groups
+
+- It is also the only cleavage that holds across European countries and over time
+
+- Depending on the combination of parties and their modes of interaction, we can talk of two main types of party systems [@Sartori2005]:
+
+    1. **Moderate party systems** have relative small ideological distance between the major parties, a propensity to form coalitions between parties of different views and predominantly centripetal competition
+    
+    2. **Polarised party systems** have two main strongly opposed party blocks, presence of small 'anti-system' parties and substantial ideological distance between parties at each side, with predominantly centrifugal competition
+    
+
+## European party-systems compared
+
+- The existence of **overlapping/coinciding** vs. **cross-cutting cleavages** raises different patterns fo party competition
+
+- For exmaple, **on the strength of Socialist/Labor parties**\footnotemark:
 
   + Protestant countries with the smoothest nation-building experience (e.g., Britain, Denmark, and Sweden) produced the most cohesive and integrated Socialist parties
 
   + Catholic countries with recent or difficult national revolutions had deeply and alienated working class movements instead (e.g., France, Spain, and Italy)
 
-  + The countries in between has the additional factor or whether the nation-building elites were friendly with the Catholic Church during the period of education and participation expansion (e.g., Austria, Ireland and Belgium)
+  + The countries in between has the additional factor or whether the nation-building elites were friendly with the Catholic Church during the period of mass education and enfranchisement (e.g., Austria, Ireland and Belgium)
 
 - What are the mechanisms underlying these processes?
 
   \footnotemark[3]Based on Merkl [-@Merkl1969]
 
-## European party-systems: similitudes and differences
+## European party-systems compared
 
 - Another example, on the factors facilitating the emergence of agrarian parties\footnotemark (e.g., prevalent in Nordic countries vs. Southern Europe):
 
@@ -256,7 +272,7 @@ include_graphics(germany21)
 
 ## The 'freezing hypothesis': continuity between the 1920s and the 1960s
 
-- "The authors conclude, perhaps too easily, that the current European party systems, with some exceptions, reflect the survival of the 'cleavage structures' of the 1920's in spite of the onslaught of Fascism and National Socialism and World War II" [@Merkl1969]
+- "The authors conclude (...) that the current European party systems, with some exceptions, reflect the survival of the 'cleavage structures' of the 1920's in spite of the onslaught of Fascism and National Socialism and World War II" [@Merkl1969]
 
 - Lipset and Rokkan highlight the shockingly pervasive stability of European party-systems despite intermittent wars, autocratic periods and revolutions
 
@@ -264,7 +280,7 @@ include_graphics(germany21)
 
 ## The 'freezing hypothesis': let's debate!
 
-- ***Final activity!*** Let's divide the class in two groups. You have 5-10 minutes to discuss potential explanations against or in favour of the freezing hypothesis, that is, why should we expect party-systems to remain 'frozen' until nowadays (or not). Someone from each group should summarise its main points and then we will briefly debate. 
+- ***Final activity!*** Let's divide the class in two groups. You have 5-10 minutes to discuss potential explanations against or in favour of the freezing hypothesis, that is, why should we expect party-systems to remain 'frozen' until nowadays (or not). Someone from each group should summarise the main points and then we will briefly debate. 
 
 - The activity begins now!
 
