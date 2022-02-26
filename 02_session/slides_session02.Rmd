@@ -43,7 +43,7 @@ output:
     
     slide_level: 2
     
-    incremental: FALSE
+    incremental: TRUE
     
     toc: TRUE
     
@@ -114,6 +114,8 @@ Take-home points from Session 1:
   5. Individual-level factors
   
       - Identity (rooted group and party identification)
+      
+      - Attitudes towards the system
     
       - Habits (path dependency)
     
