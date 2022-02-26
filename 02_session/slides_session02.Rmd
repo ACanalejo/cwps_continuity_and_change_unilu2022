@@ -43,7 +43,7 @@ output:
     
     slide_level: 2
     
-    incremental: TRUE
+    incremental: FALSE
     
     toc: TRUE
     
@@ -157,7 +157,7 @@ The 'silent revolution' thesis:
 
 - The foundations of the salient revolution thesis are found in the revolts of May 1968 
 
-```{r, figures-side, fig.show="hold", out.height = "50%", out.width="50%", fig.cap = "Image from the French revolts of May 1968 (Cpyright: Bruno Barbey/Magnum Photos)"}
+```{r, figures-side, fig.show="hold", out.height = "50%", out.width="50%", fig.cap = "Image from the French revolts of May 1968 (Copyright: Bruno Barbey/Magnum Photos)"}
 include_graphics(may68)
 ```
 
@@ -251,7 +251,7 @@ include_graphics(may68)
 
 ## The impact of green parties across Europe
 
-Therefore, we must consider at least four factors to explain the unqual success of green parties:
+Therefore, we must consider at least four factors to explain the unequal success of green parties:
 
   1. Electoral rules
     
@@ -336,7 +336,7 @@ row_spec(1, bold = TRUE)
 
 - Any other example of **niche parties**?
 
-- Elderly parties, animal rights parties, latino parties, etc.
+- Examples: elderly parties, animal rights parties, latino parties, etc.
 
 ## The impact of green parties across Europe
 
@@ -346,7 +346,7 @@ row_spec(1, bold = TRUE)
 
 - Due to the relevance of the class cleavage, some scholars consider its dimensional interpretation, the classic **left-right** dimension, as a **super issue** that tends to structure the rest
 
-- However, it may be the case that a newly politicised issue performed independently for a while
+- However, it may be the case that a newly politicised issue performs well independently for a while
 
 - Hypothetically, it could also happens that a new independent dimension emerges from from a newly formed cleavage
 
@@ -356,7 +356,7 @@ row_spec(1, bold = TRUE)
 
 ## Current trends on the Green wave
 
-- With the increasing saliency of global warming and the imminent challenges of climate change, some scholars and pundits have argued that a new wave of green parties is coming
+- With the increasing saliency of global warming and the imminent challenges of climate change, some scholars and pundits argue that a new wave of green parties is coming
 
 - However, the empirical evidence suggest that this is not yet the case (even when it seems to arrive soon, such as in the campaign for the 2021 German Federal elections)
 
@@ -364,7 +364,7 @@ row_spec(1, bold = TRUE)
 
 - This means that they can be key for the formation of government and have real influence on the policy-making process
 
-- However, they are far from dominate dynamics of political competition
+- However, they are far from dominate the dynamics of political competition
 
 ## Current trends on the Green wave: let's debate!
 

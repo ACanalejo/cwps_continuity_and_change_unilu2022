@@ -40,7 +40,7 @@ output:
     
     slide_level: 2
     
-    incremental: TRUE
+    incremental: FALSE
     
     toc: TRUE
     
@@ -98,7 +98,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
   2. Green parties and the silent revolution
 
-  3. New far right parties and the counter-revolution
+  3. New far right parties and the (silent) counter-revolution
 
   4. Economic voting and the Great Recession: new politics in Southern Europe
 
@@ -106,18 +106,19 @@ germany21 <- "images/german_elec_results_2021.png"
 
 ## Mapping the terrain: political parties and party-systems
 
-- What is a political party?
+- What is a **political party**?
   
-    + A political party, for the sake of this seminar, is a hierarchical organization that compete for votes to achieve office with the aim of implementing its preferred policies
+    + A political party, for the sake of this seminar, is a hierarchical organization that **compete for votes** to **achieve office** with the aim of **implementing its preferred policies**
+    
 
-- What is a party-system?
+- What is a **party-system**?
   
-    + The interaction of parties competing in the given electoral market. It is characterised by the number, size, and ideological preferences of the parties, among other aspects  
+    + The **interaction of parties** competing in the given electoral market. It is characterised by the number, size, and ideological preferences of the parties, among other aspects  
 
 
 ## Mapping the terrain: political parties and party-systems
 
-- Why is it important to study political parties and party-systems?
+- Why is it **important to study political parties and party-systems**?
 
     + It help us to understand a myriad of political phenomena. Each party-system indicates levels of societal fragmentation and polarization, the most likely electoral and policy outcomes at a given moment in time, potential coalitions, etc. Comparatively, it helps us to assess dynamics of evolution of the public opinion, foresee potential reforms, alliances...
 
@@ -129,7 +130,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 ## The origins of party-systems in Europe
 
-- Here we don't care much about the origins of political parties themselves ([some say that they were born in the UK in the early 18th century...](https://en.wikipedia.org/wiki/Early-18th-century_Whig_plots)), but on **the determinants of party-systems**. Two main approaches can be highlighted [@Boix2007]:
+- Here we don't care much about the origins of political parties themselves ([some people say that they were born in the UK in the early 18th century...](https://en.wikipedia.org/wiki/Early-18th-century_Whig_plots)), but on **the determinants of party-systems**. Two main approaches can be highlighted [@Boix2007]:
 
   1. Institutional approaches
 
@@ -139,7 +140,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 1. Institutional approaches
 
-    + Institutions (the rule of the game) determine the number, size and characteristics of competing parties via direct and indirect (the so-called psychological) effects
+    + Institutions (the rules of the game) determine the number, size and characteristics of competing parties via direct and indirect (the so-called psychological) effects
   
     + For example, the **Duverger law** estipulates that single-ballot plurality-rule elections (such as first-past-the-post system) structured within single-member districts tend to favor a two-party system
   
@@ -159,15 +160,15 @@ germany21 <- "images/german_elec_results_2021.png"
   
     + These common shocks affect each country differently nonetheless (most importantly to Lipset and Rokkan: the industrial revolution)
   
-    + A cleavage is characterised by 1) a *social divide* of which citizens at each side develop 2) *social consciousness* and turn into 3) *political demands* 
+    + A cleavage is characterised by 1) a **social divide** of which citizens at each side develop 2) **social consciousness** and turn into 3) **political demands** 
   
-    + Any example of what may be and what may not be a cleavage nowadays in any European country?
+    + Any example of what may be and what may not be a cleavage in any European country?
 
 ## The origins of party-systems in Europe
 
 2. **The socio-historical approach**
 
-    - Lipset & Rokkan establish four cleavages:
+    - Lipset & Rokkan establish **four cleavages**:
   
       1. **Class** cleavage (owner versus worker)
     
@@ -177,21 +178,33 @@ germany21 <- "images/german_elec_results_2021.png"
     
       4. **State-church** cleavage (state versus church institutions)
     
-    - The first two cleavages would be directly influenced by social changes brought by the industrial (and liberal) revolutions
+    - The first two cleavages would be directly influenced by social changes brought by the **industrial (and liberal) revolutions**
   
-    - The other two would be influenced by each national revolution, and it would depend on specific preconditions (e.g., strong privilege of the Catholic Church in Italy / strong minority elites in Spain)
+    - The other two would be influenced by the **national revolution**, and it would depend on specific preconditions (e.g., strong privilege of the Catholic Church in Italy / strong minority elites in Spain)
+
+## European party-systems compared
+
+2. **The socio-historical approach**
+
+  - The main cleavage structuring party competition in Europe is the **class cleavage**
+
+  - The class cleavage is not only the one that **accounts for the most part of variation on voting behavior across social groups**
+
+  - **It is also the only cleavage that holds across European countries and over time**
 
 ## The origins of party-systems
 
-- The transformations of cleavages into party-systems depends on the specific **political opportunity structure**\footnotemark, that determines how far within a *sequence of thresholds* any movement pressing forward new sets of demands arrives
+2. **The socio-historical approach**
 
-  1. The threshold of *legitimation* (i.e., opposition recognition)
+  - The transformations of cleavages into party-systems depends on the specific **political opportunity structure**\footnotemark, that determines how far within a **sequence of thresholds** any movement pressing forward new sets of demands arrives
 
-  2. The threshold of *incorporation* (i.e., participation rights)
+    1. The threshold of **legitimation** (i.e., opposition recognition)
 
-  3. The threshold of *representation* (i.e., institutional presence)
+    2. The threshold of **incorporation** (i.e., participation rights)
 
-  4. The threshold of *majority power* (i.e., participation in government)
+    3. The threshold of **representation** (i.e., institutional presence)
+
+    4. The threshold of **majority power** (i.e., participation in government)
       
         \footnotemark[1]Lipset and Rokkan mention (1) the traditions of decision-making in the polity, (2) the channels of expression and mobilization of protest, **(3) the opportunities, the payoffs and the costs of alliances**, (4) and the possibilities, the implications and the limitations of majority rule in the system 
 
@@ -199,40 +212,35 @@ germany21 <- "images/german_elec_results_2021.png"
 
 ## European party-systems compared
 
-The basic party families\footnotemark:
+- One way of study party systems is to analyse the relevance of different **party families**.
 
-  + *Socialist and communist parties*: competition based on the class cleavage
+- Party families are a way of classifying political parties across countries that relate to each other based on (1) shared origins, (2) ascription to transnational federations, (3) ideology or even (4) names [@Mair1998]
+
+- The basic party families\footnotemark:
+
+    + **Socialist and communist parties**: competition based on the class cleavage
   
-  + *Agrarian parties*: competition based on the urban-rural cleavage
-  
-  + *Regionalist/independentist parties*: competition based on the centre-periphery cleavage
-  
-  + *Religious and people's parties*, such as the Christian democrats: competition based on the state-church cleavage
-  
-Beyond this simplification, most parties compete on several overlapped arenas (a clearly example is the *Liberals party family*; class and urban-rural), but depending on the most salient issues, some parties will be stronger than others
+    + **Agrarian parties**: competition based on the urban-rural cleavage
 
   \footnotemark[2]Based on Camia and Caramani [-@Camia2012]
-  
+
 ## European party-systems compared
 
-- The main cleavage structuring party competition in Europe is the class cleavage
+- The basic party families\footnotemark:
+  
+    + **Regionalist/independentist parties**: competition based on the centre-periphery cleavage
+  
+    + **Religious and people's parties**, such as the Christian democrats: competition based on the state-church cleavage
+  
+- Beyond this simplification, most parties compete on several overlapped arenas (a clearly example is the **Liberals** party family; class and urban-rural), but depending on the most salient issues, some parties will be stronger than others
 
-- The class cleavage is not only the one that accounts for the most part of variation on voting behavior across social groups
-
-- It is also the only cleavage that holds across European countries and over time
-
-- Depending on the combination of parties and their modes of interaction, we can talk of two main types of party systems [@Sartori2005]:
-
-    1. **Moderate party systems** have relative small ideological distance between the major parties, a propensity to form coalitions between parties of different views and predominantly centripetal competition
-    
-    2. **Polarised party systems** have two main strongly opposed party blocks, presence of small 'anti-system' parties and substantial ideological distance between parties at each side, with predominantly centrifugal competition
-    
+  \footnotemark[3]Based on Camia and Caramani [-@Camia2012]
 
 ## European party-systems compared
 
 - The existence of **overlapping/coinciding** vs. **cross-cutting cleavages** raises different patterns fo party competition
 
-- For exmaple, **on the strength of Socialist/Labor parties**\footnotemark:
+- For example, **on the strength of Socialist/Labor parties**\footnotemark:
 
   + Protestant countries with the smoothest nation-building experience (e.g., Britain, Denmark, and Sweden) produced the most cohesive and integrated Socialist parties
 
@@ -242,7 +250,7 @@ Beyond this simplification, most parties compete on several overlapped arenas (a
 
 - What are the mechanisms underlying these processes?
 
-  \footnotemark[3]Based on Merkl [-@Merkl1969]
+  \footnotemark[4]Based on Merkl [-@Merkl1969]
 
 ## European party-systems compared
 
@@ -258,7 +266,15 @@ Beyond this simplification, most parties compete on several overlapped arenas (a
 
 - There are typologies beyond the scope of this seminar that help to explain differences within clusters (e.g., consensual vs. majoritarian institutions)
 
-\footnotemark[4]Based on Merkl [-@Merkl1969]
+\footnotemark[5]Based on Merkl [-@Merkl1969]
+
+## European party-systems compared
+
+- Depending on the combination of parties and their modes of interaction, we can talk of two main types of party systems [@Sartori2005]:
+
+    1. **Moderate party systems** have relative small ideological distance between the major parties, a propensity to form coalitions between parties of different views and predominantly centripetal competition
+    
+    2. **Polarised party systems** have two main strongly opposed party blocks, presence of small 'anti-system' parties and substantial ideological distance between parties at each side, with predominantly centrifugal competition
 
 # The 'freezing hypothesis'
 

@@ -66,7 +66,7 @@ Students choosing to write a seminar paper (around 15 pages for BA students and 
 
   + **Session 2 (10:45 – 12:15): Green parties and the silent revolution**
 
-  + **Session 3 (13:45 – 15:15): New far right parties and the counter-revolution**
+  + **Session 3 (13:45 – 15:15): New far right parties and the (silent) counter-revolution**
 
   + **Session 4 (15:30 – 17:00): Economic voting and the Great Recession: new politics in Southern Europe**
 
