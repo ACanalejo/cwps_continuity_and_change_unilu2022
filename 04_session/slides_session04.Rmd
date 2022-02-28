@@ -1,0 +1,394 @@
+---
+title: "Economic voting and the Great Recession: new politics in Southern Europe"
+
+subtitle: "Session 04"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+      
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: TRUE
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+oldest_democracies <- "images/oldest_democracies.png"
+morlino <- "images/figure1_morlino.png"
+achen_bartels <- "images/Figure6-1_Achen_Bartels.png"
+```
+
+
+# Overview of the last session
+
+## Overview of the last session
+
+Take-home points from Session 3:
+
+  1. From a long-term perspective, **any important movement on one side of a dimension of conflict tends to trigger a counter-reaction** (conflicts are compounded of at least two confronted sides)
+  
+  2. Party system change needs of both **societal change** and **political opportunity**. In the case of PRR parties, the former has to do with the advance from industrial to post-industrial economies, and the latter with the weakening of party ties
+  
+  3. Yet the changes don't need to be **bottom-up** (as with the green/new left parties), but can also be **top-down** (as with PRR parties)
+
+## Overview of the last session
+
+Take-home points from Session 3:
+
+  4. Still, **rapid and radical changes are difficult to produce** because party systems generate embedded dynamics. The impact of PRR parties have been slow and progressive
+  
+  - However, in this session we will discuss whether this must be always the case or not. For that, we will be looking at **the effect of crises on party system change**
+
+# Beyond NWE: the party systems of SE
+
+## Beyond NWE: the party systems of SE
+
+- So far, the examples have focused on NWE 
+
+- This has to do with the context in which Lipset and Rokkan [-@Lipset1967a] formulated their cleavage theory
+
+- At that time, the presence of true liberal democracies was restricted to **North America**, Oceania  and a cluster of countries in **North-Western and Central Europe** (NWE)\footnotemark
+
+- Most of the cleavage theory were therefore founded on countries that belonged to the so-called **first and second waves of democratization** (before and after the inter-war period, respectively)
+
+  \footnotemark[1] Plus the deviant cases of Colombia, Jamaica, Costa Rica, Israel and India
+
+## Beyond NWE: the party systems of SE  
+  
+```{r, fig.show="hold", out.height = "65%", out.width="45%", fig.cap = "Oldest democracies in the world. SOURCE: Our World in Data, Boix, C., Miller, M. and Rosato. S."}
+include_graphics(oldest_democracies)
+```  
+  
+## Beyond NWE: the party systems of SE
+
+- Although Lipset and Rokkan did **include some cases of former democracies** to ground their theory (such as Spain)
+
+- Most of their analysis have common ground factors:
+
+  1. Pre-war process of state formation (before the 20s)
+  
+  2. Co-evolution of political (i.e., suffrage extension) and economic advances (i.e., industralization)
+  
+  3. Post-war period of democratic stability and economic prosperity (between the 40s and the 60s)
+  
+- As such, most studies on the rise of New Left/Green parties and PRR parties are restricted to party systems whose evolution follows this general framework
+
+## Beyond NWE: the party systems of SE
+
+- This framework cannot be applied to other parts of the world
+
+- As for our area of interest, this is not the case of other parts of Europe
+
+- We can differentiate two additional European (macro-)regions:
+
+  1. **Southern Europe** (SE), except for the case of Italy
+  
+  2. Post-communist or **Central-Eastern Europe** (CEE), that are not equivalent but to which we will refer here as if they were
+
+## Beyond NWE: the party systems of SE
+
+- We won't deal with the **party systems of CEE** in this seminar (to be discussed)
+
+- Although we may highlight a couple of facts:
+
+  1. Democracies born after the fall of the Berlin wall (90s)
+  
+  2. Characterised by unstable party systems
+  
+  3. Prompted to authoritarian-oriented leaders/defective implementation of democratic institutions
+  
+  4. Although important cross-country differences (e.g., stability in Slovenia vs. instability in Slovakia / high democratic quality in Lithuania vs. low democratic quality in Hungary)
+  
+## Beyond NWE: the party systems of SE
+
+- Instead, we will expand on the **party systems of SE** in this session
+
+- They share at least two relevant characteristics with the party systems of CEE:
+
+  1. They are part of the so-called **third wave of democratization** (beginning/end)
+  
+  2. In most cases, they are **preceded by authoritarian regimes** (with the exception of Malta)
+  
+- However, the autocracies of Greece, Portugal and Spain (as well as that of Italy before the 2nd World War) were **far-right autocracies** instead of communist regimes
+
+## Beyond NWE: the party systems of SE
+
+- This is important because the transition from authoritarian regimes generated at least two complementary dynamics that affected their **party system formation** process:
+
+  1. **Successor parties** in the case of elite driven transitions (such as AP in Spain and ND in Greece)
+  
+  2. A **social norm against far-right parties** [see more in @Dinas2020]
+
+- As with the case of the national and industrial revolutions for NWE, the **transitional revolution** and the specific **pre-existent conditions** matter to determine **party system characteristics**
+
+## Beyond NWE: the party systems of SE
+
+- Party systems in SE resemble those of NWE (but not those of CEE) because they all institutionalised very quickly after the first democratic election
+
+- Here, it is worth discussing the concept of **party system institutionalisation**:
+
+"for a party system to be considered institutionalised its component elements (i.e. political parties) need to interact in a stable and patterned way" [@CasalBertoa2019b, p. 569]
+
+- **Why did party systems of SE institutionalised more and quicker than party systems in CEE?**
+
+- Once again: social and institutional factors
+
+## Beyond NWE: the party systems of SE
+
+- **Why did party systems of SE institutionalised more and quicker than party systems in CEE?**\footnotemark
+
+  1. Electoral disproportionality
+  
+  2. Legislative concentration
+  
+  3. Parlamentarism
+  
+  3. Cumulative/overlapping cleavages
+  
+  5. Party institutionalisation
+  
+  \footnotemark[2] See [@CasalBertoa2019b]
+
+## Beyond NWE: the party systems of SE
+  
+- But what about **PRR and New Left/Green parties in SE**?
+
+- To answer these quetion we must differentiate between two group of countries:
+
+  1. Spain, Greece and Portugal
+  
+  2. Italy
+
+- And two periods:
+
+  1. Pre Great Recession
+  
+  2. Post Great Recession
+  
+- So let's talk about **crises**!
+
+# The impact of crises on party systems
+
+## The impact of crises on party systems
+
+"A **crisis situation** is created **when routine incremental problem-solving no longer works**, when institutions are no longer taken for granted and are no longer self-reinforcing, when the compliance of citizens is no longer guaranteed, and when positive feedback processes are set in motion that accentuate rather than counterbalance the emerging crisis" [@Kriesi2019, p. 33]
+
+- In **path-dependency** terminology, a **'critical juncture'**
+
+- A **punctuation** to an equilibrium, that gives place to new equilibrium
+
+- "Thus, the crisis situation constitutes an opportunity for change." [@Kriesi2019, p. 33]
+
+- **Of what crises across the world can you think of? What political change have/could brought?**
+
+## The impact of crises on party systems
+
+- So far we have discussed progressive changes
+
+- **Crises can foster rapid changes** instead
+
+- However, crises do **not** provoke changes **by themselves**
+
+  1. They **accelerate** existent **dynamics** (e.g., the 2015 refugee crisis on AfD)
+  
+  2. Or **unfold latent societal and political conflicts** (e.g., the Italian *tangentopoli*)
+
+- We will focus on two cases: the Italian *tangentopoli* and the Great Recession
+
+# The impact of crises on party systems: the Italian 'tangentopoli'
+
+## The impact of crises on party systems: the Italian 'tangentopoli'
+
+- We focus on the **tangentopoli crisis** in Italy because it has been by far **the major party system disruption in the history of Western European party systems**
+
+- **Italy**, as mentioned before, is the only Southern European country that followed the **patterns of NWE**
+
+- It became a **full democracy after the 2nd World War** with a bipolar party system characterised by two strong main parties at each pole of the left-right dimension: the Christian democrats (PDC) and the Communist party (PCI)
+
+- It also witness the **consequences of May 1968**. This generated an echo of strong protests in 1969 all over the country, but specially in the north. These protests where followed by the emergence of **environmentalist parties** that, however, had only **limited success**
+
+## The impact of crises on party systems: the Italian 'tangentopoli'
+
+- It also witnessed the creation of new far right parties in the beginning of the 90s. The creation of the **Northern League** (Lega Nord) was specially important (6% of the vote in its first elections in Northern regions). This party combined both **new right with regionalist issues**
+
+- **Because the main party of the left was communist, the fall of the Berlin wall divided it into two**, generating an important segmentation on the left
+
+- However, the main factor driving party system change was the **tangentopoli or 'mani pulite'** (*clean hands*) scandals. This is the name given to an investigation that took place between 1992 and 1994 by a group o Milanese prosecutors on Italian political parties
+
+- It showed that most of Italian political parties were implied in cases of **illegal financing**, sometimes doing business with the mafia, and across different party and governing levels (including the leaders of the two main parties)
+
+## The impact of crises on party systems: the Italian 'tangentopoli'
+
+- These discoveries were **largely covered by the media** and fostered **protests all over the country** [@Morlino1996]
+
+- As a result of it, **many parties splinted**, most importantly, the Christian democratic party, and **many new parties emerged**
+
+- Most importantly, the media magnate **Silvio Berlusconi** used their resources to exploit the discontent and create the party **Forza Italia**, that quickly became the first party at the polls
+
+- Other parties that 'benefited' from the crises were the extreme right party National Alliance (MSI-AN), the Northern League and the recently born social democratic party (PSD)
+
+- In sum, **the whole party system changeD from the 1990 to the 1994 election, registering the highest levels of volatility and party system fragmentation in the modern history of Western Europe**
+
+## The impact of crises on party systems: the Italian 'tangentopoli'
+
+```{r, fig.show="hold", out.height = "70%", out.width="90%", fig.cap = "Figure 1 from Morlino (1996)"}
+include_graphics(morlino)
+```  
+
+## The impact of crises on party systems: the Italian 'tangentopoli'
+
+- **So what did happen here?**
+
+  1. Long period of **economic stagnation**
+  
+  2. Turbulent **international politics** (i.e., the end of the Cold War)
+  
+  3. National **political legitimacy** crisis
+
+  4. **Disintegration of** political **parties**
+  
+  5. Sharp **decline** of **party ties**
+  
+  6. **Bottom-up mobilization**
+  
+  7. Media driven **top-down mobilization**
+  
+  8. In addition, **change of the electoral law** to a majoritarian FPTP system in a highly geographically fragmented country (interplay of institutional and societal factors)
+
+# An introduction to economic voting theory
+
+## An introduction to economic voting theory
+
+- The case of the **1994 Italian elections** is, of course, a particularly **extreme case**, but it tells something about the role of strong **valence shocks** on political behavior and party system change
+
+- A general empirical pattern: **voters tend to support the incumbent during periods of economic prosperity and the opposition during periods of economic decline**\footnotemark
+
+- This is encapsulated on the so-called **economic theory of voting**
+
+- It can be extended to **other valence issues**: mainly **corruption**
+
+- The prevalence of economic voting is **higher when party ties are weak**
+
+- The effect of economic voting in party system change is **higher when party systems are less institutionalized**
+
+  \footnotemark[3] See Achen and Bartels [-@Achen2017]
+
+## An introduction to economic voting theory
+
+```{r, fig.show="hold", out.height = "70%", out.width="70%", fig.cap = "Figure 6.1 from Achen and Bartels (2017)"}
+include_graphics(achen_bartels)
+```  
+
+# The impact of crises on party systems: the Great Recession
+
+## The impact of crises on party systems: the Great Recession
+
+- The most important economic crisis in the West since the Great Depression
+
+- It started in 2008 in the US, but its effects endured until 2015 in (some parts of) Europe (i.e., it led to the Eurozone crisis)
+
+- It particularly hit SE and Ireland (debtor vs. creditor countries)
+
+- **What consequences did it have for party systems?**
+
+- Unequal across Europe
+
+  1. In NWE and CEE benefited opposition countries in most countries
+  
+  2. In SE provoked the massive entry of challenger parties
+  
+## The impact of crises on party systems: the Great Recession
+
+- A **challenger party** is operationalised as a party that has not yet participated in the alternation of government [@Hobolt2016]
+
+- This definition has implications for other concepts that we have discussed: remember the definition of **party system institutionalisation** (i.e., repeated patterns of interaction between parties for the formation of government)
+
+- Let's see the four largest SE countries:
+
+  1. **Spain**: Podemos (*We Can*) and Ciudadanos (*Citizens*) 
+
+  2. **Greece**: Syriza, To Potami (*The River*), ANEL and the Golden Dawn
+  
+  3. **Italy**: first, technocratic government, afterwards M5S and Scelta Civica (*Civic Choice*)
+  
+  4. **Portugal**: BE, but continuity
+  
+## The impact of crises on party systems: the Great Recession
+
+- Why did Portugal's party system remain mostly unchanged? 
+
+  1. It came from a period of economic decline already (i.e., weaker shock)
+  
+  2. The left party in opposition accommodated the demands of the citizenry
+  
+## The impact of crises on party systems: the Great Recession
+
+- Current trends:
+
+  1. **Spain**: Podemos as minor govt. coalition partner, PRR entry (VOX) and Ciudadanos decline 
+
+  2. **Greece**: ND in govt, Syrize second party and PASOK re-emergence (third party in 2019)
+  
+  3. **Italy**: M5S decline, Scelta Civica (*Civic Choice*) disappearance, FI and LN as major parties on the right
+  
+  4. **Portugal**: PRR entry (Chega) and other new minor parties (LIVRE!)
+
+## The impact of crises on party systems: the Great Recession
+
+- This means that volatility has remained high in tose countries that experienced the strongest party system shocks after the Great Recession
+
+- Yet party ties have forged among challenger parties and its voters
+
+- ***Final activity!*** Let's divide the class in two groups. You have 5 minutes to discuss arguments against or in favour of the re-alignment vs. de-aligment theses in  SE, that is, why should we expect volatility to remain high or lower. Someone from each group should summarise the main points and then we will briefly debate. 
+
+# References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
