@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.23)  26 FEB 2022 18:20
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.27)  28 FEB 2022 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **course_syllabus.tex
 (./course_syllabus.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-21> (c:/Users/acana/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2022-02-24> (c:/Users/acana/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -136,7 +136,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-02-21 L3 programming layer (loader) 
+Package: expl3 2022-02-24 L3 programming layer (loader) 
 
 (c:/Users/acana/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
@@ -1035,18 +1035,15 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 8.3991pt on input line 215.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 215.
-[3] [4] [5] [6] [7]
-Missing character: There is no ^^90 (U+0090) in font [lmroman12-regular]:mappin
-g=tex-text;!
-[8] [9] (./course_syllabus.aux)
+[3] [4] [5] [6] [7] [8] [9] (./course_syllabus.aux)
 Package rerunfilecheck Info: File `course_syllabus.out' has not changed.
 (rerunfilecheck)             Checksum: ADCA93A148634DB0B0EABEED10BDBE9C;3270.
  ) 
 Here is how much of TeX's memory you used:
- 19007 strings out of 478181
- 350528 string characters out of 5852951
- 811657 words of memory out of 5000000
- 39332 multiletter control sequences out of 15000+600000
+ 19007 strings out of 478179
+ 350528 string characters out of 5852894
+ 811693 words of memory out of 5000000
+ 39334 multiletter control sequences out of 15000+600000
  476761 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,12n,121p,563b,445s stack positions out of 5000i,500n,10000p,200000b,80000s

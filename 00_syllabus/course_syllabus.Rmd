@@ -176,7 +176,11 @@ bib["Ignazi1992"]
   + Additional resources:
 
 ```{r, echo = FALSE, results="asis"} 
-bib["Mudde2007", "Mudde1999"]
+bib["Betz1993", "Mudde1999"]
+``` 
+
+```{r, echo = FALSE, results="asis"} 
+bib["Mudde2007", "Mudde2014"]
 ``` 
 
 **Session 4 (15:30 – 17:00): Economic voting and the Great Recession: new politics in Southern Europe**
@@ -190,11 +194,11 @@ bib["Kriesi2019"]
   + Additional resources:
 
 ```{r, echo = FALSE, results="asis"} 
-bib["Hutter2018", "Hernandez2016"]
+bib["CasalBertoa2019b", "Hernandez2016"]
 ``` 
 
 ```{r, echo = FALSE, results="asis"} 
-bib["Vidal2018"]
+bib["Hutter2018", "Vidal2018"]
 ``` 
 
 
@@ -252,6 +256,10 @@ bib["Chiaramonte2017"]
 
 ```{r, echo = FALSE, results="asis"} 
 bib["Emanuele2018","Emanuele2019"]
+``` 
+
+```{r, echo = FALSE, results="asis"} 
+bib["Mainwaring2006"]
 ``` 
 
 
