@@ -1,0 +1,434 @@
+---
+title: "The cultural dimension: cleavage theory revisited"
+
+subtitle: "Session 05"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: TRUE
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+library(tidyverse) # For loading the tidyverse environment
+library(ggpubr) # For arranging ggplot plots
+
+# Loading images' paths
+aus2006_gre2007 <- "images/aus2006_gre2007.png"
+```
+
+
+# Overview of the last sessions
+
+## Overview of the last sessions
+
+Take-home points from Session 1 to 4 (**who's up for a summary?**):
+
+1. Session 1 
+
+    - European **party systems are rooted on the social transformations that led to state formation**. They reflect the structure of conflict within each country and are shaped by reinforcing political institutions. From the 1920s to the 1960s, they remained mostly unchanged 
+
+2. Session 2
+
+    - **Since the 60s**, a transformation in the economic structure and generational replacement led to a **shift from materialistic to post-materialistic values**. This provided the necessary context to initiate some changes in the configuration of party systems, **mainly driven by green and new left parties**
+
+## Overview of the last sessions
+
+Take-home points from Session 1 to 4:
+
+3. Session 3
+
+    - **As a counter-reaction** to the changes initiated in the 60s, a wave of **new far right parties** took place, introducing a **progressive transformation on the** traditional class cleavage and the overall **conflict structure**
+
+4. Session 4
+  
+    - In contrast to the progressive cumulative change in NWE, some **SE countries**, that had been less affected by the green and PRR wave, **experienced a series of party systems shock after political and economic crises**
+
+# Introduction to the spatial model I: the unidimensional model
+
+## Introduction to the spatial model I: the unidimensional model
+
+- **But how can we make sense of these changes?**
+
+- In this session we will cover the most recent **updates of the cleavage theory**, that account for the transformation of western European party systems 
+
+- To follow these updates, we will first some basic notions of the **spatial theory of voting and party competition**
+
+## Introduction to the spatial model I: the unidimensional model
+
+- The spatial (or economic) theory of voting and party competition was proposed by **Downs** [-@Downs1957]
+
+- He proposed an analysis of elections as **electoral markets** in which the **demand side** was the electorate and the **supply side** was the competing parties
+
+- In his initial **model**, based on the USA context, two parties competed to **maximize voters** over **one dimension**
+
+- We will use this basic setup for simplicity, although **Europe** is mostly characterize by **multiparty systems**
+
+## Introduction to the spatial model I: the unidimensional model
+
+- So first of all, by do we mean by a **dimension**?
+
+  1. Mathematically -> a vector that represents a a set of preferences over a continuum
+
+  2. In our setup -> policy preferences that range from 0 (the left) to 10 (the right)
+
+\
+
+\begin{beamercolorbox}[center]{title}
+the left 0 --- 1 --- 2 --- 3 --- 4 --- 5 --- 6 --- 7 --- 8 --- 9 --- 10 the right
+  \end{beamercolorbox}
+
+## Introduction to the spatial model I: the unidimensional model
+
+- To recall:
+
+    1. Models are simplifications of reality
+  
+    2. "All models are wrong, but some are useful" (G. Box)
+  
+    3. The key for interpreting any model: understanding the assumptions
+
+- The **main assumption of the Downsian model** is that parties aim to **maximize votes** to win the election
+
+- The second assumption is that each voter have a fixed policy preference over the continuum, which gives place to a **preference distribution**
+
+## Introduction to the spatial model I: the unidimensional model
+
+- Each party depart from a different side of the spectrum (as representing **each side of a cleavage**)
+
+- Then, each political party take the **policy stance** (i.e., position over the continuum) that maximizes its chances of winning the election by **approximating the preference of the median voter** (i.e., the preference that leaves an equal number of voters at each side of the distribution)
+
+- Let's imagine in our case that we have two parties, each of them representing each side of the left-right ideological dimension that want to maximize their chances of winning the next election by moderating their positions
+
+  1. The first party is a **centre-left party**, that takes a **4**
+
+  2. The second party is a **centre-right party**, that takes a **5**
+
+  3. **Preferences are normally distributed** within the population
+
+## Introduction to the spatial model I: the unidimensional model
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7,fig.height=4, fig.cap ="Unidimensional space with two parties and abstention"}
+# Simulated competition models
+
+## L-r preferences
+set.seed(124)
+
+preferences_lr <- rbinom(n = 1000, size = 10, prob = 0.5)
+
+## Orthogonal gal-tan preferences
+set.seed(431)
+
+preferences_galtan <- rbinom(n = 1000, size = 10, prob = 0.5)
+
+## Non-orthogonal gal-tan preferences
+preferences_galtan_corr <- (
+  # correlated with l-r preferences (more to the left in galtan)
+  0.4*preferences_lr +
+  # + uncorrelated (random) error                          
+  0.6*preferences_galtan)
+
+## Creating the dataset
+df <- data.frame(preferences_lr,
+                      preferences_galtan,
+                      preferences_galtan_corr)
+
+#summary(df$preferences_galtan_corr)
+
+# Manipulating the data
+df <- df %>%
+  mutate(centerLeft_lr = 4, # center-left party position equal on both dimensions
+         centerRight_lr = 6, # center-right party position equal on both dimensions
+         # preferences in unidimensional competition (median voter theorem)
+         party_pref_unidim = ifelse(preferences_lr <= centerLeft_lr, 1,
+                                   ifelse(preferences_lr >= centerRight_lr, 2, 0)),
+         party_pref_unidim = factor(party_pref_unidim,
+                                      levels = c("0",
+                                                 "1",
+                                                 "2"),
+                                      labels = c("Abstention",
+                                                 "Center-left",
+                                                 "Center-right")),
+        # preferences in bidimensional competition I: orthogonal gal-tan
+         party_pref_bidim = ifelse(preferences_lr <= 5 &
+                                 preferences_galtan <= 5, 1,
+                                ifelse(preferences_lr >= 5 &
+                                       preferences_galtan >= 5, 2, 0)),
+         party_pref_bidim = factor(party_pref_bidim,
+                                      levels = c("0",
+                                                 "1",
+                                                 "2"),
+                                      labels = c("Abstention",
+                                                 "Center-left",
+                                                 "Center-right")),
+         # preferences in bidimensional competition II: non-orthogonal gal-tan
+         party_pref_bidim_corr = ifelse(preferences_lr <= 5 &
+                                 preferences_galtan_corr <= 5, 1,
+                                ifelse(preferences_lr >= 5 &
+                                       preferences_galtan_corr >= 5, 2, 0)),
+         party_pref_bidim_corr = factor(party_pref_bidim_corr,
+                                      levels = c("0",
+                                                 "1",
+                                                 "2"),
+                                      labels = c("Abstention",
+                                                 "Center-left",
+                                                 "Center-right")))
+
+#glimpse(df)
+
+## Visualizing unidimensional competition = bidimensional with perfectly correlated preferences
+ggplot(df, aes(x = preferences_lr, fill = party_pref_unidim)) +
+  geom_histogram(bins=10) +
+  xlab("Preferences first dimension") +
+  ylab("Frequency") +
+  guides(fill=guide_legend(title="Party preference"))
+
+```
+
+## Introduction to the spatial model I: the unidimensional model
+
+- Let's play with this set-up a little!
+
+  1. What happens if we add a **centre-party** to the model?
+  
+  2. And if we add a **extreme-right party**?
+  
+  3. And if we add a **extreme-right and extreme-left party**?
+  
+  4. What happened if the distribution is slightly **skewed to the right** (i.e., more voters in the left)?
+  
+  5. And **to the left** (i.e., more voters in the right)?
+  
+  6. What happens if **extreme voters are apathetic**?
+  
+  7. What happens if the **centre-right party is in government and the economy is doing good**?
+  
+  8. And if **the economy is doing bad**?
+  
+  9. What happens if the position of the parties is **3 and 7** respectively and they have a **programmatic constraints/reputation** (i.e., they cannot credibly shift without a cost)?
+
+## Introduction to the spatial model I: the unidimensional model
+
+- In sum, **the Downsian model**, as well as models in general, is **a tool that help us understand the reality**, by providing means of mathematically and graphically summarising (theoretical) expectations
+
+- **Transforming cleavages into dimensions of competition** help us to **analyse the interaction between parties (i.e., party systems)** as well as **parties and voters (i.e., electoral competition)**, under a given set of conditions
+
+# Introduction to the spatial model II: the bidimensional model
+
+## Introduction to the spatial model II: the bidimensional model
+
+- So far, however, we have only contemplated situations in which party compete over a single dimensions
+
+- However, we know that **cleavages can overlap or cross-cut each other**
+
+- If they don't completely overlap, we can interpret the secondary **cross-cutting cleavage as a second dimension**
+
+- Let's say for example that parties compete in **Catalonia (Spain)** where there are two important dimensions
+
+  1. The **left-right economic dimension** is rooted in the **class cleavage**
+  
+  2. The **integration-demarcation dimension** is rooted in the **centre-periphery cleavage**
+
+## Introduction to the spatial model II: the bidimensional model
+
+- We have **two hypothetical scenarios**:
+
+  1. In **Figure 2** the two dimensions are **partially coincidental/overlapping** 
+  
+      + This could be the case if the second dimension was **not at all salient/divisive**
+      
+  2. In **Figure 3** the two dimensions are **completely independent** (i.e., orthogonal in mathematical terms)
+  
+      + This could be the case if the second dimension was **extremely salient/divisive**
+
+## Introduction to the spatial model II: the bidimensional model
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7,fig.height=4, fig.cap ="Bimensional competition with two parties and correlated preferences"}
+
+## Visualizing bidimensional competition with correlated preferences
+ggplot(df, aes(x = preferences_lr, y = preferences_galtan_corr, colour = party_pref_bidim_corr)) +
+  geom_jitter() +
+     xlim(0, 10) +
+  ylim(0,10) +
+  xlab("Preferences first dimension") +
+  ylab("Preferences second dimension") +
+  guides(colour=guide_legend(title="Party preference"))
+
+```
+
+## Introduction to the spatial model II: the bidimensional model
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=7,fig.height=4, fig.cap ="Bimensional competition with two parties and orthogonal preferences"}
+
+## Visualizing bidimensional competition with orthogonal preferences
+ggplot(df, aes(x = preferences_lr, y = preferences_galtan, colour = party_pref_bidim)) +
+  geom_jitter() +
+   xlim(0, 10) +
+  ylim(0,10) +
+  xlab("Preferences first dimension") +
+  ylab("Preferences second dimension") +
+  guides(colour=guide_legend(title="Party preference"))
+
+```
+
+## Introduction to the spatial model II: the bidimensional model
+
+This lead to a series of implications, most importantly:
+
+  1. As the **dimensions** become **more cross-cutting**, the **space opened for new parties** becomes **larger**
+  
+  2. The **larger** becomes the **space opened for new parties**, the **party system** will tened to be **more fragmented**
+  
+  3. As **more dimensions** cross-cut each other, the **space opened for new parties** becomes **larger** and the **party system** will tend to be **more fragmented**
+
+# The emergence of a new value-based cleavage? Introducing the cultural dimension
+
+## The emergence of a new value-based cleavage? Introducing the cultural dimension
+
+- In previous sessions we have discussed the importance of the **class-cleavage**
+
+- This is the **main cleavage structuring the political competition Western Europe**
+
+- In fact, the **left-right (or first order) dimension**, which is the most used dimension in European political studies, captures preferences **deeply rooted in the class cleavage**
+
+## The emergence of a new value-based cleavage? The cultural dimension
+
+- The rest of cleavages discussed by Lipset and Rokkan [-@Lipset1967a] have country-specific manifestations and, with some exceptions, have weakened with time
+
+  1. The **state-church cleavage** has eroded as a result of growing secularization
+  
+  2. The **urban-rural cleavage** (although re-emerging according to some scholars) have eroded with massive migration from the country side to the city
+  
+  3. The **centre-periphery cleavage** is the only exception, since it has become even stronger in some cases (e.g., Catalonia in Spain or Scotland in the UK)
+
+## The emergence of a new value-based cleavage? The cultural dimension
+  
+- None of them, however, explains the rise of new left and new right parties
+
+- This has led scholars to **two alternative conclusions**:
+
+  1. Either **cleavages have lost their explanatory power** and political competition dynamics are now driven by issue voting, short-term strategies and opportunistic/charismatic leadership
+  
+  2. Or a **new cleavage** is structuring the political conflict in Europe
+  
+- This is why scholars situated on the latter tradition argue that **Western Europe is increasingly structured by a two-dimensional political space**\footnotemark
+
+    \footnotemark[1]And the reason why I wanted to be sure that you understand the party-system implications of spatial models with two dimensions
+  
+## The emergence of a new value-based cleavage? The cultural dimension
+
+- There is a series of names that different scholars have given to the new cleavage:
+
+  1. Integration-demarcation [e.g., @Kriesi1998]
+  
+  2. Universalistic-communitarian [e.g., @Bornschier2010]
+  
+  3. Green/alternative/libertarian(**GAL**)-Tradition-authority-national(**TAN**) [e.g., @Hooghe2018b]
+  
+  4. Winners-losers (of globalization) [e.g., @Kriesi2006, @Hutter2019]
+  
+- But all of these accounts coincide on some **basic features**
+
+## The emergence of a new value-based cleavage? The cultural dimension
+
+- ***Basic features*** of the new cleavage:
+
+  1. The cleavage is rooted on  (1) the expansion of **educational rights**, (2) the transition **from an industrial to a post-industrial society** and (3) the processes of **globalization**
+  
+  2. These three processes have generated groups of **winners** and **losers**, i.e. people that have benefited or been harmed as a result, that constitute the two sides of the conflict
+  
+  3. The cleavage raises opposed **cultural values and preferences**. Losers tend to manifest traditional, nativist an authoritarian-oriented values while winners tend to support progressive, multiculturalist and libertarian policies
+  
+  4. The parties that better represent each of the poles of the conflict are the **new left parties** for the winners and the **PRR** parties for the losers
+  
+# Cross-country variation and current trends
+
+## Cross-country variation and current trends
+
+- However, this second-dimension is **not completely orthogonal** to the first dimension
+
+- Also, **traditional parties** (i.e., mainstream or dominant) have sometimes been **dominant on the second-dimension** too (e.g., Social Democratic parties that accommodated the demands of NSM)
+
+- There are important regional differences:
+
+  1. In ***NWE***, the second and first dimensions are **more orthogonal** and **new parties** have been the main drivers of shift to the second dimension
+  
+  2. In ***SE***, the second and first dimensions are **less orthogonal** and **traditional** parties have more frequently drove the shift to the second dimension
+
+## Cross-country variation and current trends
+  
+- **Why these differences?**
+
+  1. Authoritarian legacies
+  
+  2. Party system formation during the silent revolution (i.e., more permeable party systems)
+  
+  3. Weaker economic development
+  
+  4. Lower levels of immigration
+  
+  5. Already segmented party systems that absorbed the new demands
+  
+  6. Others?
+  
+- The **recent** irruption of PRR parties in Portugal and Spain suggest some **degree of convergence**
+
+## The emergence of a new value-based cleavage? Thecultural dimension
+
+- **Final activity!** Let look at two paradigmatic cases visualized with real data from 15 years ago: **what can we say about them? What do they tell recent events?**
+
+```{r, fig.show="hold", out.height = "50%", out.width="70%", fig.cap = "Austria 2006 and Greece 2007 compared / Source: Bornschier (2010) and Hutter and Kriesi (2019) respectively"}
+include_graphics(aus2006_gre2007)
+```  
+
+# References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
