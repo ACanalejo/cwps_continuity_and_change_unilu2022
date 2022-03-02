@@ -1,0 +1,201 @@
+---
+title: "Changing party-systems? Wrapping-up workshop on electoral volatility"
+
+subtitle: "Session 07"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: TRUE
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+me_mair <- "images/me_and_mair.png"
+```
+
+
+# Overview of the last session
+
+## Overview of the last session
+
+Take-home points from Session 6:
+
+  1. There are **a bunch of ways of assessing party system change**, from volatility indices to compound indices of party system closure or restraint
+  
+  2. The **debate on party system change** has revitalized in the past years. According to some, the general bias towards stability of party systems remains strong while others suggest that some European party system have de-institutionalized in the last decade
+  
+  3. There is not a correct **answer** and it **depends a lot on the way you conceptualize and measure party system change**
+  
+  4. There is an **open venue for new research and innovation!**
+
+- **In this session** we will move from theory and the review of previous analyses to **perform one empirical analysis ourselves**
+
+# A replication exercise
+
+## A replication exercise
+
+- **What is replication?**
+
+- Replication consists of the **repetition of an earlier study** using sufficiently **similar methods** and under **sufficiently similar circumstances**
+
+- Different **types**:
+
+  1. Systematic repetition of the exactly same analysis over the exact same data
+  
+  2. Additional analyses over the exact same data
+  
+  3. Exact same analyses over different but similar data
+
+  4. Additional but related analyses over different but similar data
+
+## A replication exercise
+
+- Important for science:
+
+  1. **Verifiability**
+  
+  2. **Validity**
+  
+  3. Test **scope conditions**
+
+# An empirical exercise with real world data
+
+## An empirical exercise with real world data
+
+- **Why are we doing one ourselves?**
+
+- First of all, just to show that **it can be done! **
+
+- We can test the implications of what we have seen so far, validate previous results, and maybe discover something new
+
+- We will focus on the most used indicator to assess party system change: **electoral volatility**
+
+- Specifically, we will use the data produced by Chiaramonte and Emanuele [-@Chiaramonte2017] on party system volatility in Europe from 1945 to 2015
+
+# The empirical exercise
+
+## The empirical exercise
+
+- First of all, **download an install R and RStudio**
+
+- **R** is a free software environment for statistical computing and graphics
+
+- **RStudio** is an Integrated Development Environment (IDE) for R 
+
+- In addition, it supports other languages too (these slides have been done with Beamer in RStudio!) 
+
+## The empirical exercise
+
+- First step, **download the latest version of** [R](https://cloud.r-project.org/) **and** [RStudio](https://www.rstudio.com/products/rstudio/download/)
+
+- Second step, go to the website of the course and **download the file replication_exercise.Rmd from the folder** [07_session](https://github.com/ACanalejo/cwps_continuity_and_change_unilu2022/tree/master/07_session)
+
+- Third step, **open the file replication_exercise.Rmd with RStudio**
+
+# More on replication: what you can do
+
+## More on replication: what you can do
+
+- Look at the papers in the course bibliography
+
+- Specifically **the most recent papers normally come with replication files** (most high ranking journals nowadays demand these files for publication)
+
+- If not, **they will refer to the data they use** somewhere in the paper and you can always google it! This usually works
+
+- Now that you have R and you know the basics, **you can repeat this exercise with other datasets**
+
+- Of course, **R programming can be difficult** at the beginning **but it is a matter of practice** and ***lot of google searches***
+
+- **Is there anything specific that you would like to do?**
+
+# Feedback and or organization of the second block II
+
+## Feedback and or organization of the second block II
+
+- **Congratulations!** We have finished the first block of the seminar
+
+- In the second block we will move from the country/party-system level to the party and voter levels:
+
+  1. Review some demand-side factors that explain party system change/continuity
+  
+  2. Review some supply-side factors that explain party system change/continuity
+
+- You will also have to present your work
+
+- We will review review what we have discussed together in the final session
+
+## Feedback and or organization of the second block II
+
+- There are three final things we must do now:
+
+  1. Sort out the presentations
+  
+  2. Get your feedback on the course so far
+  
+  3. Is there anything that you would like to discuss in the next session that is not included on the syllabus? 
+  
+  4. Would you like a different arrangement for the rest of the sessions?
+
+## Feedback and or organization of the second block II
+
+That's all! 
+
+**Many thanks!** 
+
+```{r, fig.show="hold", out.height = "60%", out.width="50%", fig.align="right"}
+include_graphics(me_mair)
+```
+
+# References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
