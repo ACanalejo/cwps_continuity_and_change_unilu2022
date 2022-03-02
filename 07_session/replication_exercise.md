@@ -19,14 +19,12 @@ knitr::opts_chunk$set(echo = TRUE)
 # Installing packages
 #install.packages("kableExtra")
 #install.packages("tidyverse")
-#install.packages("XML")
 #install.packages("readxl")
 
 # Loading packages
 library(knitr) # for compiling the document in pdf
 library(kableExtra) # for LaTeX based tables
 library(tidyverse) # load the tidyverse programming environment
-library(XML) # for importing xlsx files from the web
 library(readxl) # for importing xlsx files
 ```
 
