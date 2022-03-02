@@ -73,9 +73,9 @@ vol_data <- read_excel("C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_con
 Check at the environment tab below. Can you find the volatility_data
 object there? Great! That means that we have the data already!
 
-Now the show must go on. **The first thing to do whenever we analyse a
+Now, the show must go on. **The first thing to do whenever we analyse a
 new dataset is taking a first look at its structure**. We will use the
-tidyverse environment instead of R base function for the most of it.
+tidyverse environment instead of R base functions for the most of it.
 
 ``` r
 # Look at the data structure
@@ -102,12 +102,12 @@ the first number of observations.
 Take your time to look at it.
 
 You may notice that the last variable, **…8**, contains information on
-the dataset citation. We can look at it better with the commands
-*summary* and *head*.
+the dataset citation. We can check this with the commands *summary* and
+*head*.
 
 ``` r
 # Get a summary of the variable "...8"
-summary(vol_data$...8, n=10)
+summary(vol_data$...8)
 ```
 
     ##    Length     Class      Mode 
@@ -129,7 +129,7 @@ head(vol_data$...8, n=10)
     ##  [9] NA                                                                                                                                                                                         
     ## [10] NA
 
-The command *summary* tell sus that it is a variable of type character
+The command *summary* tells us that it is a variable of type character
 (i.e., a string) with length 347, which means that has 347 characters
 (or letters) in total. The *head* command confirms that the first
 observation only contains the dataset citation and the rest is missing
@@ -155,7 +155,7 @@ glimpse(vol_data)
     ## $ OthV          <dbl> 0.35, 0.45, 0.20, 0.05, 0.30, 0.25, 0.05, 0.20, 0.00, 0.~
     ## $ TV            <dbl> 12.20, 4.00, 5.65, 3.00, 1.80, 4.75, 6.60, 2.00, 0.45, 1~
 
-Ok! Now that we have kept only the necessary variables we should
+Ok! So now that we have kept only the necessary variables we should
 transform the variable *Country* into a factor. This allows us to group
 the information by each country category, which is definitely more
 useful than analysing single country-year elections.
@@ -181,7 +181,7 @@ glimpse(vol_data)
 
 Let’s begin to explore the data!
 
-We can start by some simple visualization. Remember the **preference
+We can start with some simple visualization. Remember the **preference
 distribution** from Session 5? We can use a **histogram** to visualize
 the distribution of any other numeric variable, such as total
 volatility. Looking at the data distribution is always useful and one of

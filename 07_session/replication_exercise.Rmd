@@ -70,7 +70,7 @@ vol_data <- read_excel("C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_con
 
 Check at the environment tab below. Can you find the volatility_data object there? Great! That means that we have the data already!
 
-Now the show must go on. **The first thing to do whenever we analyse a new dataset is taking a first look at its structure**. We will use the tidyverse environment instead of R base function for the most of it.
+Now, the show must go on. **The first thing to do whenever we analyse a new dataset is taking a first look at its structure**. We will use the tidyverse environment instead of R base functions for the most of it.
 
 ```{r, warning = FALSE, message = FALSE}
 # Look at the data structure
@@ -81,17 +81,17 @@ So what do we have here? The first thing we notice is that our dataset has **347
 
 Take your time to look at it.
 
-You may notice that the last variable, **...8**, contains information on the dataset citation. We can look at it better with the commands *summary* and *head*.
+You may notice that the last variable, **...8**, contains information on the dataset citation. We can check this with the commands *summary* and *head*.
 
 ```{r, warning = FALSE, message = FALSE}
 # Get a summary of the variable "...8"
-summary(vol_data$...8, n=10)
+summary(vol_data$...8)
 
 # Look at the first ten observations
 head(vol_data$...8, n=10)
 ```
 
-The command *summary* tell sus that it is a variable of type character (i.e., a string) with length 347, which means that has 347 characters (or letters) in total. The *head* command confirms that the first observation only contains the dataset citation and the rest is missing values, that in R are represented by *NA* (i.e., *not available*). We can remove it and take another look at the data.
+The command *summary* tells us that it is a variable of type character (i.e., a string) with length 347, which means that has 347 characters (or letters) in total. The *head* command confirms that the first observation only contains the dataset citation and the rest is missing values, that in R are represented by *NA* (i.e., *not available*). We can remove it and take another look at the data.
 
 ```{r, warning = FALSE, message = FALSE}
 # Remove the variable ...8
@@ -101,7 +101,7 @@ vol_data <- vol_data %>%
 # Check the data structure again
 glimpse(vol_data)
 ```
-Ok! Now that we have kept only the necessary variables we should transform the variable *Country* into a factor. This allows us to group the information by each country category, which is definitely more useful than analysing single country-year elections.
+Ok! So now that we have kept only the necessary variables we should transform the variable *Country* into a factor. This allows us to group the information by each country category, which is definitely more useful than analysing single country-year elections.
 
 ```{r, warning = FALSE, message = FALSE}
 # Converting character into factr variables
@@ -114,7 +114,7 @@ glimpse(vol_data)
 
 Let's begin to explore the data!
 
-We can start by some simple visualization. Remember the **preference distribution** from Session 5? We can use a **histogram** to visualize the distribution of any other numeric variable, such as total volatility. Looking at the data distribution is always useful and one of the first steps of any data analysis. The distribution tells us a few interesting things about the underlying phenomenon we are looking at.
+We can start with some simple visualization. Remember the **preference distribution** from Session 5? We can use a **histogram** to visualize the distribution of any other numeric variable, such as total volatility. Looking at the data distribution is always useful and one of the first steps of any data analysis. The distribution tells us a few interesting things about the underlying phenomenon we are looking at.
 
 ```{r, warning = FALSE, message = FALSE}
 # Histogram of Total Volatility
