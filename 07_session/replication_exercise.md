@@ -5,9 +5,8 @@ Changing party-systems? Replication exercise on electoral volatility
 
 ------------------------------------------------------------------------
 
-First, we have to **set up the basis** of our analysis. The first chunk
-of code is opened by default. There, we define *knitr* parameters,
-install and load the necessary packages.
+First, we have to **set up our project**. In the first chunk of code we
+define *knitr* parameters, install and load the necessary packages.
 
 ``` r
 # Setting the compiling options
@@ -35,13 +34,13 @@ hosted.
 The dataset **Party system volatility, regeneration and
 de-institutionalization in Western Europe (1945–2015)** (Emanuele, 2015)
 is on a dedicated webpage from the University Luiss Guido Carli. I have
-copied and pasted the URL for you.
+copied and pasted the URL already.
 
-By default, any RMarkdown document set our working directory on the
-folder where you have downloaded the .Rmd file. We will get this path
-and add the name of the file that contains the data to it. Therefore,
-you must substitute the path in *dest* by the path of your working
-directory and leave the same file name at the end of the path.
+By default, any RMarkdown document sets the working directory on the
+same folder where you have downloaded the .Rmd file. We will get this
+path and add the name of the file that contains the data to it.
+Therefore, you must substitute the path in *dest* by the path of your
+working directory and leave the same file name at the end of the path.
 
 Finally, we can proceed to download the data.
 
