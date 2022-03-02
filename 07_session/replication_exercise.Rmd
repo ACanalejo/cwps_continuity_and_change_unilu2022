@@ -41,11 +41,13 @@ library(XML) # for importing xlsx files from the web
 library(readxl) # for importing xlsx files
 ```
 
-Second, we must **get the data**. We will download it directly from the internet through R.We start by defining the URL where the data is hosted. 
+Second, we must **get the data**. We will download it directly from the internet through R. We start by defining the URL where the data is hosted. 
+
+The dataset **Party system volatility, regeneration and de-institutionalization in Western Europe (1945–2015)** (Emanuele, 2015) is on a dedicated webpage from the University Luiss Guido Carli. I have copied and pasted the URL for you.
 
 By default RMarkdown documents set our working directory on the folder where you have downloaded the .Rmd file. We will get this path and add the name of the file that contains the data to it. Therefore, you must substitute the path in *dest* by the path of your working directory and leave the file name at the end unchanged.
 
-Finally, we download the data.
+Finally, we can proceed to download the dataset
 
 ```{r, warning = FALSE, message = FALSE}
 # Defining the data URL 
@@ -60,15 +62,12 @@ dest <- "C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_cha
 
 # Download the data to the working directory
 download.file(data_url, dest, mode="wb")
-
 ```
 The next step is **opening the data** contained in the .xlsx file.
 
 ```{r, warning = FALSE, message = FALSE}
 # Open the data
-volatility_data <- read_excel("C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_change_unilu2022/07_session/volatility_data.xlsx")
-
-
+vol_data <- read_excel("C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_change_unilu2022/07_session/volatility_data.xlsx")
 ```
 
 Check at the environment tab below. Can you find the volatility_data object there? Great! That means that we have the data already!
@@ -76,8 +75,147 @@ Check at the environment tab below. Can you find the volatility_data object ther
 Ok, so the show must go on. **The first thing to do whenever we analyse a new dataset is taking a first look**. We will use the tidyverse environment instead of R base packages for most of it.
 
 ```{r, warning = FALSE, message = FALSE}
-# Checking the data structure
-glimpse(volatility_data)
+# Look at the data structure
+glimpse(vol_data)
 ```
 
-So what do we have here?
+So what do we have here? The first thing we notice is that our dataset have **347 rows** (i.e, country-year observations) and **8 columns** (i.e., variables). Each of the rows above contain information on the **name** of the variable, the variable **type** and the **values** of the first observations.
+
+Take your time to look at it.
+
+You may notice that the last variable **...8** contains information on the dataset citation. We can with the commands *summary* and *head*.
+
+```{r, warning = FALSE, message = FALSE}
+# Get a summary of the variable "...8"
+summary(vol_data$...8, n=10)
+
+# Look at the first ten observations
+head(vol_data$...8, n=10)
+```
+
+The command *summary* tell us that it is a variable of type character (i.e., a string) with length 347, which means that has 347 charaters (or letters). The *head* command confirm that the first observation only contains the dataset citation and the rest are missing values, that in R are represented by *NA* (i.e., not available). We can remove it and check the data again.
+
+```{r, warning = FALSE, message = FALSE}
+# Remove the variable ...8
+vol_data <- vol_data %>%
+  select(-...8)
+
+# Check the data structure again
+glimpse(vol_data)
+```
+Ok! Now that we have kept only the necessary variables we should transform the variable *Country* into a factor. 
+
+```{r, warning = FALSE, message = FALSE}
+# Converting character into factr variables
+vol_data <- vol_data %>%
+  mutate(Country = as.factor(Country))
+
+# Check the data structure again
+glimpse(vol_data)
+```
+
+This allows us to group the information by each country category, which is definitely more useful than analyse single country-year elections.
+
+Let's begin to explore the data!
+
+We can start by some simple visualization. Remember the **preference distribution** from Session 5? We can use a **histogram** to visualize the distribution of other numeric variables, such as total volatility. Looking at data distribution is always useful and one of the first steps of any data analysis. The distribution tell us a few interesting things about the underlying phenomenon we are looking at.
+
+```{r, warning = FALSE, message = FALSE}
+# Histogram of Total Volatility
+ggplot(vol_data, aes(x = TV)) +
+  geom_histogram()
+```
+
+What does it tell us here? **Let's dicuss it!**
+
+Even though we learned a few things about volatility in Europe as a whole, the histogram didn't tell us much about differences across countries. We may want to look at the **distribution within each country** now.
+
+```{r, warning = FALSE, message = FALSE}
+# Histogram of Total Volatility by country
+ggplot(vol_data, aes(x = TV)) +
+  geom_histogram() +
+  facet_wrap(~Country)
+```
+
+Now we can see that there are **important differences** across countries. Some of them have very patterned volatility levels while others have wider distributions. In addition, some countries have more identifiable **outliers**, but we don't know the specific elections. Let's check which elections are.
+
+```{r, warning = FALSE, message = FALSE}
+# Showing cases where total volatility > 30 only
+vol_data %>% 
+  filter(TV > 30)
+```
+
+**Does any of these elections sound familiar to you?**
+
+Now let's do a little replication exercise! In their analyses, Chiaramonte and Emanuele (2017) divide the data in three periods: 1946-1968, 1969-1991 and 1992-2015. Then, they measure the average levels of Regeneration Volatility for each country on each of the periods to see **what party systems have become more volatile over time** (our first research question) and if Regeneration Volatility has generally increased (our second research question). They display this information on a table. We will take a further step by summarising the same information but displaying it on a plot.
+
+First, we have to create a factor variable in which each category represents one of the periods
+
+```{r, warning = FALSE, message = FALSE}
+# Create period variable
+vol_data <- vol_data %>% 
+  mutate(Period = ifelse(Election_Year >= 1946 &
+                         Election_Year <=1968, 1,
+                        ifelse(Election_Year >= 1969 &
+                               Election_Year <=1991, 2,
+                           ifelse(Election_Year >= 1992 &
+                                  Election_Year <=2015, 3, NA))),
+  # transform period variable into a factor       
+         Period = factor(Period,
+                         levels = c("1",
+                                    "2",
+                                    "3"),
+                         labels = c("1946-1968",
+                                    "1969-1991",
+                                    "1992-2015")))
+# Get a summary of new the variable "period"
+summary(vol_data$Period)
+```
+
+We can see that the first period has 99 elections, the second period 127 elections and the third period 121 elections. **But does regeneration volatility varies across them?**
+
+We can start by visualizing the average levels of RegV and its dispersion by period using **boxplots**.
+
+```{r, warning = FALSE, message = FALSE}
+# Boxplot of Regeneration Volatility by period
+ggplot(vol_data, aes(x = Period, y = RegV)) +
+  geom_boxplot(aes(fill = Period))
+```
+
+The boxplots in this case are not too informative, because most elections have low RegV levels. What we can do is **using the logarithmic form of RegV**, which lowers the weight of outliers. As a trade-off, the values become more less intuitive.
+
+```{r, warning = FALSE, message = FALSE}
+# Boxplot of the log of Regeneration Volatility by period
+ggplot(vol_data, aes(x = Period, y = log(RegV + 1))) +
+  geom_boxplot(aes(fill = Period))
+```
+
+It seems that **volatility has indeed increased with time!** However, this tell us little about cross-country differences. **Let's look at the same plot by country.**
+
+```{r, warning = FALSE, message = FALSE}
+# Creating a Period variable with shorter labels for aes
+vol_data <- vol_data %>%
+  mutate(Period_lab = factor(Period,
+                                labels = c("P1",
+                                           "P2",
+                                           "P3")))
+
+# Boxplot of log RegV by period and country
+ggplot(vol_data, aes(x = Period_lab, y = log(RegV + 1))) +
+  geom_boxplot(aes(fill = Period)) +
+  facet_wrap(~Country) +
+  # Adding some aesthetic details
+  xlab("Period") +
+  ylab("log RegV") +
+  guides(fill=guide_legend(title=""))
+```
+
+Great! This single plot summarises even more information than the table of Chiaramonte and Emanuele (2017). As a final class activity, **let's discuss now what you see here that they might have missed!**
+
+(PS: I hope you enjoyed your little walk through R)
+
+# References
+
+Emanuele, V. (2015). Dataset of Electoral Volatility and its internal components in Western Europe (1945-2015). Rome: Italian Center for Electoral Studies.
+
+Chiaramonte, A., & Emanuele, V. (2017). Party system volatility, regeneration and de-institutionalization in Western Europe (1945–2015). Party Politics, 23(4), 376–388.
