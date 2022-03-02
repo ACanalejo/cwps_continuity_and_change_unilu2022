@@ -1,28 +1,9 @@
----
-title: "Changing party-systems? Wrapping-up workshop on electoral volatility"
+Changing party-systems? Wrapping-up workshop on electoral volatility
+================
+Álvaro Canalejo-Molero
+Spring Term 2021-2022
 
-subtitle: "Replication exercise on electoral volatility"
-  
-author: "Álvaro Canalejo-Molero"
-
-date: "Spring Term 2021-2022"
-
-institute: "University of Lucerne"
-
-link-citations: yes
-
-linkcolor: blue 
-
-fontsize: 12pt
-
-output:
-  github_document:
-    toc: false
-  
-
----
-
-```{r setup, warning = FALSE, message = FALSE}
+``` r
 # Setting the compiling options
 knitr::opts_chunk$set(echo = TRUE)
 
@@ -40,15 +21,19 @@ library(XML) # for importing xlsx files from the web
 library(readxl) # for importing xlsx files
 ```
 
-- Getting the data
+-   Getting the data
 
-```{r, warning = FALSE, message = FALSE}
+``` r
 # Defining the dta URL 
 data_url <- "https://cise.luiss.it/cise/wp-content/uploads/downloads/2019/03/Dataset-of-Electoral-Volatility-and-its-internal-components-in-Western-Europe-1945-2015.xlsx"
 
 # Get working directory path
 getwd()
+```
 
+    ## [1] "C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_change_unilu2022/07_session"
+
+``` r
 # Create the destine file in your working directory
 ## in my case
 dest <- "C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_change_unilu2022/07_session/volatility_data.xlsx"
@@ -58,11 +43,4 @@ download.file(data_url, dest, mode="wb")
 
 # Open the data
 volatility_data <- read_excel("C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_change_unilu2022/07_session/volatility_data.xlsx")
-
-```
-
-```{r, warning = FALSE, message = FALSE}
-
-
-
 ```
