@@ -1,13 +1,9 @@
 ---
-title: "Changing party-systems? Wrapping-up workshop on electoral volatility"
-
-subtitle: "Replication exercise on electoral volatility"
+title: "Changing party-systems? Replication exercise on electoral volatility"
   
 author: "Álvaro Canalejo-Molero"
 
-date: "Spring Term 2021-2022"
-
-institute: "University of Lucerne"
+date: "/ March 2022"
 
 link-citations: yes
 
@@ -21,10 +17,15 @@ output:
   
 
 ---
+------------------------------------------------
+First, we have to **set up the basis** of our analysis. The first chunk of code is opened by default. There, we define *knitr* parameters, install and load the necessary packages.
 
 ```{r setup, warning = FALSE, message = FALSE}
 # Setting the compiling options
 knitr::opts_chunk$set(echo = TRUE)
+
+# Cleaning the environment
+#rm(list = ls())
 
 # Installing packages
 #install.packages("kableExtra")
@@ -40,10 +41,14 @@ library(XML) # for importing xlsx files from the web
 library(readxl) # for importing xlsx files
 ```
 
-- Getting the data
+Second, we must **get the data**. We will download it directly from the internet through R.We start by defining the URL where the data is hosted. 
+
+By default RMarkdown documents set our working directory on the folder where you have downloaded the .Rmd file. We will get this path and add the name of the file that contains the data to it. Therefore, you must substitute the path in *dest* by the path of your working directory and leave the file name at the end unchanged.
+
+Finally, we download the data.
 
 ```{r, warning = FALSE, message = FALSE}
-# Defining the dta URL 
+# Defining the data URL 
 data_url <- "https://cise.luiss.it/cise/wp-content/uploads/downloads/2019/03/Dataset-of-Electoral-Volatility-and-its-internal-components-in-Western-Europe-1945-2015.xlsx"
 
 # Get working directory path
@@ -56,13 +61,23 @@ dest <- "C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_cha
 # Download the data to the working directory
 download.file(data_url, dest, mode="wb")
 
+```
+The next step is **opening the data** contained in the .xlsx file.
+
+```{r, warning = FALSE, message = FALSE}
 # Open the data
 volatility_data <- read_excel("C:/Users/acana/Dropbox/Research/GitHub/teaching/cwps_continuity_and_change_unilu2022/07_session/volatility_data.xlsx")
 
+
 ```
+
+Check at the environment tab below. Can you find the volatility_data object there? Great! That means that we have the data already!
+
+Ok, so the show must go on. **The first thing to do whenever we analyse a new dataset is taking a first look**. We will use the tidyverse environment instead of R base packages for most of it.
 
 ```{r, warning = FALSE, message = FALSE}
-
-
-
+# Checking the data structure
+glimpse(volatility_data)
 ```
+
+So what do we have here?
