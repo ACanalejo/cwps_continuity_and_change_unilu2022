@@ -71,11 +71,11 @@ may68 <- "images/may68.jpg"
 
 Take-home points from Session 1:
 
-  1. European party systems are largely shaped by social forces occurring during the state-building process and the moment of expansion of democratic rights
+  1. European party systems are largely shaped by social forces occurring during the state-building process and at the moment of expansion of democratic rights
   
   2. Differences in these factors and in institutions (i.e., the rules of the game) explain an important part of the variation in party systems across European countries
   
-  3. In spite of wars and revolutions in between, party systems in the 1960s largely resemble those of the 1920s (i.e., the freezing hypothesis)
+  3. Despite of wars and revolutions amidst, party systems in the 1960s largely resemble those of the 1920s (i.e., the freezing hypothesis)
 
 # The foundations of party-system stability
 
@@ -119,23 +119,23 @@ Take-home points from Session 1:
     
       - Habits (path dependency)
     
-  - All these factors can be use to map the political opportunity structure of a given political context, remember the four threshols of Lipset and Rokkan! [-@Lipset1967a]
+  - All these factors can be use to map the political opportunity structure of a given political context; remember the four threshols of Lipset and Rokkan! [-@Lipset1967a]
 
 # The silent revolution
 
 ## The silent revolution
 
-- All the factors mentioned before are inter-related 
+- All the factors mentioned above are inter-related 
 
 - One very relevant example of this is suggested by Inglehart [-@Inglehart1977; -@Inglehart1971]
 
 - His 'silent revolution' hypothesis implies that
 
-    - Generational replacement led to both
+    - Generational replacement and economic prosperity led to both
     
         (1) value change and
     
-        (2) weaken mass-party likanges
+        (2) weakened mass-party likanges
     
     - thus generating the potential for political change
     
@@ -143,13 +143,13 @@ Take-home points from Session 1:
 
 The 'silent revolution' thesis:
 
-  - Based on development on social-psychology, it is suggested that a proportion of the electorate has fulfilled its basic needs of economic security
+  - Based on developments on social-psychology, it is suggested that a proportion of the electorate has fulfilled its basic needs of economic security
   
-  - These **new middle-classes** would no longer pursue class-based goals of economic improvement
+  - These **new middle-classes** would no longer pursue class-based goals of economic development
   
   - Instead, they would shift their **political preferences** to **'life-style'** based (e.g., sexual freedom and diversity acceptance)
   
-  - This would have implication for cleavage politics: a shift on the petit bourgeoise to the left (search for political change) and a shift from the working class to the right (search for economic security)
+  - This would have implications for cleavage politics: a shift on the *petit bourgeoise* to the left (search for political change) and a shift from the working class to the right (search for economic security)
   
 ## The silent revolution
 
@@ -219,7 +219,7 @@ include_graphics(may68)
 
     1. **Conservative green parties**: they incorporated the defense the environment as their main issue with the goal of being as much transversal as possible
     
-    2. **New left parties**: they incorporated not only the defense of the environment but also other issues, such as the defense of minorities and horizontal forms of decision-making, on their agenda such connecting with a more specific constituency of new left-leaning voters
+    2. **New left parties**: they incorporated not only the defense of the environment but also other issues, such as the defense of minorities and horizontal forms of decision-making, on their agenda thus connecting with a more specific constituency of new left-leaning voters
     
 ## The rise of green challenger parties
 
@@ -229,7 +229,7 @@ include_graphics(may68)
 
 - This raised the question of whether green parties could be characterised as political parties in the same way as traditional political parties were
 
-- **But how successful were them?**
+- **But how successful they were?**
 
 # The impact of green parties across Europe
 
@@ -237,7 +237,7 @@ include_graphics(may68)
 
 - The initial success of Green parties varied significantly across Europe
 
-- In some countries with **proportional electoral rules** and **weak intervention of Unions in old left parties** (such as Germany and the Netherlands), small Green parties were able to achieve early success
+- In some countries with **proportional electoral rules** and **weak intervention of Unions in old left parties** (such as Germany and the Netherlands), small Green parties were able to achieve early success (i.e., weaker party linkages)
 
 - In countries with **majoritarian electoral rules** and **strong connection between the major left parties and the Unions** they proved unsuccessful (such as in France and Great Britain)
 
@@ -245,15 +245,21 @@ include_graphics(may68)
 
 ## The impact of green parties across Europe
 
-- It also has been argued that **major old left parties** were more likely to incorporate the demands of NSM when **in opposition**, while being in government would have left space for green parties to politicise the NSM issues
+- "Instead of considering the type of party system, we think that it would have been more pertinent to analyse if the main points of the political agenda of the Green parties were already seized or owned by the established parties in every country" (Rémy's response paper)
 
-- And that Green parties in **federal states** have been able to secure support by entering in second-level parliaments and governments more easily than at the national level  
-
-- Finally, conservative green parties have been less successful than new left green parties. This is probably due to the **constraining effect of existing cleavages** to incorporate single issues
+- "Maybe the values and policies carried by the “silent revolution” were already included in the programmes of the pre-existing parties ¬– particularly by leftist parties, which would strongly undermine to need to vote for a new party like the Greens, and hence dampen their success" (Rémy's response paper)
 
 ## The impact of green parties across Europe
 
-Therefore, we must consider at least four factors to explain the unequal success of green parties:
+- It also has been argued that **major old left parties** were more likely to incorporate the demands of NSM when **in opposition**, while in government they would have left space for green parties to politicise NSM issues
+
+- In addition, Green parties in **federal states** would have been able to secure support by entering in lower-level parliaments and governments more easily
+
+- Finally, conservative green parties were less successful than new left green parties. This is probably due to the **constraining effect of existing cleavages** that impided single issues to mobilize voters beyond party lines
+
+## The impact of green parties across Europe
+
+Therefore, we must consider at least the following factors:
 
   1. Electoral rules
     
@@ -328,11 +334,11 @@ row_spec(1, bold = TRUE)
 
 ## The impact of green parties across Europe
 
-- **What are the main lessons we can learn from the Green parties experience?**
+- **What are the main lessons we can take from the Green parties experience?**
 
 - New **issues** are important but they **are not cleavages** by themselves
 
-- Remember the three features of cleavages: (1) social divide, (2) social/group identity and (3) politicisation 
+- Remember the three features of cleavages: (1) **social divide**, (2) **social/group identity** and (3) **politicisation** 
 
 - This is why some scholars argue that green parties represent the most clear example of **niche or single issue parties**
 
@@ -348,9 +354,9 @@ row_spec(1, bold = TRUE)
 
 - Due to the relevance of the class cleavage, some scholars consider its dimensional interpretation, the classic **left-right** dimension, as a **super issue** that tends to structure the rest
 
-- However, it may be the case that a newly politicised issue performs well independently for a while
+- However, it may be the case that a newly politicised issue performs in an independent manner for a while
 
-- Hypothetically, it could also happens that a new independent dimension emerges from from a newly formed cleavage
+- Hypothetically, it could also happens that a new dimension emerges from a latent cleavage
 
 - We will discuss these topics further tomorrow!
 
@@ -358,9 +364,9 @@ row_spec(1, bold = TRUE)
 
 ## Current trends on the Green wave
 
-- With the increasing saliency of global warming and the imminent challenges of climate change, some scholars and pundits argue that a new wave of green parties is coming
+- With the increasing saliency of global warming and the imminent challenges of climate change, some scholars and pundits argue that a new wave of green parties is likely
 
-- However, the empirical evidence suggest that this is not yet the case (even when it seems to arrive soon, such as in the campaign for the 2021 German Federal elections)
+- However, the empirical evidence suggests that this is not yet the case (even when it seems quite likely, like during the 2021 German Federal election campaign)
 
 - In the end, the most recent analyses suggest that Green parties have become mainstream in most European party-systems, and that their support ranges from null up to a 9% of the vote share
 
@@ -370,8 +376,7 @@ row_spec(1, bold = TRUE)
 
 ## Current trends on the Green wave: let's debate!
 
-- ***Final activity!*** Let's divide the class in two groups. You have 5 minutes to discuss potential explanations against or in favour of the future upsurge of Green parties, that is, why should we expect them to become more successful in the near future or not. Someone from each group should summarise the main points and then we will briefly debate. 
-
+- ***Final activity!*** Let's divide the class in two groups. You have 5 minutes to discuss potential explanations against or in favour of the future upsurge of Green parties, that is, why should we expect them to become more successful in the near future or not. Hint: think of hypothetical scenarios. Someone from each group should summarise the main points and then we will briefly debate. 
 
 # References
 

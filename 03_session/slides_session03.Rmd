@@ -74,19 +74,19 @@ mudde <- "images/table1_mudde.png"
 
 Take-home points from Session 2:
 
-  1. **Party-systems** are strongly **embedded** within the institutions and the socio-economic structure of countries. They are **path dependent and difficult to change**
+  1. **Party-systems** are strongly **embedded** within institutions and the socio-economic structure. They are **path dependent and difficult to change**
   
-  2. However, **changes in the socio-economic structure** accompanied by **mobilization trough extra institutional channels** can generate an **opportunity window** to newcomers
+  2. However, **changes in the socio-economic structure** accompanied by **mobilization through extra institutional channels** can generate an **opportunity window** for newcomers
   
-  3. These **changes**, however, **are unlikely to be large**, because **the conflict structure tends to absorb new issues**
+  3. Yet these **changes are unlikely to be large**, because **the conflict structure tends to absorb new issues**
 
 ## Overview of the last session
 
   4. This has been the case of the **green parties** so far. They were born as a response to societal changes (**the silent revolution**) and the mobilization of new issues (**new social movements**) and **became institutionalized in many cases but with limited success**
   
-  5. Their success depended on (1) the degree of social change, (2) the degree of institutional constraint, (3) the openness of the party system and (4) and the structure of political competition
+  5. Their success depended on **(1) the degree of social change**, (2) **the degree of institutional constraint**, (3) **the openness of the party systems** and (4) and **the structure of political competition**
   
-  - In this session we will discuss how **change can trigger change**; and that **political dynamics are not often linear** 
+  - In this session we will discuss how **change can trigger change**; that **political dynamics are not often linear**, and that changes can be **bottom-up, but also top-down**  
   
 # The weakening of party ties
 
@@ -98,13 +98,13 @@ Take-home points from Session 2:
 
 - The silent revolution and **the growing important of green and new left parties** made many scholars think that rooted political identities were weakening
 
-- Instead, people seemed to vote based on their individual preferences on temporarily salient issues rather than as an expression of group identity (i.e., **the 'issue voter'** thesis)
+- People seemed to vote based on their individual preferences on temporarily salient issues rather than as an expression of group identity (i.e., **the 'issue voter'** thesis)
 
 ## The weakening of party ties
 
 - It also gained importance the thesis that established parties, because of the weakening of party ties, were increasingly shifting towards a **'catch-all' model** [@Kirchheimer1966], i.e. party competition as policy markets
 
-- Instead of defending the interest of a specific part of the electorate, they would **moderate or blur their positions on controversial issues to attract a wider audience**
+- Instead of defending the interest of a specific part of the electorate, they would **moderate or blurr their position on controversial issues to attract a wider audience**
 
 - Thus, they would devote **less effort to develop programmatic linkages and a a strong organization**
 
@@ -141,7 +141,7 @@ plot(dag)
 
 ## The weakening of party ties
 
-- This would lead to three main outcomes:
+- This would have led to three main outcomes:
 
   1. A higher **electoral volatility** (i.e., net vote changes between one election and the following)
   
@@ -151,27 +151,27 @@ plot(dag)
 
 - But **were these outcomes true?**
 
-- Let's focus on focus on the first two!
+- Let's focus on the first two!
 
 ## The weakening of party ties
 
 - Very **few parties had succeeded** in passing the threshold of representation
 
-- Among the few that had done it, **many disappeared** or fell back into a marginal role
+- Among the few that did it, **many disappeared** or fell back into a marginal role
 
-- Changes at the societal and partisan level had **not undermined** the **cleavage structure**, i.e. votes remained overwhelmingly within each political family
+- Changes at the societal and partisan level had **not undermined** the **cleavage structure**, i.e. votes remained overwhelmingly *within each political family*
 
 - "As convincingly argued by Bartolini and Mair [-@Bartolini1990], the long-awaited ‘un-freezing’ of partisan alternatives has yet to come." [@Ignazi1992, p. 5]
 
-- In other words, the undergoing process seemed to one of ***de-alignment*** **rather than** ***re-alignment***
+- In other words, the undergoing process seemed to be one of ***de-alignment*** **rather than** ***re-alignment***
 
 # The (silent) counter revolution
 
 ## The (silent) counter revolution
 
-- However, some electoral changes beyond the timid advances of the green parties and teh new left were noticed in the end of the 80s and the beginning of the 90s
+- However, some electoral changes beyond the modest gains of the green and new left parties were noticed in the end of the 80s and the beginning of the 90s
 
-- N**ew extreme right parties**, different from conservative and liberal parties had gained momentum in some national elections (remarkably, the National Front in France)
+- **New extreme right parties**, different from conservative and liberal parties had gained momentum in some national elections (remarkably, the National Front in France)
 
 - Ignazi [-@Ignazi1992] was the first to call the scholarly attention to this phenomenon
 
@@ -197,7 +197,7 @@ include_graphics(ignazi)
 
 ## The (silent) counter revolution
 
-- Now let's take a look at the cover of a political science best-seller book published in 2019 with more than two thousand citations in  February 2022 
+- Now let's take a look at the cover of a political science best-seller book published in 2019 with more than two thousand citations (by February 2022)
 
 ```{r, fig.show="hold", out.height = "60%", out.width="60%", fig.cap = "Cover of Cultural Backlash (2019)"}
 include_graphics(norris)
@@ -221,7 +221,7 @@ include_graphics(norris)
 
 ## A new party family? The populist radical right
 
-- Another important take on the new extreme parties come from Beck [@Betz1993]
+- Another important take on the new extreme parties comes from Betz [-@Betz1993]
 
 - He made two important contributions:
 
@@ -233,17 +233,29 @@ include_graphics(norris)
 
 - Some scholars pointed to **the post-industrial transition** as one of the main factors explaining support for PRR parties, as unskilled and semi-skilled workers had to compete with the incoming immigrant population for increasingly underpaid jobs (*economic explanation*)
 
-- **The politics of resentment** introduce an alternative and complementary explanation. These people would be also disappointed by the promises of growth made during their youth, and the aid to foreign-born population and the new middle classes provided by the public service (*cultural explanation* and counterpart to the silent revolution thesis)
+- **The politics of resentment** introduces an alternative and complementary explanation. These people would be also disappointed by the promises of growth made during their youth, and resented towards the political system that provided financial aid to foreign-born citizens and new middle classes (*cultural explanation* and counter-argument to the silent revolution thesis)
+
+## A new party family? The populist radical right
+
+- Four implications so far:
+
+  1. **Top-down** rather than bottom-up movement
+  
+  2. **Opportunity window facilitated by the upsurge of green parties** (change bring change)
+  
+  3. and **weakening of party ties**
+  
+  4. in a context of **economic transition** from industrial to post-industrial societies
 
 ## A new party family? The populist radical right
   
-- On the **PRR** definition:
+- On the **PRR** definition [@Betz1993]:
 
-  1. They are "are **radical** in their rejection of the established sociocultural and sociopolitical system and their advocacy of individual achievement, a free marketplace, and a drastic reduction of the role of th"
+  1. They are "are **radical** in their rejection of the established sociocultural and sociopolitical system and their advocacy of individual achievement, a free marketplace, and a drastic reduction of the role of the state"
   
-  2. "They are **right-wing** in their rejection of individual and social equality, in their opposition to the social integration of marginalized groups, and in their appeal to xenophobia, if not over"
+  2. "They are **right-wing** in their rejection of individual and social equality, in their opposition to the social integration of marginalized groups, and in their appeal to xenophobia"
 
-  3. "They are **populist** in their instrumentalization of sentiments of anxiety and disenchantment and their appeal to the common man and his allegedly superior common"
+  3. "They are **populist** in their instrumentalization of sentiments of anxiety and disenchantment and their appeal to the common man and his allegedly superior common sense"
 
 ## A new party family? The populist radical right
 
@@ -257,7 +269,7 @@ include_graphics(norris)
   
   2. **Authoritarianism**: "a strict belief in order and its stringent enforcement within society through discipline, law and order-based policies"
   
-  3. **Populism**: "a thin ideology that considers society to be essentially divided between two antagonistic and homogeneous groups, the pure people and the corrupt elite, and wants pol- itics to reflect the general will ofthe people"
+  3. **Populism**: "a thin ideology that considers society to be essentially divided between two antagonistic and homogeneous groups, the pure people and the corrupt elite, and wants politics to reflect the general will of the people"
 
 - **A new party family?**
 
@@ -267,15 +279,15 @@ include_graphics(norris)
 
 - We can distinguish two types of PRR parties, according to their origins: 
 
-  1. **Converted old parties**, like the FPÖ in Austria or the SVP in Switzerland
+  1. **Converted old parties**, like the FPÖ in Austria or the SVP in Switzerland (the role of leader change and charisma)
 
   2. **Truly new parties**, like the FrP in Denmark and the FN in France
 
 ## Comparing first movers: Austria & France
 
-- The **Austrian FPÖ** was a liberal conservative party that had lost support in the mid 1980s but recovered force after the young charismatic and populist Jörg Haider was elected to the chair of the party in 1986. In 1991 became the second largest party at the national level. In 1999 became the most voted party in a general election and formed a coalition government with the Christian-democrat ÖVP
+- The **Austrian FPÖ** was a liberal conservative party that had lost support in the mid 1980s but recovered after the young charismatic and populist Jörg Haider was elected to the chair of the party in 1986. In 1991 became the second largest party at the national level. In 1999 became the most voted party in a general election and formed a coalition government with the Christian-democrat ÖVP
 
-- The **French Front National** was founded in 1972 by right-wing radicals and gained from virtually zero in the 1981 elections to 9.6% of the vote in 1988. However, it wasn't until a moderation shift by Marine Le Pen in 2011 that the party became the third largest party in a presidential election, and then second the largest party in 2017
+- The **French Front National** was founded in 1972 by right-wing radicals and gained from virtually zero in the 1981 elections to 9.6% of the vote in 1988. However, it wasn't until a moderation shift by Marine Le Pen in 2011 that the party became the third largest party in a presidential election, and then the second largest party in 2017
 
 ## The impact of PRR across Europe
 
@@ -286,7 +298,7 @@ include_graphics(mudde)
 
 ## Current trends on the PRR
 
-- At least three new big events has changed the picture displayed in the previous slide:
+- At least three big events has changed the picture displayed in the previous slide:
 
   1. **The Great Recession** (i.e., the 2008 financial crisis and its consequences)
   
@@ -294,7 +306,7 @@ include_graphics(mudde)
   
   3. **Brexit**
   
-- This have lead to rapid changes:
+- This have led to rapid changes:
 
   1. The emergence and success of **AfD in Germany**
   
@@ -302,13 +314,13 @@ include_graphics(mudde)
 
   3. The end of the 'Iberian exceptionalism' (**Vox and Chega in Spain and Portugal**, respectively)
   
-- Here, there may play a factor that we haven't discussed until now: ***diffusion and international contagion***
+- Here, a factor that we haven't discussed until now may play a role: ***international diffusion and contagion***
 
 ## The impact of PRR across Europe
 
 - What does this picture say about what we have discussed until now?
 
-- **Let's debate!** This time, I want you to think alone about the factors that affect party system stability (change) and that can be summarised, as we saw in Session 2, in the points below. You have 5 minutes to think about how each of them may has created barriers/opportunities to the success of RPP parties.Then, we will go one by one to debate your arguments together
+- **Let's debate!** This time, I want you to think alone about the factors that affect party system stability (change) and that can be summarised, as we saw in Session 2, in the points below. You have 5 minutes to think about how each of them may has created barriers/opportunities to the heterogeneous success of RPP parties across countries and over time.Then, we will go one by one to debate your arguments together
 
   1. **Societal factors** (stability of conflicts/cleavages and the electorate)
   2. **Institutional factors** (crucially electoral rules)
@@ -316,6 +328,17 @@ include_graphics(mudde)
   4. **Party-level factors** (party linkages, strategies and organization)
   5. **Individual-level factors** (habits, attitudes and group identities)
 
+## The impact of PRR across Europe
+
+- In conclusion, the change brought by PRR parties has been larger than of green parties
+
+- However, there are important cross-country differences (i.e., Portugal vs. France)
+
+- Something that remains unexplained is whether the new voting patterns can be understood within the cleavage structure proposed by Lipset and Rokkan
+
+- Something else that we haven't discussed yet is the extent to which these parties modified patterns of government formation
+
+- But we will debate these points tomorrow!
 
 # References
 

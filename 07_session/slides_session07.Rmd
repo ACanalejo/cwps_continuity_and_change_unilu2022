@@ -68,15 +68,15 @@ me_mair <- "images/me_and_mair.png"
 
 Take-home points from Session 6:
 
-  1. There are **a bunch of ways of assessing party system change**, from volatility indices to compound indices of party system closure or restraint
+  1. There is **a bunch of ways of assessing party system change**, from volatility indices to compound indices of party system closure or restraint
   
-  2. The **debate on party system change** has revitalized in the past years. According to some, the general bias towards stability of party systems remains strong while others suggest that some European party system have de-institutionalized in the last decade
+  2. The **debate on party system change** has revitalized in the past years. According to some analysts, the general bias towards stability of party systems remains strong, while others suggest that some European party systems have de-institutionalized in the last decade
   
   3. There is not a correct **answer** and it **depends a lot on the way you conceptualize and measure party system change**
   
   4. There is an **open venue for new research and innovation!**
 
-- **In this session** we will move from theory and the review of previous analyses to **perform one empirical analysis ourselves**
+- **In this session** we will move from the theory and the review of previous analyses to **perform one empirical analysis ourselves**
 
 # A replication exercise
 
@@ -86,7 +86,7 @@ Take-home points from Session 6:
 
 - Replication consists of the **repetition of an earlier study** using sufficiently **similar methods** and under **sufficiently similar circumstances**
 
-- Different **types**:
+- **Different types**:
 
   1. Systematic repetition of the exactly same analysis over the exact same data
   
@@ -98,27 +98,29 @@ Take-home points from Session 6:
 
 ## A replication exercise
 
-- Important for science:
+- Important for science because of:
 
   1. **Verifiability**
   
   2. **Validity**
   
-  3. Test **scope conditions**
+  3. **Scope conditions** testing
 
 # An empirical exercise with real world data
 
 ## An empirical exercise with real world data
 
-- **Why are we doing one ourselves?**
+- **Why are we doing a replication exercise ourselves?**
 
 - First of all, just to show that **it can be done! **
 
-- We can test the implications of what we have seen so far, validate previous results, and maybe discover something new
+- We can test the implications of what we have seen so far, validate previous results, and maybe even discover something new
 
 - We will focus on the most used indicator to assess party system change: **electoral volatility**
 
-- Specifically, we will use the data produced by Chiaramonte and Emanuele [-@Chiaramonte2017] on party system volatility in Europe from 1945 to 2015
+- Specifically, we will use the data produced by Vincenzo Emanuele [-@Emanuele2015] on electoral volatility in Western Europe from 1945 to 2015
+
+- This is one of the dataset that he and his colleagues use to analyze party system change [i.e., @Chiaramonte2017]
 
 # The empirical exercise
 
@@ -126,9 +128,11 @@ Take-home points from Session 6:
 
 - First of all, **download an install R and RStudio**
 
-- **R** is a free software environment for statistical computing and graphics
+- **R** is a free software environment for statistical computing and graphics with a vast collection of packages, all of them open source
 
-- **RStudio** is an Integrated Development Environment (IDE) for R 
+- **RStudio** is an Integrated Development Environment (IDE) specifically suited for R 
+
+- It is also free and open source!
 
 - In addition, it supports other languages too (these slides have been done with Beamer in RStudio!) 
 
@@ -146,13 +150,13 @@ Take-home points from Session 6:
 
 - Look at the papers in the course bibliography
 
-- Specifically **the most recent papers normally come with replication files** (most high ranking journals nowadays demand these files for publication)
+- **The most recent papers normally come with replication files** (most high ranking journals nowadays demand these files for publication)
 
 - If not, **they will refer to the data they use** somewhere in the paper and you can always google it! This usually works
 
 - Now that you have R and you know the basics, **you can repeat this exercise with other datasets**
 
-- Of course, **R programming can be difficult** at the beginning **but it is a matter of practice** and ***lot of google searches***
+- Of course, **R programming can be difficult** at the beginning **but it is a matter of practice** and ***lot of google searching***
 
 - **Is there anything specific that you would like to do?**
 
@@ -170,11 +174,11 @@ Take-home points from Session 6:
 
 - You will also have to present your work
 
-- We will review review what we have discussed together in the final session
+- Finally, we will review  what we have discussed together
 
 ## Feedback and or organization of the second block II
 
-- There are three final things we must do now:
+- There are three final things that we must take care of now:
 
   1. Sort out the presentations
   
@@ -182,7 +186,7 @@ Take-home points from Session 6:
   
   3. Is there anything that you would like to discuss in the next session that is not included on the syllabus? 
   
-  4. Would you like a different arrangement for the rest of the sessions?
+- Would you like a different arrangement for the rest of the sessions?
 
 ## Feedback and or organization of the second block II
 

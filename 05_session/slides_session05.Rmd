@@ -98,7 +98,7 @@ Take-home points from Session 1 to 4:
 
 - In this session we will cover the most recent **updates of the cleavage theory**, that account for the transformation of western European party systems 
 
-- To follow these updates, we will first some basic notions of the **spatial theory of voting and party competition**
+- To follow these updates, we will first review some basic notions of the **spatial theory of voting and party competition**
 
 ## Introduction to the spatial model I: the unidimensional model
 
@@ -108,11 +108,11 @@ Take-home points from Session 1 to 4:
 
 - In his initial **model**, based on the USA context, two parties competed to **maximize voters** over **one dimension**
 
-- We will use this basic setup for simplicity, although **Europe** is mostly characterize by **multiparty systems**
+- We will use this basic set-up for simplicity, although **Europe** is mostly characterize by **multi-party systems**
 
 ## Introduction to the spatial model I: the unidimensional model
 
-- So first of all, by do we mean by a **dimension**?
+- So first of all, what do we mean by a **dimension**?
 
   1. Mathematically -> a vector that represents a a set of preferences over a continuum
 
@@ -140,15 +140,15 @@ the left 0 --- 1 --- 2 --- 3 --- 4 --- 5 --- 6 --- 7 --- 8 --- 9 --- 10 the righ
 
 ## Introduction to the spatial model I: the unidimensional model
 
-- Each party depart from a different side of the spectrum (as representing **each side of a cleavage**)
+- Each party depart from a different side of the spectrum (representing **each side of a cleavage**)
 
-- Then, each political party take the **policy stance** (i.e., position over the continuum) that maximizes its chances of winning the election by **approximating the preference of the median voter** (i.e., the preference that leaves an equal number of voters at each side of the distribution)
+- Then, each political party takes the **policy stance** (i.e., position over the continuum) that maximizes its chances of winning the election by **approximating the preference of the median voter** (i.e., the preference that leaves an equal number of voters at each side of the distribution)
 
-- Let's imagine in our case that we have two parties, each of them representing each side of the left-right ideological dimension that want to maximize their chances of winning the next election by moderating their positions
+- Let's imagine that in our case we have two parties, each of them representing each side of the left-right ideological dimension, that want to maximize their chances of winning the next election by moderating their positions
 
-  1. The first party is a **centre-left party**, that takes a **4**
+  1. The first party is a **centre-left party**, that takes a value of **4**
 
-  2. The second party is a **centre-right party**, that takes a **5**
+  2. The second party is a **centre-right party**, that takes a value of **6**
 
   3. **Preferences are normally distributed** within the population
 
@@ -251,29 +251,29 @@ ggplot(df, aes(x = preferences_lr, fill = party_pref_unidim)) +
   
   8. And if **the economy is doing bad**?
   
-  9. What happens if the position of the parties is **3 and 7** respectively and they have a **programmatic constraints/reputation** (i.e., they cannot credibly shift without a cost)?
+  9. What happens if the position of the parties is **3 and 7** respectively and they have **programmatic constraints/reputation** (i.e., they cannot credibly shift without a cost)?
 
 ## Introduction to the spatial model I: the unidimensional model
 
-- In sum, **the Downsian model**, as well as models in general, is **a tool that help us understand the reality**, by providing means of mathematically and graphically summarising (theoretical) expectations
+- In sum, **the Downsian model**, as well as models in general, are **a tool that help us understand the reality**, by providing means to summarise (theoretical) expectations graphically and mathematically
 
-- **Transforming cleavages into dimensions of competition** help us to **analyse the interaction between parties (i.e., party systems)** as well as **parties and voters (i.e., electoral competition)**, under a given set of conditions
+- **Representing cleavages with dimensions of competition** help us to **analyse the interaction between parties (i.e., party systems)** as well as **parties and voters (i.e., electoral competition)**, under a given set of conditions
 
 # Introduction to the spatial model II: the bidimensional model
 
 ## Introduction to the spatial model II: the bidimensional model
 
-- So far, however, we have only contemplated situations in which party compete over a single dimensions
+- So far, however, we have only discussed a situation in where two parties compete over a single dimension
 
 - However, we know that **cleavages can overlap or cross-cut each other**
 
-- If they don't completely overlap, we can interpret the secondary **cross-cutting cleavage as a second dimension**
+- If they don't completely overlap, we can interpret the **cross-cutting cleavage as a second dimension**
 
-- Let's say for example that parties compete in **Catalonia (Spain)** where there are two important dimensions
+- Let's say, for example, that two parties compete in **Catalonia (Spain)** where there are two important dimensions
 
   1. The **left-right economic dimension** is rooted in the **class cleavage**
   
-  2. The **integration-demarcation dimension** is rooted in the **centre-periphery cleavage**
+  2. The **pro-independence - anti-independence** is rooted in the **centre-periphery cleavage**
 
 ## Introduction to the spatial model II: the bidimensional model
 
@@ -323,7 +323,7 @@ This lead to a series of implications, most importantly:
 
   1. As the **dimensions** become **more cross-cutting**, the **space opened for new parties** becomes **larger**
   
-  2. The **larger** becomes the **space opened for new parties**, the **party system** will tened to be **more fragmented**
+  2. The **larger** becomes the **space opened for new parties**, the **party system** will tend to be **more fragmented**
   
   3. As **more dimensions** cross-cut each other, the **space opened for new parties** becomes **larger** and the **party system** will tend to be **more fragmented**
 
@@ -379,13 +379,13 @@ This lead to a series of implications, most importantly:
 
 - ***Basic features*** of the new cleavage:
 
-  1. The cleavage is rooted on  (1) the expansion of **educational rights**, (2) the transition **from an industrial to a post-industrial society** and (3) the processes of **globalization**
+  1. The cleavage is rooted on  (1) the expansion of **educational rights**, (2) the transition **from an industrial to a post-industrial society** and (3) the process of **globalization**
   
   2. These three processes have generated groups of **winners** and **losers**, i.e. people that have benefited or been harmed as a result, that constitute the two sides of the conflict
   
   3. The cleavage raises opposed **cultural values and preferences**. Losers tend to manifest traditional, nativist an authoritarian-oriented values while winners tend to support progressive, multiculturalist and libertarian policies
   
-  4. The parties that better represent each of the poles of the conflict are the **new left parties** for the winners and the **PRR** parties for the losers
+  4. The parties that better represent each of the poles of this conflict are the **new left parties** for the winners and the **PRR** parties for the losers
   
 # Cross-country variation and current trends
 
@@ -397,9 +397,9 @@ This lead to a series of implications, most importantly:
 
 - There are important regional differences:
 
-  1. In ***NWE***, the second and first dimensions are **more orthogonal** and **new parties** have been the main drivers of shift to the second dimension
+  1. In ***NWE***, the second and first dimensions are **more orthogonal** and **new parties** have been the main drivers of shifts to the second dimension
   
-  2. In ***SE***, the second and first dimensions are **less orthogonal** and **traditional** parties have more frequently drove the shift to the second dimension
+  2. In ***SE***, the second and first dimensions are **less orthogonal** and **traditional** parties more frequently *own* second dimension issues
 
 ## Cross-country variation and current trends
   
@@ -415,13 +415,13 @@ This lead to a series of implications, most importantly:
   
   5. Already segmented party systems that absorbed the new demands
   
-  6. Others?
+  6. **Others?**
   
 - The **recent** irruption of PRR parties in Portugal and Spain suggest some **degree of convergence**
 
 ## The emergence of a new value-based cleavage? Thecultural dimension
 
-- **Final activity!** Let look at two paradigmatic cases visualized with real data from 15 years ago: **what can we say about them? What do they tell recent events?**
+- **Final activity!** Let look at two paradigmatic cases visualized with real data from 15 years ago: **what can we say about them? What do they tell about recent events?**
 
 ```{r, fig.show="hold", out.height = "50%", out.width="70%", fig.cap = "Austria 2006 and Greece 2007 compared / Source: Bornschier (2010) and Hutter and Kriesi (2019) respectively"}
 include_graphics(aus2006_gre2007)

@@ -68,13 +68,13 @@ figure5_4_bertoa21 <- "images/figure5_4_bertoa21.png"
 
 ## Overview of the last session
 
-Take-home points from Session 6:
+Take-home points from Session 5:
 
   1. **Spatial models of voting and party competition** are useful for understanding party systems dynamics. They conceptualize elections as markets in which **voters and parties have preferences over policy dimensions that reflect lines of conflict**
   
   2. The main dimension of competition is the **left-right dimension**, that represents preferences for distributional policies deeply rooted in the **class cleavage**
   
-  3. Since this dimension cannot account for major changes in Western European party systems, many scholars agree that a new dimension representing **a new culture cleavage is re-structuring political competition**
+  3. Since this dimension cannot account for major changes in Western European party systems, many scholars agree that a new dimension representing **a new cultural cleavage is re-structuring political competition**
   
   4. Hence, **political competition in Europe is better understood within a two dimensional political space**
   
@@ -88,13 +88,13 @@ Take-home points from Session 6:
 
 - Well, summarising all these aspects is difficult indeed
 
-- That's way some scholars have proposed different measures that synthesize the different features that define party system stability
+- That's why some scholars have proposed different measures that synthesize the different features that define party system stability
 
 - In this session, we will review three major contributions:
 
   1. The contribution of **Mair** (RIP) and Bartolini [@Bartolini1990; @Mair1993]
   
-  2. The contribution of Chiaramonte and its colleagues [@Chiaramonte2017; @Emanuele2019; @Emanuele2018]
+  2. The contribution of Chiaramonte and Emanuele [@Chiaramonte2017; @Emanuele2019; @Emanuele2018]
    
   3. The contribution of Bértoa and Weber [@CasalBertoa2019]
 
@@ -142,13 +142,13 @@ Take-home points from Session 6:
 
     - It can range from 0 (no change) to 100 (total change) [@Pedersen1979]
   
-    - Bartolini and Mair [-@Bartolini1990] analyse 3030 elections in the period 1885-1985 [-@Bartolini1990]
+    - Bartolini and Mair [-@Bartolini1990] analyse 303 elections in the period 1885-1985 [-@Bartolini1990]
 
-    - **Average level between 1945 and 1989**: 8.7 (meaning 91.3 of stability)
+    - **Average level between 1945 and 1989**: 8.7 (meaning 91.3 in stability)
   
     - Some exceptions: Germany in 1920 (32.1) OR France in the 1950s (22.3 in average)
   
-    - Curiously higher in the inter-war period (in which the frozen hypothesis is based on): 9.9
+    - Importantly **higher in the inter-war period** (in which the frozen hypothesis is based on): 9.9
 
   
 ## The freezing hypothesis revisited
@@ -159,9 +159,9 @@ Take-home points from Session 6:
 
     - In addition, **most volatility happens within blocks**
     
-    - Mean **cross-cleavage volaitlity** in the post-war compared and interwar periods: 2.9 and 3.2 respectively
+    - Average **cross-cleavage volatility** in the post-war and the interwar periods: 2.9 and 3.2 respectively
     
-    - Still, some differences across European countries, although minor
+    - Still, some differences across European countries, **although minor**
     
 ## The freezing hypothesis revisited
 
@@ -171,15 +171,21 @@ Take-home points from Session 6:
 
     - Comparing electoral support for traditional parties from the early 60s ('frozen period') to the late 80s and early 90s ('changing period')
     
-    - 95% of the vote in average in the 'frozen period' compared to 84% of the vote in the 'changing period'
+    - **95% of the vote in average in the 'frozen period'** compared to **84% of the vote in the 'changing period'**
     
-    - Also in the upper and lower bounds, 10% decrease
+    - Also in the upper and lower bounds, **10% decrease**
     
     - **Is this a lot or not?**
     
     - According to Mair, **it is not**
     
     - Particularly relevant given the generational replacement and the enfranchisement of new voters
+
+## The freezing hypothesis revisited
+
+- "(...) **is the cleavage system or the party system frozen?** If we say that the cleavage system is frozen, we are saying that the social groups bounded by a cleavage will support the same party generation after generation." (Andrea's response paper)
+
+- "A frozen party system is a structurally consolidated or institutionalised system, but **if society changes**, it leads me to ask **how do parties manage to maintain or even strengthen their links with social groups?**" (Andrea's response paper)
 
 ## The freezing hypothesis revisited
 
@@ -190,6 +196,8 @@ Take-home points from Session 6:
   1. The appeal of newness
   
   2. **Misconception of the social structure-political structure interaction** [e.g., @Franklin1992]
+  
+      - "parties as independent actors capable of shaping the environments in which they compete to survive" (Andrea's response paper)
   
   3. Underestimation of the capacity of parties to adapt
 
@@ -205,13 +213,13 @@ Take-home points from Session 6:
   
   2. the rise of PRR parties in former right-wing authocracies (e.g., Germany)
 
-- Chiaramonte and his colleagues provide a series of studies updating the analyses of Mair. **Two approaches**:
+- Chiaramonte and Emanuele provide a series of studies updating the analyses of Mair. **Two approaches**:
 
   1. **Party system innovation** [@Emanuele2018; @Emanuele2019]
 
   2. **Volatility and its components** (**Type A** [from old to new parties] vs. **Type B** volatility [among old parties]) plus **sequential volatility** to  assess **de-institutionalization** [@Chiaramonte2017] \footnotemark
   
-    \footnotemark[1] Recall that we defined **party system institutionalization** as the degree in which parties act in a predictable and patterned way [@CasalBertoa2019b, p. 569]
+    \footnotemark[1]Recall that we defined **party system institutionalization** as the degree in which parties act in a predictable and patterned way [@CasalBertoa2019b, p. 569]
     
 ## Twenty years later: new evidence from a longer perspective
 
@@ -223,13 +231,13 @@ include_graphics(figure1_chiaramonte17)
 
 - The results:
 
-  1. **Party system innovation** has grown spcially since 2010
+  1. **Party system innovation** has grown, specially since 2010
 
   2. **Electoral volatility and is components**: 
   
       + "the overall picture of the levels of party system volatility and regeneration across time and space shows that the **‘fundamental bias towards stability’** emphasized by Bartolini and Mair (1990: 68) **appears confirmed**"
       
-      + however, "there is a clear increase of both variables during the last electoral period (1992–2015), with further acceleration since 2010 that reveals **a general shift towards instability in the last years**"
+      + **however**, "there is a clear increase of both variables during the last electoral period (1992–2015), with further acceleration since 2010 that reveals **a general shift towards instability in the last years**"
 
 ## Twenty years later: new evidence from a longer perspective
       
@@ -263,7 +271,7 @@ include_graphics(figure4_chiaramonte17)
 
   1. Electoral volatility
   
-  2. **Party system fragmentation** (i.e., effective number of parties or weighted number of parties either with parliamentary presence or passing an electoral threshold)
+  2. **Party system fragmentation** (i.e., effective number of parties: weighted number of parties either with parliamentary presence or passing an arbitrary electoral threshold)
   
   3. **Polarization** (i.e., weighted ideological distance between the effective parties)
   
@@ -281,7 +289,7 @@ include_graphics(figure5_4_bertoa21)
 
 - A **summary of measures** to assess party system change:
 
-  1. Electoral volatility (cross-cleavage vs. between cleavage/type A vs type B/electoral sequences)
+  1. Electoral volatility (cross-cleavage vs. between-cleavage/type A vs type B/electoral sequences)
   
   2. Traditional parties strength
   
@@ -299,7 +307,7 @@ include_graphics(figure5_4_bertoa21)
 
 ## Measuring party-system change
 
-- One controversial arguments in Mair [@Mair1993] is that **even if the social alignment of parties have changed, this doesn't mean that cleavage politics is dead**, but this doesn't take into account the possibility that ***cleavage poltics had changed***
+- One controversial arguments in Mair [-@Mair1993] is that **even if the social alignment of parties have changed, this doesn't mean that cleavage politics is dead**. This argument doesn't consider whether ***cleavage politics has changed***
 
 - ***Final activity!*** Let's divide the class in two groups. You have 5-10 minutes to think of new indicator to assess party system change. Then, you will have to explain why this indicator and defend it while trying to (constructively) criticise the indicator proposed by the other group.
 

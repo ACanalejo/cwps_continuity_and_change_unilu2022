@@ -72,15 +72,18 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - The course: what is it about and what are we going to do
 
-  + Review of party-system formation/evolution in WE
+  + Review of party-system formation in WE
   
   + Analysis of the main patterns of continuity and change
   
-  + Discussion of the main factors explaining these patterns
+  + Assess party system change
+
+  + Empirical workshop
   
-  + Students' presentations
+  + Discussion of the main factors explaining continuity/change patterns
   
-  + Wrap-up session
+  + Your presentations!
+
 
 ## Introduction to the course
 
@@ -122,9 +125,9 @@ germany21 <- "images/german_elec_results_2021.png"
 
     + It help us to understand a myriad of political phenomena. Each party-system indicates levels of societal fragmentation and polarization, the most likely electoral and policy outcomes at a given moment in time, potential coalitions, etc. Comparatively, it helps us to assess dynamics of evolution of the public opinion, foresee potential reforms, alliances...
 
-- In the end, party politics is a crucial aspect of political science: 'the science of (public) power'
+- In the end, party politics is a crucial aspect of political science, and studying party system comparatively is an important way of looking at it
 
-- In this seminar, we will try to understand why European party-systems looks like they are today, considering how they were born and evolved, which surely help us to assess future events (although never fully predict them)
+- In this seminar, we will try to understand why European party-systems looks like they are today, considering how they emerged and evolved, which will help us to assess current events
 
 # The origins of party-systems in Europe
 
@@ -148,9 +151,9 @@ germany21 <- "images/german_elec_results_2021.png"
 
 1. Institutional approaches
 
-    + Effects can be **direct** when institutions automatically shape the conversion of behaviour (i.e., vote) into outcomes (i.e., parlimentary seats)
+    + Effects can be **direct** (*mechanical*) when institutions automatically shape the conversion of behaviour (i.e., vote) into outcomes (i.e., parlimentary seats)
   
-    + Effects can also be **indirect** when people modify their behavior prior to the application of the rule because they anticipate direct effects (e.g., I anticipate that my preferred party may not win a seat due to the majoritarian electoral rule, therefore I cast a ballot for my second preferred option, which has higher probabilities to win a seat)  
+    + Effects can also be **indirect** (*psychological*) when people modify their behavior prior to the application of the rule because they anticipate direct effects (e.g., I anticipate that my preferred party may not win a seat due to the majoritarian electoral rule, therefore I cast a ballot for my second preferred option, which has higher probabilities to win a seat)  
 
     + **Any other example** of direct vs. indirect effect?
 
@@ -158,11 +161,11 @@ germany21 <- "images/german_elec_results_2021.png"
 
 2. The **socio-historical approach**
 
-    + The structure of party-systems in Europe is mainly due to the lines of conflict politicized in each country
+    + The structure of party-systems in Europe is highly dtermined by the lines of conflict politicized in each country
   
     + These lines of conflict, that we call **cleavages**, are delved into the formation of each nation-state and also fostered by common economic and cultural shocks
   
-    + These common shocks affect each country differently nonetheless (most importantly to Lipset and Rokkan: the industrial revolution)
+    + These common shocks affect each country differently nonetheless (most importantly to Lipset and Rokkan: the industrial  and national revolutions)
   
     + A cleavage is characterised by 1) a **social divide** of which citizens at each side develop 2) **social consciousness** and turn into 3) **political demands** 
   
@@ -200,7 +203,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 2. **The socio-historical approach**
 
-  - The transformations of cleavages into party-systems depends on the specific **political opportunity structure**\footnotemark, that determines how far within a **sequence of thresholds** any movement pressing forward new sets of demands arrives
+  - The transformation of cleavages into party-systems depends on the specific **political opportunity structure**, that determines how far within a **sequence of thresholds** any movement pressing forward new sets of demands arrives
 
     1. The threshold of **legitimation** (i.e., opposition recognition)
 
@@ -209,8 +212,20 @@ germany21 <- "images/german_elec_results_2021.png"
     3. The threshold of **representation** (i.e., institutional presence)
 
     4. The threshold of **majority power** (i.e., participation in government)
-      
-        \footnotemark[1]Lipset and Rokkan mention (1) the traditions of decision-making in the polity, (2) the channels of expression and mobilization of protest, **(3) the opportunities, the payoffs and the costs of alliances**, (4) and the possibilities, the implications and the limitations of majority rule in the system 
+
+## The origins of party-systems
+
+2. **The socio-historical approach**
+
+  - As for the political opportunity structure Lipset and Rokkan mention:
+
+    1. the traditions of decision-making in the polity
+  
+    2. the channels of expression and mobilization of protest
+  
+    3. **the opportunities, the payoffs and the costs of alliances** 
+  
+    4. and the possibilities, the implications and the limitations of majority rule in the system 
 
 # European party-systems compared
 
@@ -218,7 +233,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - One way of study party systems is to analyse the relevance of different **party families**.
 
-- Party families are a way of classifying political parties across countries that relate to each other based on (1) shared origins, (2) ascription to transnational federations, (3) ideology or even (4) names [@Mair1998]
+- Party families are a way of classifying political parties across countries that relate to each other based on (1) shared origins, (2) ascription to transnational federations, (3) ideology or (4) names [@Mair1998]
 
 - The basic party families\footnotemark:
 
@@ -252,7 +267,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
   + The countries in between has the additional factor or whether the nation-building elites were friendly with the Catholic Church during the period of mass education and enfranchisement (e.g., Austria, Ireland and Belgium)
 
-- What are the mechanisms underlying these processes?
+- **What are the mechanisms underlying these processes?** (i.e., the story behind)
 
   \footnotemark[4]Based on Merkl [-@Merkl1969]
 
@@ -296,13 +311,11 @@ include_graphics(germany21)
 
 - Lipset and Rokkan highlight the shockingly pervasive stability of European party-systems despite intermittent wars, autocratic periods and revolutions
 
-- But are European party-systems currently frozen? What does the case of Germany suggest to you?
+- **But are European party-systems currently frozen? What does the case of Germany suggest to you?**
 
 ## The 'freezing hypothesis': let's debate!
 
-- ***Final activity!*** Let's divide the class in two groups. You have 5-10 minutes to discuss potential explanations against or in favour of the freezing hypothesis, that is, why should we expect party-systems to remain 'frozen' until nowadays (or not). Someone from each group should summarise the main points and then we will briefly debate. 
-
-- The activity begins now!
+- ***Final activity!*** Let's divide the class in two groups. You have 5-10 minutes to discuss current political events to argue against or in favour of the relevance of the freezing hypothesis today. That is, are party-systems still 'frozen' or not? Someone from each group should summarise the main argument and then we will briefly debate. 
 
 # References
 
