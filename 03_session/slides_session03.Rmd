@@ -102,9 +102,15 @@ Take-home points from Session 2:
 
 ## The weakening of party ties
 
+- "In my opinion, this seems to be the case more in cities and suburban areas than in rural areas." (Miguel's response paper)
+
+- "Rural areas tend to have more family tied structures and also a lower level of education which results in more social group centred voting" (Miguel's reponse paper)
+
+## The weakening of party ties
+
 - It also gained importance the thesis that established parties, because of the weakening of party ties, were increasingly shifting towards a **'catch-all' model** [@Kirchheimer1966], i.e. party competition as policy markets
 
-- Instead of defending the interest of a specific part of the electorate, they would **moderate or blurr their position on controversial issues to attract a wider audience**
+- Instead of defending the interest of a specific part of the electorate, they would **moderate or blur their position on controversial issues to attract a wider audience**
 
 - Thus, they would devote **less effort to develop programmatic linkages and a a strong organization**
 
@@ -295,6 +301,14 @@ include_graphics(norris)
 ```{r, fig.show="hold", out.height = "75%", out.width="75%", fig.cap = "Table 1 from Mudde (2014)"}
 include_graphics(mudde)
 ```
+
+## Current trends on the PRR
+
+- "It seems as if the right in general has become more extremist over the years in comparison to Ignazi's paper" (Miguel's response paper)
+
+- "It can also be seen that more parties have been added to the political spectrum" (Miguel's response paper)
+
+- "One aspect that drastically has changed during this time, is how people inform themselves and how that also influences the political views of the voters. Social media plays a vital role on today politics and also how parties interact with their voters" (Miguel's response paper)
 
 ## Current trends on the PRR
 

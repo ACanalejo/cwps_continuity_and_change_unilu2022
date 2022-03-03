@@ -116,7 +116,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 - What is a **party-system**?
   
-    + The **interaction of parties** competing in the given electoral market. It is characterised by the number, size, and ideological preferences of the parties, among other aspects  
+    + The **interaction of parties** competing in a given electoral market. It is characterised by the number, size, and ideological preferences of the parties, among other aspects  
 
 
 ## Mapping the terrain: political parties and party-systems
@@ -161,15 +161,15 @@ germany21 <- "images/german_elec_results_2021.png"
 
 2. The **socio-historical approach**
 
-    + The structure of party-systems in Europe is highly dtermined by the lines of conflict politicized in each country
+    + The structure of party-systems in Europe is highly determined by the lines of conflict politicized in each country
   
     + These lines of conflict, that we call **cleavages**, are delved into the formation of each nation-state and also fostered by common economic and cultural shocks
   
-    + These common shocks affect each country differently nonetheless (most importantly to Lipset and Rokkan: the industrial  and national revolutions)
+    + These common shocks affect each country differently nonetheless (different preconditions)
   
     + A cleavage is characterised by 1) a **social divide** of which citizens at each side develop 2) **social consciousness** and turn into 3) **political demands** 
   
-    + **Any example of what may be and what may not be a cleavage in any European country?**
+    + **Any example of what may be and what may not be a cleavage?**
 
 ## The origins of party-systems in Europe
 
@@ -203,7 +203,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 2. **The socio-historical approach**
 
-  - The transformation of cleavages into party-systems depends on the specific **political opportunity structure**, that determines how far within a **sequence of thresholds** any movement pressing forward new sets of demands arrives
+  - The **transformation of cleavages into party-systems** depends on the specific **political opportunity structure**, that determines how far within a **sequence of thresholds** any movement pressing forward new sets of demands arrives
 
     1. The threshold of **legitimation** (i.e., opposition recognition)
 
@@ -217,7 +217,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 2. **The socio-historical approach**
 
-  - As for the political opportunity structure Lipset and Rokkan mention:
+  - As for the **political opportunity structure** Lipset and Rokkan mention:
 
     1. the traditions of decision-making in the polity
   
@@ -257,7 +257,9 @@ germany21 <- "images/german_elec_results_2021.png"
 
 ## European party-systems compared
 
-- The existence of **overlapping/coinciding** vs. **cross-cutting cleavages** raises different patterns fo party competition
+- But why some types of parties are more important in some countries than in others?
+
+- The existence of **overlapping/coinciding** vs. **cross-cutting cleavages** raises different patterns of party competition
 
 - For example, **on the strength of Socialist/Labor parties**\footnotemark:
 
@@ -266,8 +268,6 @@ germany21 <- "images/german_elec_results_2021.png"
   + Catholic countries with recent or difficult national revolutions had deeply and alienated working class movements instead (e.g., France, Spain, and Italy)
 
   + The countries in between has the additional factor or whether the nation-building elites were friendly with the Catholic Church during the period of mass education and enfranchisement (e.g., Austria, Ireland and Belgium)
-
-- **What are the mechanisms underlying these processes?** (i.e., the story behind)
 
   \footnotemark[4]Based on Merkl [-@Merkl1969]
 
@@ -289,7 +289,7 @@ germany21 <- "images/german_elec_results_2021.png"
 
 ## European party-systems compared
 
-- Depending on the combination of parties and their modes of interaction, we can talk of two main types of party systems [@Sartori2005]:
+- Beyond specific party families, the patterned interaction of parties suggests **two ideal types of party systems** [@Sartori2005]
 
     1. **Moderate party systems** have relative small ideological distance between the major parties, a propensity to form coalitions between parties of different views and predominantly centripetal competition
     

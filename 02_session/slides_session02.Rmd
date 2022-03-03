@@ -255,7 +255,7 @@ include_graphics(may68)
 
 - In addition, Green parties in **federal states** would have been able to secure support by entering in lower-level parliaments and governments more easily
 
-- Finally, conservative green parties were less successful than new left green parties. This is probably due to the **constraining effect of existing cleavages** that impided single issues to mobilize voters beyond party lines
+- Finally, conservative green parties were less successful than new left green parties. This is probably due to the **constraining effect of existing cleavages** that impeded single issues to mobilize voters beyond party lines
 
 ## The impact of green parties across Europe
 
@@ -296,8 +296,8 @@ left_govt <- c("No",
 fed_inst <- c("Yes",
          "No")
 
-type_green <- c("Conservative",
-         "New Left")
+type_green <- c("New Left",
+         "Conservative")
 
 av_green_vote_78_91 <- c("5.1%",
          "1.2%")
@@ -361,6 +361,12 @@ row_spec(1, bold = TRUE)
 - We will discuss these topics further tomorrow!
 
 # Current trends on the Green wave
+
+## Current trends on the Green wave
+
+- "Nowadays (...) left oriented parties are also more specialized in environmental politics." (Miguel's response paper)
+
+- "As can for example be seen in Switzerland,  by having two different 'green parties', one being more economic liberal and the other tending  more to social liberal views." (Miguel's response paper)
 
 ## Current trends on the Green wave
 
