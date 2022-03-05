@@ -247,6 +247,12 @@ include_graphics(figure4_chiaramonte17)
 
 ## Twenty years later: new evidence from a longer perspective
 
+- "The question, then, is Western Europe going through a phase of higher volatility due to contemporary issues (environment, migration, …) and emergent parties or are there other forces at work?" (Luca's response paper) 
+
+- "It would be interesting to see the data of the past 7 years to see how the trend continues. As per the authors’ own model, only high-volatility across long periods of time cause de-institutionalisation and therefore more evidence is needed to make a convincing case that Western Europe is becoming de-institutionalised." (Luca's response paper)
+
+## Twenty years later: new evidence from a longer perspective
+
 - Another long-term approach is provided by Bertoa [-@CasalBertoa2019]
   
 - The theory of **restrained change**:

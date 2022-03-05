@@ -134,9 +134,9 @@ the left 0 --- 1 --- 2 --- 3 --- 4 --- 5 --- 6 --- 7 --- 8 --- 9 --- 10 the righ
   
     3. The key for interpreting any model: understanding the assumptions
 
-- The **main assumption of the Downsian model** is that parties aim to **maximize votes** to win the election
+- The **main assumptions of the Downsian model** are that parties aim to **maximize votes** to win the election 
 
-- The second assumption is that each voter have a fixed policy preference over the continuum, which gives place to a **preference distribution**
+- The second assumption is that each voter have a fixed policy preference over the continuum (**preference distribution**) and **will vote to the closest party if there is one closest alternative**
 
 ## Introduction to the spatial model I: the unidimensional model
 
