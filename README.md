@@ -82,20 +82,20 @@ Students choosing to write a seminar paper (around 15 pages for BA students and 
 
 ### Block II - Friday 08.04.2022 (09:00 – 17:00)
 
-  + **Session 8 (09:00 – 10:30): Factors of change I: demand-side explanations**
+  + **Session 8 (09:00 – 10:30): Wrapping-up session: review, questions and doubts**
 
-  + **Session 9 (10:45 – 12:15): Factors of change II: supply-side explanations**
+  + **Session 9 (10:45 – 12:15): Students presentations I**
 
-  + **Session 10 (13:45 – 15:15): Students presentations**
+  + **Session 10 (13:45 – 15:15): Factors of change I: demand-side explanations**
 
-  + **Session 11 (15:30 – 17:00): Students presentations**
+  + **Session 11 (15:30 – 17:00): Students presentations II**
 
 
 ### Block II - Saturday 09.04.2022 (09:00 – 15:15)
 
-  + **Session 12 (09:00 – 10:30): Students presentations**
+  + **Session 12 (09:00 – 10:30): Factors of change II: supply-side explanations**
 
-  + **Session 13 (10:45 – 12:15): Students presentations**
+  + **Session 13 (10:45 – 12:15): Students presentations III**
 
   + **Session 14 (13:45 – 15:15): Wrapping-up discussion, advanced topics and feedback**
  

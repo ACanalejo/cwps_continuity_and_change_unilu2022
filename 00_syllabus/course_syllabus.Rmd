@@ -265,8 +265,11 @@ bib["Mainwaring2006"]
 
 ## Block II - Friday 08.04.2022 (09:00 – 17:00)
 
+**Session 8 (09:00 – 10:30): Wrapping-up session: review, questions and doubts**
 
-**Session 8 (09:00 – 10:30): Factors of change I: demand-side explanations**
+**Session 9 (10:45 – 12:15): Students presentations I**
+
+**Session 10 (13:45 – 15:15): Factors of change I: demand-side explanations**
 
   + Required readings:
     
@@ -284,9 +287,14 @@ bib["Cavaille2019"]
 bib["Oesch2018","Rooduijn2018"]
 ``` 
 
+**Session 11 (15:30 – 17:00): Students presentations II**
 
 
-**Session 9 (10:45 – 12:15): Factors of change II: supply-side explanations**
+
+## Block II - Saturday 09.04.2022 (09:00 – 15:15)
+
+
+**Session 12 (09:00 – 10:30): Factors of change II: supply-side explanations**
 
   + Required readings:
     
@@ -305,27 +313,15 @@ bib["Spoon2019"]
 ``` 
 
 
-
-**Session 10 (13:45 – 15:15): Students presentations**
-
-
-
-**Session 11 (15:30 – 17:00): Students presentations**
-
-
-## Block II - Saturday 09.04.2022 (09:00 – 15:15)
-
-
-
-**Session 12 (09:00 – 10:30): Students presentations**
-
-
-
-**Session 13 (10:45 – 12:15): Students presentations**
-
-
+**Session 13 (10:45 – 12:15): Students presentations III**
 
 **Session 14 (13:45 – 15:15): Wrapping-up discussion, advanced topics and feedback**
+
+  + Required readings:
+
+```{r, echo = FALSE, results="asis"} 
+bib["Hooghe2018b"]
+``` 
 
   + Recommended readings:
 

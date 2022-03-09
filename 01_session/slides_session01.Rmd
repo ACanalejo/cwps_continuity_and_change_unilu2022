@@ -40,7 +40,7 @@ output:
     
     slide_level: 2
     
-    incremental: TRUE
+    incremental: FALSE
     
     toc: TRUE
     
