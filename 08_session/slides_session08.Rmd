@@ -1,0 +1,269 @@
+---
+title: "Wrapping-up session: review, questions and doubts"
+
+subtitle: "Session 08"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+header-includes:
+- \usepackage{booktabs}
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: TRUE
+
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+```
+
+# Welcome back!
+
+## Welcome back!
+
+- Recent electoral news in Europe
+
+  + The Hungarian parliamentary elections
+  
+    - On Sunday 3rd April
+  
+    - "We won a victory so big that you can see it from the moon, and you can certainly see it from Brussels" (Viktor Orbán)
+
+    - The 199 members of the National Assembly are to be elected by two methods; 106 are elected in single-member constituencies by first-past-the-post voting, with the remaining 93 elected from a single nationwide constituency mostly by proportional representation
+
+    - The electoral threshold is set at 5%, although this is raised to 10% for coalitions of two parties and 15% for coalitions of three or more parties
+    
+  + The French presidential elections
+  
+    - On Sunday 10th April
+    
+    - The polls: https://www.politico.eu/europe-poll-of-polls/france/
+
+# Block I review
+
+## Block I review: doubts and questions
+
+- Doubts and questions!
+
+  + Things more problematic
+
+  + Things more interesting
+
+## Block I review: a summary
+
+- Session 1: **cleavage theory**
+
+  + The three components of cleavages: social and political features linked by an identity component
+  
+  + Overlapping/cumulative vs. cross-cutting cleavages
+  
+  + Why does the cleavage structure determines the features of party systems and party competition?
+  
+## Block I review: a summary
+
+- Session 2: **Green parties**
+
+  + The silent revolution (value change hypothesis)
+  
+  + New Social Movements
+  
+  + Asymmetrical success of new parties: strategies and insitutions?
+
+## Block I review: a summary
+
+- Session 2: **Green parties**
+
+```{r tbl, echo = FALSE, message = FALSE, warning = FALSE}
+
+
+country <- c("Germany", "France")
+
+elec_rules <- c("Majoritarian",
+                "Proportional")
+
+unions_left <- c("Medium",
+         "Strong")
+
+left_segm <- c("No",
+         "Yes")
+
+left_govt <- c("No",
+         "No")
+
+fed_inst <- c("Yes",
+         "No")
+
+type_green <- c("New Left",
+         "Conservative")
+
+av_green_vote_78_91 <- c("5.1%",
+         "1.2%")
+
+
+tbl <- data.frame(country,
+                  elec_rules,
+                  unions_left,
+                  left_segm,
+                  left_govt,
+                  fed_inst,
+                  type_green,
+                  av_green_vote_78_91)
+
+tbl <- t(tbl)
+
+rownames(tbl) <- c("Country",
+                    "Electoral rules",
+                    "Union's control over the left",
+                    "Segmentation of the Left",
+                    "Left in Government",
+                   "Federal institutions",
+                    "Type of Green challenger",
+                    "Average Green vote 78-91")
+
+tbl %>% 
+  kable(format = "latex", 
+        booktabs = T,
+        digits = 2, 
+        align = "c",
+        caption = "Early success of Green Parties in Germany and France") %>% 
+row_spec(1, bold = TRUE)
+```
+
+## Block I review: a summary
+
+- Session 3: **new far-right parties/PRR parties**
+
+  + Counter-reaction from the right
+  
+  + Fostered by economic and cultural changes
+  
+  + Top-down vs. bottom-up mobilization
+  
+## Block I review: a summary
+
+- Session 4: **economic voting** and crises
+
+  + What is a crisis?
+  
+  + Economic voting theory
+  
+  + Rapid party system change due to valence (vs. positional) issues
+  
+## Block I review: a summary
+
+- Session 5: **cleavage theory revisited**
+
+  + Dimensional models of political behavior and party competition
+  
+  + Issue saliency
+  
+  + A new cultural cleavage
+  
+## Block I review: a summary
+
+- Session 6: **empirical assessment of party system change**
+
+  + electoral volatility
+  
+  + other measures?
+  
+  + general bias towards stability?
+  
+# Block II structure
+
+## Block II structure
+
+- Friday 08.04.2022 (09:00 – 17:00)
+
+  + **Session 8** (09:00 – 10:30): **Wrapping-up session: review, questions and doubts**
+
+  + **Session 9** (10:45 – 12:15): **Students presentations I**
+  
+    - Andrea: The Netherlands
+    
+    - Miguel: Portugal
+
+  + **Session 10** (13:45 – 15:15): **Factors of change I: demand-side explanations**
+  
+    - "Explaining Workers’ Support for Right-Wing Populist Parties in Western Europe: Evidence from Austria, Belgium, France, Norway, and Switzerland" [@Oesch2008]
+
+  + **Session 11** (15:30 – 17:00): **Students presentations II**
+  
+    - Rèmy: France
+    
+    - Luca: Norway
+    
+## Block II structure
+
+- Saturday 09.04.2022 (09:00 – 15:15)
+
+  + **Session 12** (09:00 – 10:30): **Factors of change II: supply-side explanations**
+  
+    - "When dimensions collide: The electoral success of issue entrepreneurs" [@Hobolt2012]
+
+  + **Session 13** (10:45 – 12:15): **Students presentations III**
+  
+    - Judith: Germany
+
+    - Álvaro: Greece
+
+  + **Session 14** (13:45 – 15:15): **Wrapping-up discussion, advanced topics and feedback**
+
+## Block II structure
+
+- Any other doubts or question?
+
+- Thanks!
+
+# References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
