@@ -301,7 +301,9 @@ include_graphics(fig2)
 
 - Questions or doubts?
 
-## Recent findings
+# More recent findings
+
+## More recent findings
 
 - "Electoral competition in Europe’s new tripolar political space: Class voting for the left, centre-right and radical right" [@Oesch2018]
 
@@ -313,7 +315,7 @@ include_graphics(fig2)
   
   3. the PRR
 
-## Recent findings
+## More recent findings
 
 - Five class categories and two types of voting classes:
   
@@ -322,6 +324,8 @@ include_graphics(fig2)
   2. Contested strongholds: small business owners for the centre-right and the PRR and working-class for the left and the PRR
 
 - Conclusion: "Old patterns are structured by an economic conflict: Production workers vote for the left and small business owners for the centre-right based on their economic attitudes. In contrast, new patterns are linked to the rise of the radical right and structured by a cultural conflict"
+
+# Additional readings
 
 ## Additional readings
 
