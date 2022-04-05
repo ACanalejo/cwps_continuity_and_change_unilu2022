@@ -79,12 +79,18 @@ library(png) # For loading and grabbing the dimensions of png files
     - The 199 members of the National Assembly are to be elected by two methods; 106 are elected in single-member constituencies by first-past-the-post voting, with the remaining 93 elected from a single nationwide constituency mostly by proportional representation
 
     - The electoral threshold is set at 5%, although this is raised to 10% for coalitions of two parties and 15% for coalitions of three or more parties
+
+## Welcome back!
+
+- Recent electoral news in Europe
     
   + The French presidential elections
   
     - On Sunday 10th April
     
     - The polls: https://www.politico.eu/europe-poll-of-polls/france/
+
+    - What does this say about party system change and the content reviewed in our course?
 
 # Block I review
 
@@ -95,30 +101,38 @@ library(png) # For loading and grabbing the dimensions of png files
   + Things more problematic
 
   + Things more interesting
+  
+  + Other?
 
 ## Block I review: a summary
 
-- Session 1: **cleavage theory**
+- Party-system formation:
 
-  + The three components of cleavages: social and political features linked by an identity component
+  - Session 1: **cleavage theory**
+
+    + The three components of cleavages: social and political features linked by an identity component
   
-  + Overlapping/cumulative vs. cross-cutting cleavages
+    + Overlapping/cumulative vs. cross-cutting cleavages
   
-  + Why does the cleavage structure determines the features of party systems and party competition?
+    + Why does the cleavage structure determines the features of party systems and party competition?
   
 ## Block I review: a summary
 
-- Session 2: **Green parties**
+- Party-system change: a chronological review in WE
 
-  + The silent revolution (value change hypothesis)
+  - Session 2: **Green parties**
+
+    + The silent revolution (value change hypothesis)
   
-  + New Social Movements
+    + New Social Movements
   
-  + Asymmetrical success of new parties: strategies and insitutions?
+    + Asymmetrical success of new parties: strategies and insitutions?
 
 ## Block I review: a summary
 
-- Session 2: **Green parties**
+- Party-system change: a chronological review in WE
+
+  - Session 2: **Green parties**
 
 ```{r tbl, echo = FALSE, message = FALSE, warning = FALSE}
 
@@ -178,43 +192,51 @@ row_spec(1, bold = TRUE)
 
 ## Block I review: a summary
 
-- Session 3: **new far-right parties/PRR parties**
+- Party-system change: a chronological review in WE
 
-  + Counter-reaction from the right
+  - Session 3: **new far-right parties/PRR parties**
+
+    + Counter-reaction from the right
   
-  + Fostered by economic and cultural changes
+    + Fostered by economic and cultural changes
   
-  + Top-down vs. bottom-up mobilization
+    + Top-down vs. bottom-up mobilization
   
 ## Block I review: a summary
 
-- Session 4: **economic voting** and crises
+- Party-system change: a chronological review in WE
 
-  + What is a crisis?
+  - Session 4: **economic voting** and crises
+
+    + What is a crisis?
   
-  + Economic voting theory
+    + Economic voting theory
   
-  + Rapid party system change due to valence (vs. positional) issues
+    + Rapid party system change due to valence (vs. positional) issues
   
 ## Block I review: a summary
 
-- Session 5: **cleavage theory revisited**
+- Party-system change: the theory
 
-  + Dimensional models of political behavior and party competition
+  - Session 5: **cleavage theory revisited**
+
+    + Dimensional models of political behavior and party competition
   
-  + Issue saliency
+    + Issue saliency
   
-  + A new cultural cleavage
+    + A new cultural cleavage
   
 ## Block I review: a summary
 
-- Session 6: **empirical assessment of party system change**
+- Party-system change: the empirics
 
-  + electoral volatility
+  - Session 6: **empirical assessment of party system change**
+
+    + electoral volatility
   
-  + other measures?
+    + other measures?
   
-  + general bias towards stability?
+    + general bias towards stability?
   
 # Block II structure
 
