@@ -1,0 +1,336 @@
+---
+title: "Factors of change I: demand-side explanations"
+
+subtitle: "Session 10"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+header-includes:
+- \usepackage{booktabs}
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: TRUE
+
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+fig2 <- "images/Oesch_2008_fig2.png"
+```
+
+# Explaining party system change: demand vs. supply factors
+
+## Explaining party system change: demand vs. supply factors
+
+- So far, we have studied party-systems from a holistic perspective:
+
+  - Comparatively (e.g., differences between SE and NWE)
+  
+  - Historically (e.g., from 1920s to the 1960s)
+  
+  - Focusing either on general trends (e.g., Green and Far Right parties)
+  
+  - Or on strong specific shocks (e.g., Tangetopoli)
+  
+  - We have reviewed some theories of party-system change (e.g., the freezing hypothesis)
+  
+  - Or try to adequate empirical patterns to the existent theories (e.g., cleavage theory)
+
+## Explaining party system change: demand vs. supply factors
+  
+- But what happens if we want to decompound these over-arching explanations and focus in more specific phenomena?
+
+- From analyses at the **aggregate**-level (country, party-system or election level) to analyses at the **party and voter** (i.e., individual) levels
+
+## Explaining party system change: demand vs. supply factors
+
+- One way to do this analysis is to distinguish between **supply** and **demand** side explanations
+
+- The supply side (tomorrow):
+
+  + Level of analysis: parties
+  
+  + Question: how do new parties get votes?
+  
+- The demand side (today):
+
+  + Level of analysis: individuals/voters
+  
+  + Question: who votes for new parties and why?
+
+# Factors of change I: demand-side explanations
+
+## Factors of change I: demand-side explanations
+
+- Shifting from the analysis of countries, party-systems and elections to **voters** (not only: meso-level units of observations too [e.g., regions or municipalities])
+
+- **What demand-side factors may explain voters shifting to new/challenger parties?** (think on implications of  the theories we have reviewed!)
+
+  + Age
+  
+  + Gender
+  
+  + Education
+  
+  + ...
+  
+  + **Class**
+
+- ***Explaining Workers’ Support for Right-Wing Populist Parties in Western Europe*** [@Oesch2008]
+
+# The changing role of class: "Explaining Workers’ Support for Right-Wing Populist Parties in Western Europe" [@Oesch2008]
+
+## The puzzle and research question
+
+- The **puzzle**:
+
+  + A emerging new kind of far right [@Ignazi1992]
+  
+    + Austrian Freedom Party, Belgian Flemish Block, French National Front, Danish People's Party, Norwegian Progress Party
+  
+    + Italian Lega Nord, Swiss Poeple's Party
+  
+  + **New type of working-class party?**
+  
+  + **Class cleavage traditionally explained vote for left/right parties**: the sociological premise is that **low-income voters should support parties that proposes a stronger intervention of the state on the economy to minimize risk exposure**
+  
+- Therefore, ***Research Quesion***: **why workers are more likely than any other class** (with exceptions) **to vote for RPPs?**
+
+## Hypotheses
+
+  + Emerging theses to explain **why workers would shift from socialist and communist parties**:
+  
+    H1. Economic anxieties
+    
+    H2. Cultural threat
+    
+    H3. Social alienation/political dissatisfaction
+    
+## Hypotheses
+
+H1. Economic anxieties
+
+  - Anti-immigration attitudes gained center stage
+  
+  - Two possible motives:
+  
+    + Economic reasons (fear of pressure on wages and welfare benefits)
+    
+    + Cultural reasons (unease about multiculturalism and the granting of citizens rights to foreigners)
+    
+  - **Economic reasons**
+  
+    + "Modernization losers" (lack of convertible skills)
+    
+    + Two hypotheses:
+    
+      - Vote for RPPs as a response to perceived competition from immigrants for jobs, wages, social benefits, etc.(*economic protectionism hypothesis*)
+      
+      - Vote for RPPs because of the opinion that social benefits should be restricted to nationals (*welfare competition hypothesis*)
+
+  - **QUESTION:** how is the second hypothesis different from the first one?
+    
+## Hypotheses
+
+H2. Cultural threat
+
+  - Questions of community and identity instead of distributional conflicts
+  
+  - "The emergence of RPPs thus represents the authoritarian response to the dominance of libertarian values and multicultural models of living" (p. 352)
+  
+  - "Individuals in less privileged class locations are expected to be more receptive to the concept of “national preference” and an exclusionary notion of citizenship" (p. 352)
+    
+    + Two hypotheses:
+    
+      - Vote for RPPs because of fear that a country's culture is undermined by immigrants (*cultural protectionism hypothesis*)
+      
+      - Vote for RPPs because of an exclusive definition of citizenship (*differential nativism hypothesis*)
+
+  - **QUESTION:** why should workers be more likely to hold this kind of opinions?
+    
+## Hypotheses
+
+H3. Social alienation/political dissatisfaction
+
+  - Protest voting as a cornerstone explanation (RPPs as protest parties)
+  
+  - "Confronted with mass unemployment and stagnating real income, workers are expected to be particularly prone to nurture resentment against the political establishment" (p. 353)
+
+  - Alternative explanation: social anomie (remember the 'fading party ties' hypothesis?)
+    
+    + Two hypotheses:
+    
+      - Vote for RPPs because of dissatisfaction with how democracy works (*protest voting hypothesis*)
+      
+      - Vote for RPPs when not integrated into intermediary networks (*social disorganization hypothesis*)
+
+  - **QUESTION:** what do the author mean by intermediary networks?
+
+## Research design
+
+- Five Western European countries: Austria, Belgium, France, Norway, and Switzerland
+
+- In all five countries there is a large right-wing populist party
+
+- "We considered only RPPs that obtained at least 5 percent of votes in parliamentary elections in or prior to 2002" (p. 354)
+
+- **QUESTION:** which are these parties in each country?
+
+- **QUESTION:** what do you think of this case selection strategy?
+
+## Research design
+
+- RPPs:
+
+  1. a location at the extreme right on the ideological axis ranging from libertarian-universalistic to traditionalist-communitarian positions
+  
+  2. a populist anti-establishment discourse
+  
+  3. a hierarchical internal structure which sets them apart from pluralist parties
+
+- **QUESTION:** does this definition coincide with the Mudde's definition?
+
+## Data and models
+
+- ESS 02/03
+
+- ESS underestimation of PRR voting (**why?**)
+
+- DV: self-declared vote for a PRR party
+
+- IV: Sex, age, **class** + **one attitudinal variable for each hypothesis**
+
+- Expectation: remove the effect of the working class when introducing the attitudinal variables
+
+- **QUESTION:** what do you think of this empirical strategy?
+
+## Empirical evidence
+
+- Proportion of RPP supporters by class and country
+
+```{r, fig.show="hold", out.height = "60%", out.width="60%", fig.cap = "Figure 2 in Oesch (2008)"}
+include_graphics(fig2)
+```
+
+## Empirical evidence
+
+- Proportion of RPP supporters by class and country (p. 356)
+
+  1. "First, the thesis of a proletarianization of the right-wing populist parties’ electorate clearly seems correct for the five countries on which this study focuses"
+  
+  2. "Second, alongside the two little-privileged classes of production and service workers, a third category is over-represented among RPP followers, namely, small-business owners"
+  
+  3. "Third, two categories show very little sympathy for RPPs in all five countries. This applies to the traditional bourgeoisie (comprising large employers and self-employed professionals) and, above all, sociocultural professionals and semi-professionals"
+
+## Empirical evidence
+
+- Main conclusions from the multivariate analysis (p. 365):
+
+  - "only one variable is significantly linked with RPP support in all five countries: people’s fear that immigrants undermine the country’s culture"
+  
+  - In general, cultural explanations work better than economic explanations
+  
+  - In Switzerland and Austria, alineation doesn't have any effect but it is very important in the other countries, **why??**
+  
+  - "It is noteworthy that these determinants of RPP support do not entirely pick up the class effect." **What does this mean?**
+  
+  - Conclusion: "voters’ attitudes make a much bigger explanatory contribution than their socio-demographic characteristics"
+
+## Empirical evidence
+
+- Cross-country differences:
+
+  1. Switzerland and Austria
+  
+  2. Belgium, France and Norway
+
+## Conclusion & debate
+
+- Main take-away?
+
+- What do you think of the paper?
+
+- Future avenues of research?
+
+- Questions or doubts?
+
+## Recent findings
+
+- "Electoral competition in Europe’s new tripolar political space: Class voting for the left, centre-right and radical right" [@Oesch2018]
+
+- Tri-polar instead of bi-polar competition:
+
+  1. the left
+  
+  2. the centre-right
+  
+  3. the PRR
+
+## Recent findings
+
+- Five class categories and two types of voting classes:
+  
+  1. Preserve classes: sociocultural professionals for the left and large employers and managers for the centre-right
+  
+  2. Contested strongholds: small business owners for the centre-right and the PRR and working-class for the left and the PRR
+
+- Conclusion: "Old patterns are structured by an economic conflict: Production workers vote for the left and small business owners for the centre-right based on their economic attitudes. In contrast, new patterns are linked to the rise of the radical right and structured by a cultural conflict"
+
+## Additional readings
+
+- "The Paradox of Well-being: Do Unfavorable Socioeconomic and Sociocultural Contexts Deepen or Dampen Radical Left and Right Voting Among the Less Well-Off?" [@Rooduijn2018]
+
+- "Education and Anti-Immigration Attitudes: Evidence from Compulsory Schooling Reforms across Western Europe" [@Cavaille2019]
+
+# References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
