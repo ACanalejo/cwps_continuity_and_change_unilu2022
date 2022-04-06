@@ -1,0 +1,122 @@
+---
+title: "Wrapping-up discussion, advanced topics and feedback"
+
+subtitle: "Session 14"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+header-includes:
+- \usepackage{booktabs}
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: FALSE
+    
+    toc: FALSE
+    
+    number_sections: TRUE
+
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+```
+
+## Final session
+
+Congratulations!
+
+We have arrived to the last session of the course!
+
+  - Three last things:
+
+    1. Video and debate
+    
+    2. Final doubts and questions
+    
+    3. Feedback
+    
+## Video and debate
+
+We will watch [this video](https://www.youtube.com/watch?v=mgyjdzfcbps?t=58) by our already beloved Peter Mair on party governance and party system change
+
+The video is a recorded presentation that he held at the Central European University in 2011, just when the consequences of the economic crisis of 2008 hit harder the European Union
+
+## Video and debate
+
+During the viewing, I want you to pay attention and take notes of:
+
+  1. Any argument that is related to the concepts studied during the course
+  
+  2. Any argument that particularly calls your attention, even if it is not directly related to the course
+  
+Afterwards, we will debate over the following questions, so keep them in mind too!
+
+  - How much do the arguments in the video apply to our world today, more than ten years later than when it was recorded?
+  
+  - Do you think than Western democracies (and EU democracies in particular) are worse or better off today?
+  
+  - What role have recent changes in party systems played on this?
+  
+## Final doubts and questions
+
+Now it is the moment in which you can have your last words!
+
+  - Things more problematic
+
+  - Things more interesting
+  
+  - Other?
+  
+## Feedback
+
+Finally, I would like to know what things you would change in future versions of this course (and what things you would keep), so please, take a blank sheet, write them down, and give the sheets to me, thanks!
+
+## Goodbye :(
+
+But **it was really a pleasure :)**
+ 
+ 
+PS: remember that you can always contact me for anything you need at alvaro.canalejo@eui.eu
+
+Enjoy the rest of the weekend!
