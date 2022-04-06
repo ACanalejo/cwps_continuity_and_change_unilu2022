@@ -1,0 +1,294 @@
+---
+title: "Factors of change II: supply-side explanations"
+
+subtitle: "Session 12"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+header-includes:
+- \usepackage{booktabs}
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: TRUE
+
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+fig1 <- "images/Hobolt_2012_fig1.png"
+tbl1 <- "images/Hobolt_2012_tbl1.png"
+tbl3 <- "images/Hobolt_2012_tbl3.png"
+```
+
+# Explaining party system change: demand vs. supply factors
+
+## Explaining party system change: demand vs. supply factors
+
+- From analyses at the **aggregate**-level (country, party-system or election level) to analyses at the **party and voter** (i.e., individual) levels
+
+- We can distinguish between **supply** and **demand** side explanations
+  
+- The demand side (yesterday):
+
+  + Level of analysis: individuals/voters
+  
+  + Question: who votes for new parties and why?
+  
+- The supply side (today):
+
+  + Level of analysis: parties
+  
+  + Question: how do new parties get votes?
+
+# Factors of change II: supply-side explanations
+
+## Factors of change II: supply-side explanations
+
+- Shifting from the analysis of countries, party-systems and elections to **parties** (not only: meso-level units of observations too [e.g., party families or types])
+
+- **What supply-side factors may explain that some new/challenger parties are more successful than others?** (think on implications of  the theories we have reviewed!)
+
+  + Charismatic leaders
+  
+  + Grassroot mobilization
+  
+  + ...
+
+  + **Politization of new issues**
+
+- ***When dimensions collide: The electoral success of issue entrepreneurs*** [@Hobolt2012]
+
+# Issue politization: "The electoral success of issue entrepreneurs"
+
+## The puzzle and research question
+
+- Recent debates on the multi-dimensionality of political competition in the West (1 vs. 2 dimensions)
+
+- **But how do dimensions change?**
+
+- The theory of issue evolution in the US describes one strategy followed by **opposition parties** to become winners consisting of:
+
+  1. **Polarizing** a previously non-salient issue
+  
+  2. Making this issue more **salience**
+
+- But this theory assumes a two-party system, so ***Research Question***: **does this model** ***or*** **how does this model apply to multi-party systems like those in Europe?**
+
+## The puzzle and research question
+
+- This paper applies the theory of **issue evolution** to European multi-party system to argue that **new/challenger parties** are those driving dimensional change (*note the distinct emphasis here:* ***from voters to parties***)
+
+- **QUESTION(s)**: what is the puzzle of this paper? do you remember the dimensionality debate?
+
+## Hypotheses
+
+- The issue evolution theory requires (assumptions!):
+
+  + **Clarity**: voters must be aware of the different position of the parties on the new issue
+  
+  + **Affect**: voters must also care about this issue and the differences in party positions
+  
+- **QUESTION**: what parties are more likely to promote a new issue and why?
+
+- "(...) losers on the dominant dimensions of competition have the most powerful incentive to promote a new issue" (similar to Riker's tehory of issue manipulation - similar to agenda setting) (p. 249)
+
+## Hypotheses
+
+```{r, fig.show="hold", out.height = "60%", out.width="80%", fig.cap = "Figure 1 in Hobolt and De Vries (2012)"}
+include_graphics(fig1)
+```
+
+## Hypotheses
+
+- The issue entrepreneurship strategy:
+
+  1. Polarization 
+  
+  2. Centrality
+  
+- Both strategies together are aimed to increase the saliency of a new issue
+
+- But what parties are more likely to carry out this strategy in a multi-party system? Three party categories:
+
+  1. Mainstream government
+  
+  2. Mainstream opposition
+  
+  3. Challenger parties (**QUESTION**: What is a challenger party?)
+
+- **QUESTION:** Why challenger parties are more likely to carry out strategies of issue entreprenurhsip than mainstream opposition parties in multi-party systems?
+
+## Hypotheses
+
+- The issue under study here: **European integration** (**QUESTION:** why?)
+
+- "In previous work, we have shown that, when it comes to the issue of European integration, challenger parties are more likely issue entrepreneurs than mainstream parties" (p. 252)
+
+- "Since European integration was conceived as a top-down project based on a broad elite consensus, the ‘mainstream’ position among European political parties has been broadly pro-integrationist" (p. 252)
+
+## Hypotheses
+
+- But is issue entrepeurhsip successful (i.e., does it alter the dimensions of competition)?
+
+H1: Voters choosing to vote for a challenger party are more likely to base their vote choice on preferences related to the new issue dimension, all other things being equal.
+
+H2: Parties engaging in an issue entrepreneurial strategy are more likely to increase their vote share, all other things being equal.
+
+## Research design
+
+- Study 1:
+
+  - 21 West and East European countries in the year 2004
+  
+  - Individual-level survey data and expert-based data on parties
+  
+- Study 2: 
+
+  - Time-series cross-sectional data of electoral results at the national level
+  
+  - With data expert-based data on party positions
+  
+  - Only for Western European countries
+  
+- **QUESTION:** what do you think of this research design?
+
+## Data and models
+
+- Study 1:
+
+  - DATA: EES 2004 data on vote choice, evaluations of the EU (comparable surveys in member states) + CHES data for the parties' classification
+  
+  - MODEL: evaluations of the EU on vote choice + controlling for socio-economic characteristics, economic and government evaluations, left/right, post-communist legacy (multinomial logistic hierarchical regression model)
+  
+  - **QUESTION:** why these control variables?
+  
+  - "The socioeconomic controls include education, religiosity, and income. These latter variables are incorporated to control for dominant models explaining vote choice, such as economic and cleavage-based voting" (p. 255)
+  
+  - **QUESTION:** why the multilevel approach?
+  
+## Data and models
+
+- Study 2:
+
+  - DATA: electoral records from 1984 to 2006 + CHES data on issue saliency and position (in particular for position on European integration)
+  
+  - To capture ISSUE ENTREPRENEURSHIP: multiplying party salience on the issue by the party position on the issue minus the mean party position on the issue
+  
+  - **QUESTION**: why this measure?
+  
+  - "By multiplying this distance measure by the EU salience measure, EU issue entrepreneurship captures the extent to which a party adopts a position away from the political mainstream (that is, is more Eurosceptic) and attaches importance to this position" (p. 256)
+  
+  - MODEL: issue entrepreneurship on change in vote share + govt. status, l/r position  and l/r position squared (capture extremism effect), party size, country dummies and nested in years
+  
+  - **QUESTION:** why these control variables?
+
+## Empirical evidence
+
+```{r, fig.show="hold", out.height = "70%", out.width="50%", fig.cap = "Table 1 in Hobolt and De Vries (2012)"}
+include_graphics(tbl1)
+```
+
+## Empirical evidence
+
+```{r, fig.show="hold", out.height = "70%", out.width="55%", fig.cap = "Table 3 in Hobolt and De Vries (2012)"}
+include_graphics(tbl3)
+```
+
+## Conclusion & debate
+
+- Main take-away?
+
+- What do you think of the paper?
+
+- Future avenues of research?
+
+- Questions or doubts?
+
+# More recent findings
+
+## More recent findings
+
+- "Issue Entrepreneurship and Multiparty Competition" [@Hobolt2015]
+
+  - Update of the previous paper
+  
+  - Main analysis and theory are the same
+  
+  - Two additions:
+  
+    1. Challenger parties that "hold non-mainstream policy positions, and have suffered electoral defeat are most likely to act as issue entrepreneurs" (p. 1177)
+    
+    2. "(...) parties only highlight a previously ignored issue when it is conceived as a potentially winning strategy. Specifically, parties only promote a previously ignored issue when their policy position is close to the mean voter position and when their position is characterized by a lack of internal dissent." (p. 1177)
+    
+  - Therefore, the **interaction between demand and supply side** matters
+
+## More recent findings
+
+- "Fleeing the centre: the rise of challenger parties in the aftermath of the euro crisis" [@Hobolt2016]
+
+  - "voters who were economically adversely affected by the crisis punish mainstream parties both in government and in opposition by voting for challenger parties" (abstract)
+  
+  - "the choice of specific challenger party is shaped by preferences on three issues that directly flow from the euro crisis: EU integration, austerity and immigration" (abstract)
+  
+  - Important **link between the role of economic voting and crises AND the role of second-dimension issues** on altering party-systems
+
+# Additional readings
+
+## Additional readings
+
+- "Party convergence and vote switching: Explaining mainstream party decline across Europe" [@Spoon2019]
+
+  "(...) it is hypothesised that as mainstream parties converge on the left-right scale, voters will switch from supporting a mainstream party to a non-mainstream party in the next election as they look for an alternative that better represents their ideological views." (abstract)
+
+# References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
