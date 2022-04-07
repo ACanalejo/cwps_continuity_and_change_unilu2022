@@ -288,7 +288,7 @@ include_graphics(tbl1)
 
 - Cultural and economic issues seems to overlap instead of cross-cut
 
-- **QUESTION: why are there noT strong cross-cutting cleavages?**
+- **QUESTION: why are there not strong cross-cutting cleavages?**
 
 # Greece in an international context: Southern European party systems after the Great Recession
 

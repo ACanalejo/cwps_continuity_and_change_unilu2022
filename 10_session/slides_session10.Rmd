@@ -79,7 +79,7 @@ fig2 <- "images/Oesch_2008_fig2.png"
   
   - Or on strong specific shocks (e.g., Tangetopoli)
   
-  - We have reviewed some theories of party-system change (e.g., the freezing hypothesis)
+  - We have reviewed some theories of party-system change and continuity (e.g., the freezing hypothesis)
   
   - Or try to adequate empirical patterns to the existent theories (e.g., cleavage theory)
 
@@ -141,7 +141,7 @@ fig2 <- "images/Oesch_2008_fig2.png"
   
   + **Class cleavage traditionally explained vote for left/right parties**: the sociological premise is that **low-income voters should support parties that proposes a stronger intervention of the state on the economy to minimize risk exposure**
   
-- Therefore, ***Research Quesion***: **why workers are more likely than any other class** (with exceptions) **to vote for RPPs?**
+- Therefore, ***Research Question***: **why workers are more likely than any other class** (with exceptions) **to vote for RPPs?**
 
 ## Hypotheses
 
@@ -157,7 +157,7 @@ fig2 <- "images/Oesch_2008_fig2.png"
 
 H1. Economic anxieties
 
-  - Anti-immigration attitudes gained center stage
+  - Anti-immigration attitudes gained "center stage"
   
   - Two possible motives:
   
@@ -165,6 +165,17 @@ H1. Economic anxieties
     
     + Cultural reasons (unease about multiculturalism and the granting of citizens rights to foreigners)
     
+  - **Economic reasons**
+  
+  - "RPPs are in this sense defenders of the principle of "national preference" regarding employment and social security" (Andrea's response paper)
+  
+  - "RPPs may be favoured by those who believe that immigrants lower
+wages and exploit the welfare state" (Andrea's response paper)
+
+## Hypotheses
+
+H1. Economic anxieties
+
   - **Economic reasons**
   
     + "Modernization losers" (lack of convertible skills)
@@ -203,7 +214,9 @@ H3. Social alienation/political dissatisfaction
   
   - "Confronted with mass unemployment and stagnating real income, workers are expected to be particularly prone to nurture resentment against the political establishment" (p. 353)
 
-  - Alternative explanation: social anomie (remember the 'fading party ties' hypothesis?)
+  - Social anomie as an alternative explanation: "these disenchanted and alienated voters express their deep disenchantment with contemporary politics due to their weakening of traditional loyalty." (Andrea's response paper)
+  
+  - Remember the fading party ties hypothesis!
     
     + Two hypotheses:
     
@@ -239,7 +252,13 @@ H3. Social alienation/political dissatisfaction
 
 ## Data and models
 
-- ESS 02/03
+- European Social Survey 02/03
+
+- "For the paper, written in 2008, these data may still be representative, even though one could also argue against it, but in 2022 a new analysis with more recent date is needed" (Miguel's response paper)
+
+- "In the last two decades different events have taken place, which could have had influenced how persons vote. With the refugee crisis in 2015 it would be interesting to view which impact that would have in the above mentioned categories" (Miguel's response paper)
+
+## Data and models
 
 - ESS underestimation of PRR voting (**why?**)
 
@@ -273,9 +292,9 @@ include_graphics(fig2)
 
 - Main conclusions from the multivariate analysis (p. 365):
 
-  - "only one variable is significantly linked with RPP support in all five countries: people’s fear that immigrants undermine the country’s culture"
-  
-  - In general, cultural explanations work better than economic explanations
+  - "A comprehensive statistical analysis involving the interpretation of different models explaining these determinants led to the conclusion that the most important factor influencing RPP voting is the fear that immigration undermines a nation's culture." (Andrea's repsonse paper)
+
+  - "only one variable is significantly linked with RPP support in all five countries: people’s fear that immigrants undermine the country’s culture", and cultural explanations work better than economic explanations in general
   
   - In Switzerland and Austria, alineation doesn't have any effect but it is very important in the other countries, **why??**
   
@@ -300,6 +319,16 @@ include_graphics(fig2)
 - Future avenues of research?
 
 - Questions or doubts?
+
+## Response papers
+
+- "what can conventional political parties, both on the left and the right, do in response to the rise of these radical right-wing populist parties?" (Andrea's response paper)
+
+- "left- and right-wing parties have three choices: ignore them, copy their talking points, or confront them" (Andrea's response paper)
+
+- "Since 2008 there have been phases with high economic instability, as it is for example with the financial crisis in 2008 and the COVID-19 crisis, which may have had an additional impact on how small-business owners vote" (Miguel's reponse paper)
+
+- "Also additional RPP parties have been formed in western Europe, which would also be taken into consideration in a more recent analysis" (Miguel's response paper)
 
 # More recent findings
 
