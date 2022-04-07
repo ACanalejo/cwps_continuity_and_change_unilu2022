@@ -1,0 +1,321 @@
+---
+title: "The party-system of modern Greece: a historical and comparative overview"
+
+subtitle: "Session 13"
+  
+author: "Álvaro Canalejo-Molero"
+
+date: "Spring Term 2021-2022"
+
+institute: "University of Lucerne"
+
+bibliography: ../00_bibliography/cweps_syllabus.bib
+
+csl: ../00_bibliography/apa.csl
+
+link-citations: yes
+
+linkcolor: blue 
+
+fontsize: 10pt
+
+linestretch: 2
+
+navigation: horizontal 
+
+header-includes:
+- \usepackage{booktabs}
+
+output:
+
+  beamer_presentation:
+
+    #includes:
+    #  in_header: header_pagenrs.tex
+
+    latex_engine: xelatex
+    
+    theme: "Pittsburgh"
+      
+    #fonttheme: "serif"
+    
+    fonttheme: "structurebold"
+    
+    slide_level: 2
+    
+    incremental: TRUE
+    
+    toc: TRUE
+    
+    number_sections: TRUE
+
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+
+# Loading libraries
+library(knitr) # For knitting document and include_graphics function
+library(kableExtra) # for LaTeX tables in Rmarkdown
+library(png) # For loading and grabbing the dimensions of png files
+
+# Loading images' paths
+tbl2 <- "images/pappas_tbl2.png"
+tbl1 <- "images/skoulariki_tbl1.png"
+```
+
+# Greece in context: democratization and party system formation from 1830 to 1974
+
+## Greece in context: the formation of Modern Greece in 1830
+
+Greece was **part of the Ottoman empire until 1830**, when a long era of imperial domination (Roman, Byzantine and Ottoman) came to an end
+
+Antecedents:
+
+- **Christian Orthodox Church**, with centre in Constantinopla,  dominated by Greek speaking clergy, with political influence over all the Christian Orthodox communities in the Balkans
+
+- Control of the coastal territories by the Ottoman administration but **independent brigades had control over the mountainous terrains in central Greece**
+
+- **Commerce men in the islands had accumulated a large wealth** thanks to trading routes from the Mediterranean to the Atlantic sea
+
+## Greece in context: the formation of Modern Greece in 1830
+
+Antecedents:
+
+- In the beginning of the 19th century, the **intellectual elite** of the Orthodox Christians **formed communities over Europe**, and were largely influenced by the Enlightenment
+
+- "The half-baked Greek enlightenment undermined the authority of the Church, reconnected the Christian Orthodox elites with Ancient Greece and Western Europe, and created the fertile ground for a revolution that was not only nationalist but also democratic and liberal" [@Hatzis2019, p. 3]
+  
+## Greece in context: the formation of Modern Greece in 1830
+
+Antecedents:
+
+- **Greek War of Independence (1821 - 1832)**, triggered by the French Revolution and the Napoleonic Wars succeded because of:
+  
+  + the support from Western countries
+
+  + the internal problems of the Ottoman Empire
+    
+- After the war, the first Greek Constitution was abolished by the first elected president in order to organize the different factions from a centralized authoritarian state, and create the basic state institutions of Modern Greece (**first republic**)
+  
+## Greece in context: instability from 1833 to 1911
+
+From 1833 to 1911:
+
+  1. **Bavarian absolutist monarchy** from 1833 to 1843
+  
+  2. **Constitutional monarchy with a bicameral parliament** from 1844 to 1863
+  
+  + first country in the world to introduce universal male suffrage!
+    
+  + The king was forced to abdicate in 1862 because of their recurrent interferences with the constitutional system and was 
+    
+  + Progressive Europeanization of Greek institutions
+      
+  + Emergence of the *Megali idea* (i.e., Great Idea): greek ethno-nationalistic enlargement (territorial expansion but failed war with the Ottoman Empire for Crimea)
+  
+  + **Party-system based on IR: English Party, French Party, Russian party, etc.**
+  
+## Greece in context: instability from 1833 to 1911
+
+From 1833 to 1911:
+
+  3. **Parliamentary democracy** from 1864 to 1911
+  
+  + new king willing to accept a democratic constitution from 1863 to 1913
+    
+  + one of the first parliamentary democracies in the world!
+
+  + **party system based on liberal vs. conservative values: nationalist vs. modernist party**
+    
+  + defeat against Turkey in 1897 because of a dispute about Crete leading to bankruptcy
+    
+  + additional problems like political corruption, rigged elections, a powerful clientelist system and a dysfunctional bureauracy led to a ***military coup***, but a defective democracy with a modified institution remained
+
+## Greece in context: party system formation from 1911 to 1922
+
+From 1911 to 1922:
+
+  - First modern political party: ***Liberal Party*** (in govt.), led by Venizelis
+  
+  - Balkan wars and Greek expansion
+  
+  - Conflicts between the monarch and the prime minister led to a republicans (**Liberal Party**) vs. royalists (**People's Party**) conflict that escalated during the first world war
+  
+  - After their victory as part of the allies during the first world war, Greece lost their territories in the current Turkish land because of internal conflicts and the *Megali Idea* died. The Turkish minority in Greece was forced to migrate to Turkey and the Greek minority in Turkey was forced to migrate to Greece (***decreased ethnic heterogenity***) 
+
+## Greece in context: defective democracy from 1922 to 1940
+  
+From 1922 to 1940:  
+  
+  - The republicans vs royalists conflict overlapped with the **liberal vs. conservative** conflict, with the **pro-orthodox vs. pro protestant/catholic** conflict, and with the **pro-german vs. pro-british** conflict
+  
+  -  That is, ***one single dimension dominated by preferences over institutions*** because of a non-consolidated democracy
+
+## Greece in context: defective democracy from 1922 to 1940
+
+  - Threats of violence provoked the predominance of republicans in elections and, in 1924, the **second Greek republic** was created with a new constitution in 1927
+  
+  - **People's Party won the elections in 1933 (first time a different party wins - democratic consolidation?)** because of the effects of the Great Depression and the arrival of more than 1.5 million asylum seekers from Turkey (with Greek ethnicity)
+  
+  - **Parties** representing the **traditional cleavages** were born during this time: **agrarian party, socialist parties, jewish party, ect.**
+  
+## Greece in context: defective democracy from 1922 to 1940
+  
+From 1922 to 1940:  
+
+  - New regime (a kingdom again) in 1935
+  
+  - The **Communist Party** (KKE) was born, which together with a wave of labour strikes was used as a pre-test for the king to support a conservative authoritarian government fashioned after Fascist Italy
+  
+  - During World War II, Greece fought together with the allies, that imposed a government coalition after the end of the war
+
+## Greece in context: war from 1940 to 1949
+  
+From 1940 to 1949:
+  
+  - However, the communist didn't take part in the coalition and a **civil war** between a coalition of conservative royalists and liberals against the communists took place from 1946 to 1949, involving the international community, and ending with the defeat of the communist
+
+## Greece in context: illiberal democracy and dictatorship from 1949 to 1974
+  
+From 1949 to 1974:
+  
+  - Illiberal (tutelary) democracy from 1949 to 1967:
+  
+    + The Communist Party was banned but represented by a popular front of small leftist parties (**United Democratic Left**) that became the second strongest party by the 1960s (emergence of the **class cleavage**)
+    
+    + Conservative royalists were substituted by **conservative reformists** (People's Party became **Greek Rally** first, and **National Radical Union** later) given the consolidation of the monarchy, with Karamanlis, his leader, becoming the president for a long period
+    
+    + Both Karamanlis and the leader of a new centrist party that won the elections after him had to resign due to conflicts with the King, leading to a **military coup** in 1967, followed by a transitional dictatorship
+    
+    + The death of the new authoritarian leader together with the return of Karamanlis led to the creation of the **Third Greek Republic in 1974**
+
+# From the 1974 until now: democratic consolidation
+
+## From the 1974 until now: democratic consolidation
+
+- A **democratic republic with a new constitution** in 1975, approved in a referendum
+
+- *Communist party legalized*
+
+- **Unicameral parliamentary system**
+
+- **Reinforced proportional representation**: the Greek Parliament has 300 members, elected for a four-year in 48 multi-seat constituencies, 8 single-seat constituencies and a single nationwide list. 288 of the 300 seats are determined by constituency voting, and voters may select the candidate or candidates of their choice by marking their name on the party ballot
+
+- **Majority bias**: 50 seat bonus for the largest party
+
+- The **Greek Orthodox Church is under the protection of the State** and it is the prevailing religion according to the constitution
+
+## From the 1974 until now: democratic consolidation
+
+- Karamanlis (**New Democracy**) governed from 1974 to 1980
+
+- Integration in the European Community in 1981
+
+- 1980s dominated by **PASOK** (socialist party), with Papandreu governing from 1981 to 1996 
+
+- Alternation between **New Democracy and Pasok** until the debt crisis of 2009-10
+
+- Party system change with victory of the radical left party **SYRIZA** in 2014 after two governing coalitions by New Democracy and Pasok 
+
+- Revival of **ND** in 2019
+
+# The trayectory of the Greek party system: evolution and change
+
+## The trayectory of the Greek party system: evolution and change
+
+- So far, we know that modern Greece is characterized by:
+
+  + A traditional **class cleavage** since the 1920s
+  
+  + There is not any relevant **rural-urban** conflict
+  
+  + **Centre-periphery** (or ethnic conflicts) largely disappeared after the defeat against turkey in the 1920s and the posterior agreement between the countries to exchange minorities
+  
+  + State and Church collaborate so that precludes any strong **state-church** conflict
+  
+- This suggests a **strong bipolar system**, leading to a **two-party system competing over a single dimensions dominated by the class cleavage**
+
+- But was this always the case? Is it still the case?
+
+## The trayectory of the Greek party system: evolution and change
+
+- From 1951 to 1981 [@Pappas2003]
+
+  1. **Polarised pluralism**, with one strong party in the right and one strong party in the left, formed by a coalition of minor leftist parties and dominated by the communists from the outside
+  
+  2. Important **minor centrist parties**, very volatile due to their governing dilemmas: right- vs. left-oriented depending on the saliency of the class cleavage (right) vs. the institutional cleavage of the monarchy vs. republic (left)
+  
+  3. **Exception in 1963**, when Centre Union was able to unify the centre and win the elections
+  
+## The trayectory of the Greek party system: evolution and change  
+  
+- From 1981 until 2010 [@Pappas2003]
+
+  1. Bi-polar competition with one strong party on the right and one strong party on the left (socialist party now)
+  
+  2. Communist party reduced its support to barely 10% or less 
+
+## The trayectory of the Greek party system: evolution and change
+
+```{r, fig.show="hold", out.height = "70%", out.width="90%", fig.cap = "Table 2 in Pappas (2003)"}
+include_graphics(tbl2)
+```
+
+## The trayectory of the Greek party system: evolution and change
+
+- From 2010 until now [@Skoulariki2020]:
+
+  1. High volatility and fragmentation as the new rule
+  
+  2. First, defeat of the two traditional parties and quasi-collapse of PASOK with victory of Syriza in 2014; the economic conflict benefited new challenger parties
+  
+  3. PRESPA agreement with Macedonia mobilizing cultural issues and benefiting the traditional parties (specially the right) 
+  
+  4. Minor PRRs parties and extreme right parties (i.e., Golden Dawn) taking over the immigration issue
+
+## The trayectory of the Greek party system: evolution and change
+
+```{r, fig.show="hold", out.height = "70%", out.width="90%", fig.cap = "Table 1 in Skoulariki (2020)"}
+include_graphics(tbl1)
+```
+
+## The trayectory of the Greek party system: evolution and change
+
+- Still, the system tends to move towards an imperfect two-party systems
+
+- Cultural and economic issues seems to overlap instead of cross-cut
+
+- **QUESTION: why are there noT strong cross-cutting cleavages?**
+
+# Greece in an international context: Southern European party systems after the Great Recession
+
+## Greece in an international context: Southern European party systems after the Great Recession
+
+- **QUESTION: how does Greece relate to the case of Portugal, Italy and Spain?**
+
+# What can Greece tell us about party competition in post-transitional democracies? A discussion
+
+## What can Greece tell us about party competition in post-transitional democracies? A discussion
+
+- Greece doesn't match the assumptions laid out by Lipset and Rokkan [-@Lipset1967a]:
+
+  + Industrial revolution
+  
+  + National revolution
+  
+  + Early successful democratization
+
+## What can Greece tell us about party competition in post-transitional democracies? A discussion
+
+- **What features** of the Greek's party system formation and evolution history do **match those of Lipset and Rokkan** and what others do not? What does this tell us about the **applicability of the cleavage theory to other countries beyond North Western Europe?**
+
+- **Let's divide the class in two groups!** One group must defend why cleavage theory applies and its usefulness for explaining cases beyond NWE. The other group must defend the opposite argument. First, discuss with your partner. Afterwards, defend your argument in front of the class.
+
+# References
+
+## References {.allowframebreaks}
+
+<div id="refs"></div>
