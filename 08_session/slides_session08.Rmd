@@ -45,7 +45,7 @@ output:
     
     incremental: TRUE
     
-    toc: TRUE
+    toc: FALSE
     
     number_sections: TRUE
 
